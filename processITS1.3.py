@@ -14,6 +14,10 @@ import pandas as pd
 import Bio
 import os
 import sys
+from datetime import datetime
+
+startTime = datetime.now()
+print("Start time is ", startTime) 
 
 inputfile = sys.argv[1]
 outputfile = sys.argv[2]
@@ -25,7 +29,7 @@ reject_file_name = (r'ITS_reject_seqs3.txt')
 #reject_file_name = (r'/panfs/pan1.be-md.ncbi.nlm.nih.gov/dnaorg/ITS/ITS_reject_seqs')
 rejectlist_df = pd.read_csv(reject_file_name, sep='\t', index_col=None, low_memory=False, header=None, names=["accession", "type", "reason"])
 rejectlist = rejectlist_df['accession']
-#print (rejectlist) 
+reject_list = set(rejectlist_df['accession'].tolist())
    
 #Parse the GenBank file and remove any sequences found on the reject list
 from Bio import SeqIO
@@ -33,12 +37,15 @@ sequences = []
 found = []
 #missingRNA = []
 
+rejectTime = datetime.now()
+print("Reject time is ", rejectTime) 
+
 for seq_record in SeqIO.parse(inputfile, "genbank"):    
     str_id = seq_record.id
     #print(seq_record.id)
-    if str_id.find('.') != -1:        
-        str_id = str_id[:str_id.find('.')]        
-    if str_id not in rejectlist_df['accession'].tolist():                       
+    #if str_id.find('.') != -1:        
+    #    str_id = str_id[:str_id.find('.')]        
+    if seq_record.name not in reject_list:                       
         seq_record.description = seq_record.annotations["organism"]
         sequences.append(seq_record)
     else:
@@ -49,10 +56,16 @@ for seq_record in SeqIO.parse(inputfile, "genbank"):
   
 #Run short version of ribodbmaker.pl    
 os.system("ribodbmaker.pl -f --skipfribo1 --skipfribo2 --skipfmspan --skipingrup --skipclustr --skiplistms --skipmstbl --taxin /panfs/pan1/dnaorg/rrna/git-ncbi-rrna-project/taxonomy-files/ncbi-taxonomy-tree.ribodbmaker.txt stripped.fsa ribo-out")
+riboTime = datetime.now()
+print("ribodbmaker time is ", riboTime) 
 
 #Run CMscan using the output of ribodbmaker.pl
-os.system("cmscan --cpu 4 --mid -T 20 --verbose --tblout tblout.df.txt rrna.cm ribo-out/ribo-out.ribodbmaker.final.fa > cmscanOUTPUT.df.txt")
+print('cmscan1')
+os.system("cmscan --cpu 4 --mid -T 20 --verbose --tblout tblout.df.txt rrna.cm ribo-out/ribo-out.ribodbmaker.final.fa > cmscanOUTPUT.df.txt &")
+print('cmscan2')
 os.system("cmscan --cpu 4 --mid -T 20 --verbose --anytrunc --tblout tblout.at.txt rrna.cm ribo-out/ribo-out.ribodbmaker.final.fa > cmscanOUTPUT.at.txt")
+cmscanTime = datetime.now()
+print("CMscan time is ", cmscanTime) 
 os.system("cat tblout.df.txt tblout.at.txt > tblout.both.txt")
 os.system("perl cmsearch_tblout_deoverlap/cmsearch-deoverlap.pl --maxkeep -s --cmscan tblout.both.txt")
 os.system("head -n2 tblout.both.txt > final.tblout")
@@ -64,8 +77,17 @@ os.system("perl tblout-add.pl -t final.tblout 18 my.seqlen 3 > cmscan_final.tblo
 
 #Parse the final results of CMscan, sort and write fasta files
 CMscan_output = (r'cmscan_final.tblout')
-CMscan_df = pd.read_csv(CMscan_output, sep='\t', index_col=None, low_memory=False, usecols=[0,2,3,5,6,7,8,9,10,11,12,13,14,15,16,17], header=None, names=["gene", "accession","model", "mdl_from", "mdl_to", "seq_from", "seq_to", "strand", "trunc", "pass", "gc", "bias", "score", "E-value", "Inc", "Length"])
-CMscan_df = CMscan_df[1:]
+CMscan_df = pd.read_csv(CMscan_output,
+                        sep='\t',
+                        index_col=None,
+                        low_memory=False,
+                        usecols=[0,2,3,5,6,7,8,9,10,11,12,13,14,15,16,17],
+                        header=None,
+                        names=["gene", "accession","model", "mdl_from",
+                               "mdl_to", "seq_from", "seq_to", "strand",
+                               "trunc", "pass", "gc", "bias", "score",
+                               "E-value", "Inc", "Length"])
+#CMscan_df = CMscan_df[1:]
 #print(CMscan_df.head(10))
 
 #Remove 5S model rows
@@ -126,6 +148,9 @@ for seq_record in SeqIO.parse("ribo-out/ribo-out.ribodbmaker.final.fa", "fasta")
             seq_record.description = seq_record.description + " COMPLETE SSU-ITS1-5.8S-ITS2-LSU"
             #print(seq_record.id,seq_record.description)
         else:
+            if seq_record.id in minus_strand['accession'].tolist():
+                print("I reverse complemented ", seq_record.id)
+                s.seq = s.seq.reverse_complement()
             if seq_record.id in SSU_RNA_df['accession'].tolist():  
                 seq_record.description = seq_record.description + " SSU"
             if seq_record.id in Five_RNA_df['accession'].tolist():  
