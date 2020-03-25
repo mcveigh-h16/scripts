@@ -7,7 +7,7 @@ Created on Fri Jan 24 08:39:05 2020
 
 #
 # processITS designed to validate ITS sequences. Sequences that pass all tests are saved to a outfile file in fasta format
-#Selectively sort GenBank flatfiles removing selected seqeunces and saving them to a new fasta file
+# Selectively sort GenBank flatfiles removing selected seqeunces and saving them to a new fasta file
 # User must specify the input filename and the outputfile name
 
 import pandas as pd
@@ -95,32 +95,37 @@ CMscan_df2 = CMscan_df[CMscan_df['gene'] != "5S_rRNA"]
 #print(CMscan_df2.head(20))
 #Find sequences on the minus strand
 minus_strand = CMscan_df2[CMscan_df2['strand'] != "+"]
-print("I found sequences on the minus strand ", minus_strand)
+print("I found sequences on the minus strand\n ", minus_strand)
 #NEEDS add a step to flip any sequences found on the minus strain
 
 #Find sequences that have truncated models
-truncated = CMscan_df2[CMscan_df2['trunc'] == "5'&3'"]
-print("I found truncated models suggesting the presence of an intron ", truncated)
-#print(truncated['accession'])
-#Possible action needed here
+#truncatedSSU = CMscan_df2[CMscan_df2['trunc'] == "5'&3'"]
+truncated=CMscan_df2.loc[(CMscan_df2['gene'] != "5_8S_rRNA") & (CMscan_df2['trunc'] == "5'&3'")]
+print("I found truncated models suggesting the presence of an intron\n ", truncated)
+#truncatedLSU = CMscan_df2[CMscan_df2['trunc'] == "5'&3'"]
+#print("I found truncated LSU models suggesting the presence of an intron\n ", truncatedLSU)
 
 #Find sequences that do not pass CMscan tests
 fail_test = CMscan_df2[CMscan_df2['Inc'] == "?"]
-print("Sequences that have a ? are ", fail_test)
-#Possible action needed here to exclude some sequences
+print("Sequences that have a ? are\n ", fail_test)
 
 #show rows containing SSU or LSU
 SSU_RNA_df = CMscan_df2[CMscan_df2['gene'] == "SSU_rRNA_eukarya"]
-#print("these sequences have SSU ", SSU_RNA_df)
+#print("these sequences have SSU\n ", SSU_RNA_df)
 
 Five_RNA_df = CMscan_df2[CMscan_df2['gene'] == "5_8S_rRNA"]
 FiveComplete = Five_RNA_df[Five_RNA_df['trunc'] == "no"]
 FiveFivePartial = Five_RNA_df[Five_RNA_df['trunc'] == "5'"]
 FiveThreePartial = Five_RNA_df[Five_RNA_df['trunc'] == "3'"]
 FiveBothPartial = Five_RNA_df[Five_RNA_df['trunc'] == "5'&3'"]
-print("These 5.8S rRNA are 5' partial\n", FiveFivePartial)
-print("These 5.8S rRNA are 3' partial\n", FiveThreePartial)
-print("These 5.8S rRNA are 5'&3'\n", FiveBothPartial)
+LSUpartial = CMscan_df2.loc[(CMscan_df2['gene'] == "LSU_rRNA_eukarya") & (CMscan_df2['trunc'] != "no")]
+LSUcomplete = CMscan_df2.loc[(CMscan_df2['gene'] == "LSU_rRNA_eukarya") & (CMscan_df2['trunc'] == "no")]
+SSUpartial = CMscan_df2.loc[(CMscan_df2['gene'] == "SSU_rRNA_eukarya") & (CMscan_df2['trunc'] != "no")]
+SSUcomplete = CMscan_df2.loc[(CMscan_df2['gene'] == "SSU_rRNA_eukarya") & (CMscan_df2['trunc'] == "no")]
+#print("LSU partial\n", LSUcomplete)
+print("SSU complete\n", SSUcomplete)
+print("SSU partial\n", SSUpartial)
+#print("These 5.8S rRNA are 5'&3'\n", FiveBothPartial)
 
 #Sequences with extra sequence on the 5' the extends beyond position 1 of the SSU model
 SSU_not5_end = SSU_RNA_df[SSU_RNA_df['seq_from'] != 1]
@@ -144,6 +149,12 @@ for seq_record in SeqIO.parse("ribo-out/ribo-out.ribodbmaker.final.fa", "fasta")
         #sequences.remove(seq_record)
         print("No 5.8S rRNA was found in ", seq_record.id)
         #missingRNA.append(seq_record)
+    elif seq_record.id in FiveBothPartial['accession'].tolist():
+        print("Truncated 5.8S rRNA was found in ", seq_record.id)
+    elif seq_record.id in FiveFivePartial['accession'].tolist():
+        print("5' partial 5.8S rRNA was found in ", seq_record.id)   
+    elif seq_record.id in FiveThreePartial['accession'].tolist():
+        print("3' partial 5.8S rRNA was found in ", seq_record.id)
     else:
         if seq_record.id in LSUextra['accession'].tolist():           
             #start_df = CMscan_df2[(CMscan_df2['accession'] == seq_record.id) & (CMscan_df2['gene'] == 'SSU_rRNA_eukarya')]
@@ -169,22 +180,22 @@ for seq_record in SeqIO.parse("ribo-out/ribo-out.ribodbmaker.final.fa", "fasta")
         if seq_record.id in minus_strand['accession'].tolist():
             print("I reverse complemented ", seq_record.id)
             s.seq = s.seq.reverse_complement()
-        if seq_record.id in SSU_RNA_df['accession'].tolist():  
+        if seq_record.id in SSUcomplete['accession'].tolist():  
             seq_record.description = seq_record.description + " SSU"
-        if seq_record.id in FiveFivePartial['accession'].tolist():
-            seq_record.description = seq_record.description + " <5.8S ITS2"
-        elif seq_record.id in FiveThreePartial['accession'].tolist():
-            seq_record.description = seq_record.description + " ITS1 5.8S>"
-        elif seq_record.id in FiveComplete['accession'].tolist(): 
-            seq_record.description = seq_record.description + " ITS1 5.8S ITS2"
-        elif seq_record.id in FiveBothPartial['accession'].tolist(): 
-            seq_record.description = seq_record.description + " 5.8S truncated"
-
-                
-        if seq_record.id in LSU_RNA_df['accession'].tolist():  
+        elif seq_record.id in SSUpartial['accession'].tolist():  
+            seq_record.description = seq_record.description + " <SSU"
+        if seq_record.id in FiveComplete['accession'].tolist(): 
+            if seq_record.id in SSU_RNA_df['accession'].tolist(): 
+                seq_record.description = seq_record.description + " ITS1 5.8S ITS2"
+            else: 
+                seq_record.description = seq_record.description + " <ITS1 5.8S ITS2"       
+        if seq_record.id in LSUcomplete['accession'].tolist():  
             seq_record.description = seq_record.description + " LSU"
-        #else:
-            #seq_record.description = seq_record.description + " ITS region"
+        elif seq_record.id in LSUpartial['accession'].tolist():  
+            seq_record.description = seq_record.description + " LSU>"
+        else:
+            seq_record.description = seq_record.description + ">"
+
         sequences.append(s)
 SeqIO.write(sequences, outputfile, "fasta")  
 #SeqIO.write(missingRNA, "missing5_8.fsa", "fasta")
