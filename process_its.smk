@@ -12,6 +12,7 @@ rule all:
         'found.fsa',
         final_tblout,
         'final.ribomaker.fa',
+        'fasta_output',
 
 rule parse_input_gb:
     input:
@@ -198,3 +199,14 @@ rule aggregate_ribodbmaker_files:
         '''
         cat {input} > {output}        
         '''   ## test line
+
+rule parse_cmscan:
+    input: 
+        'final.ribomaker.fa',
+        final_tblout
+    output: 
+        passing_fasta = 'fasta_output'
+    shell:
+        '''
+        python ParseCMscan1.65.py passing_fasta
+        '''
