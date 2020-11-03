@@ -124,9 +124,9 @@ Five_RNA_df = CMscan_df2[CMscan_df2['gene'] == "5_8S_rRNA"]
 FiveComplete = Five_RNA_df[Five_RNA_df['trunc'] == "no"]
 FiveComplete['score'] = pd.to_numeric(FiveComplete['score'])
 FiveCompleteStrongHit = FiveComplete[FiveComplete['score'] > 50]
-#FiveFivePartial = Five_RNA_df[Five_RNA_df['trunc'] == "5'"]
-#FiveThreePartial = Five_RNA_df[Five_RNA_df['trunc'] == "3'"]
-#FiveBothPartial = Five_RNA_df[Five_RNA_df['trunc'] == "5'&3'"]
+FiveFivePartial = Five_RNA_df[Five_RNA_df['trunc'] == "5'"]
+FiveThreePartial = Five_RNA_df[Five_RNA_df['trunc'] == "3'"]
+FiveBothPartial = Five_RNA_df[Five_RNA_df['trunc'] == "5'&3'"]
 LSUpartial = CMscan_df2.loc[(CMscan_df2['gene'] == "LSU_rRNA_eukarya") & (CMscan_df2['trunc'] != "no")]
 LSUcomplete = CMscan_df2.loc[(CMscan_df2['gene'] == "LSU_rRNA_eukarya") & (CMscan_df2['trunc'] == "no")]
 SSUpartial = CMscan_df2.loc[(CMscan_df2['gene'] == "SSU_rRNA_eukarya") & (CMscan_df2['trunc'] != "no")]
@@ -139,18 +139,10 @@ LSUendfound = LSUpartial[(LSUpartial['strand'] == "+") & (LSUpartial['mdl_to'] =
 five_minus_strand = FiveCompleteStrongHit[FiveCompleteStrongHit['strand'] != "+"]
 LSUpartial_minus_strand = LSUpartial[LSUpartial['strand'] != "+"]
 LSUcomplete_minus_strand = LSUcomplete[LSUcomplete['strand'] != "+"]
-LSUpartial_plus_strand = LSUpartial[LSUpartial['strand'] == "+"]
-LSUcomplete_plus_strand = LSUpartial[LSUpartial['strand'] == "+"]
-LSUplusframe = [LSUpartial_plus_strand, LSUcomplete_plus_strand]
 LSUframes = [LSUpartial_minus_strand, LSUcomplete_minus_strand]
-LSUplus = pd.concat(LSUplusframe)
 LSUminus = pd.concat(LSUframes)
 SSUpartial_minus_strand = SSUpartial[SSUpartial['strand'] != "+"]
 SSUcomplete_minus_strand = SSUcomplete[SSUcomplete['strand'] != "+"]
-SSUpartial_plus_strand = SSUpartial[SSUpartial['strand'] == "+"]
-SSUcomplete_plus_strand = SSUcomplete[SSUcomplete['strand'] == "+"]
-SSUplusframe = [SSUpartial_plus_strand, SSUcomplete_plus_strand]
-SSUplus = pd.concat(SSUplusframe)
 SSUframes = [SSUpartial_minus_strand, SSUcomplete_minus_strand]
 SSUminus = pd.concat(SSUframes)
 print("I found 5.8S sequences on the minus strand\n ", five_minus_strand)
@@ -173,12 +165,6 @@ print("sequences with extra data on the 3' end \n", LSUextra)
 
 #SSU_LSUexact=LSU_RNA_df.loc[(LSU_RNA_df['seq_to'] == LSU_RNA_df['Length']) & (LSU_RNA_df['mdl_to'] == 3401) & (SSU_RNA_df['mdl_from'] == 1) & (SSU_RNA_df['seq_from'] == 1)]
 #SSU_LSUpartial=LSU_RNA_df.loc[(LSU_RNA_df['seq_to'] == LSU_RNA_df['Length']) & (LSU_RNA_df['mdl_to'] < 3401) & (SSU_RNA_df['mdl_from'] > 1)]
-#OutofOrderSSUplus=SSUplus.loc[(SSUplus['seq_to'] >= FiveCompleteStrongHit['seq_from'])]
-#OutofOrderLSUplus=LSUplus.loc[(LSUplus['seq_from'] <= FiveCompleteStrongHit['seq_to'])]
-#OutofOrderSSUminus=SSUminus.loc[(SSUminus['seq_from'] <= five_minus_strand['seq_to'])]
-#OutofOrderLSUminus=LSUminus.loc[(LSUminus['seq_to'] <= five_minus_strand['seq_from'])]
-#OutofOrderFrame = [OutofOrderSSUplus, OutofOrderLSUplus, OutofOrderSSUminus, OutofOrderLSUminus]
-#OutofOrder = pd.concat(OutofOrderFrame)
 
 
 #Trim the sequences with extra sequence flanking the SSU and LSU then rewrite the editted fasta to a new file
@@ -228,7 +214,7 @@ for seq_record in SeqIO.parse("ribo-out/ribo-out.ribodbmaker.final.fa", "fasta")
                     to = start_df['Length'].iloc[0]
                     s.seq = s.seq[start-1:to]
 
-#Check for Mixed Strand and Misassembled Sequences
+#Check for Mixed Strand Sequences
         if seq_record.id in FiveCompleteStrongHit['accession'].tolist():
             if seq_record.id in five_minus_strand['accession'].tolist():
                 if seq_record.id in SSUpartial['accession'].tolist():
@@ -243,20 +229,7 @@ for seq_record in SeqIO.parse("ribo-out/ribo-out.ribodbmaker.final.fa", "fasta")
                 elif seq_record.id in LSUcomplete['accession'].tolist():  
                     if seq_record.id not in LSUminus['accession'].tolist():
                         print("I found a mixed strand sequence", seq_record.id)
-                if seq_record.id in SSUminus['accession'].tolist():        
-                    SSU_from = CMscan_df2[(CMscan_df2['accession'] == seq_record.id) & (CMscan_df2['gene'] == 'SSU_rRNA_eukarya')]
-                    SSUend = int(SSU_from['seq_from'].iloc[0])
-                    fiveto = CMscan_df2[(CMscan_df2['accession'] == seq_record.id) & (CMscan_df2['gene'] == '5_8S_rRNA')]
-                    fivestart = int(fiveto['seq_to'].iloc[0])
-                    if SSUend <= fivestart:
-                        print("Out of order sequence", seq_record.id)
-                if seq_record.id in LSUminus['accession'].tolist():
-                    LSU_to = CMscan_df2[(CMscan_df2['accession'] == seq_record.id) & (CMscan_df2['gene'] == 'LSU_rRNA_eukarya')]
-                    LSUstart = int(LSU_to['seq_to'].iloc[0])
-                    fiveend = int(fiveto['seq_from'].iloc[0])
-                    if fiveend <= LSUstart:
-                        print("Out of order sequence", seq_record.id)
-            else:  #Sequence Must be Plus Strand
+            else:  #Must be Plus Strand
                 if seq_record.id in SSUpartial['accession'].tolist():
                     if seq_record.id in SSUminus['accession'].tolist():
                         print("I found a mixed strand sequence", seq_record.id)
@@ -269,21 +242,8 @@ for seq_record in SeqIO.parse("ribo-out/ribo-out.ribodbmaker.final.fa", "fasta")
                 elif seq_record.id in LSUcomplete['accession'].tolist():  
                     if seq_record.id in LSUminus['accession'].tolist():
                         print("I found a mixed strand sequence", seq_record.id)
-                if seq_record.id in SSUplus['accession'].tolist():
-                    SSU_to = CMscan_df2[(CMscan_df2['accession'] == seq_record.id) & (CMscan_df2['gene'] == 'SSU_rRNA_eukarya')]
-                    SSUend = int(SSU_to['seq_to'].iloc[0])
-                    fivefrom = CMscan_df2[(CMscan_df2['accession'] == seq_record.id) & (CMscan_df2['gene'] == '5_8S_rRNA')]
-                    fivestart = int(fivefrom['seq_from'].iloc[0])
-                    if SSUend >= fivestart:
-                        print("Out of order sequence", seq_record.id)
-                if seq_record.id in LSUplus['accession'].tolist(): 
-                    LSU_from = CMscan_df2[(CMscan_df2['accession'] == seq_record.id) & (CMscan_df2['gene'] == 'LSU_rRNA_eukarya')]
-                    LSUstart = int(LSU_from['seq_from'].iloc[0])
-                    fiveend = int(fivefrom['seq_to'].iloc[0])
-                    if fiveend >= LSUstart:
-                        print("Out of order sequence", seq_record.id)
-               
-#Definition Line Generator
+                    
+
         if seq_record.id in FiveCompleteStrongHit['accession'].tolist():
             if seq_record.id in five_minus_strand['accession'].tolist():
                 print("I reverse complemented ", seq_record.id)

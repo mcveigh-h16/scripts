@@ -1,0 +1,153 @@
+
+LOCUS       MF429777                 704 bp    DNA     linear   PLN 14-MAR-2018
+DEFINITION  Aspergillus niger strain EA10 small subunit ribosomal RNA gene,
+            partial sequence; internal transcribed spacer 1 and 5.8S ribosomal
+            RNA gene, complete sequence; and internal transcribed spacer 2,
+            partial sequence.
+ACCESSION   MF429777
+VERSION     MF429777.1
+KEYWORDS    .
+SOURCE      Aspergillus niger
+  ORGANISM  Aspergillus niger
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Aspergillus; Aspergillus subgen. Circumdati.
+REFERENCE   1  (bases 1 to 704)
+  AUTHORS   El-Moslamy,S.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-JUL-2017) Bioprocess Development Department, Genetic
+            Engineering and Biotechnology Research Institute (GEBRI), City of
+            Scientific Research and Technology Application, (SRTA-City), New
+            Borg El-Arab city, Alexandria 21934, Egypt
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: BioEdit biological sequence alignment
+                                     editor and analysis program v. 2007
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..704
+                     /organism="Aspergillus niger"
+                     /mol_type="genomic DNA"
+                     /strain="EA10"
+                     /db_xref="taxon:5061"
+     misc_RNA        <1..>704
+                     /note="contains small subunit ribosomal RNA, internal
+                     transcribed spacer 1, 5.8S ribosomal RNA, and internal
+                     transcribed spacer 2"
+ORIGIN      
+        1 ggaagtaaaa gtcgtaacaa ggtttccgta ggtgaacctg cggaaggatc attaccgagt
+       61 gcgggtcctt tgggcccaac ctcccatccg tgtctaatgc tttgggtgcg gcccccgtct
+      121 aagtgccctg gaacgggccg tcagagaggg tgagaatccc gtcttgggcg gggtgtccgt
+      181 gcccgtgtaa agctccaaca cgaacactgt ctgaaagcgt gcagtctgag ttgattgaat
+      241 gcaatcagtt aaaactttca acaatggatc tcttggttcc ggcatcgatg aagaacgcag
+      301 cgaaatgcga taactaatgt gaattgcaga attcagtgaa tcatcgagtc tttgaacgca
+      361 cattgcgccc cctggtattc cggggggcat gcctgtccga gcgtcattgc tgccctcaag
+      421 cccggcttgt gtgttgggtc gccgtccccc tctccggggg gacgggcccg aaaggcagcg
+      481 gcggcaccgc gtccggtcct cgagcgtatg gggctttgtc acccgctcga ctagggccgg
+      541 ccgggcgcca gccgacgtct ccaaccattt tttcttcagg ttgacctcgg attagaagga
+      601 tggggcctgg accacggtca taacttttgg gccgttggcg gggtctctct ttttctcggc
+      661 aacagtaagg tgggggtgac ataactcccc ccacacacaa ttga
+//
+LOCUS       MH619736                 620 bp    DNA     linear   PLN 11-JUL-2020
+DEFINITION  Scolopia chinensis internal transcribed spacer 1, partial sequence;
+            5.8S ribosomal RNA gene and internal transcribed spacer 2, complete
+            sequence; and large subunit ribosomal RNA gene, partial sequence.
+ACCESSION   MH619736
+VERSION     MH619736.1
+KEYWORDS    .
+SOURCE      Scolopia chinensis
+  ORGANISM  Scolopia chinensis
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Malpighiales; Salicaceae; Scolopieae;
+            Scolopia.
+REFERENCE   1  (bases 1 to 620)
+  AUTHORS   Liu,S., Wang,Z. and Li,J.
+  TITLE     Direct submission
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 620)
+  AUTHORS   Liu,S., Wang,Z. and Li,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JUL-2018) Key Laboratory of Tree Breeding, Research
+            Institute of Forsetry, Xiangshan Road, Beijing, Beijing 100091,
+            China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..620
+                     /organism="Scolopia chinensis"
+                     /mol_type="genomic DNA"
+                     /isolation_source="leaf"
+                     /db_xref="taxon:1603833"
+                     /country="China"
+     misc_RNA        <1..>620
+                     /note="contains internal transcribed spacer 1, 5.8S
+                     ribosomal RNA, internal transcribed spacer 2, and large
+                     subunit ribosomal RNA"
+ORIGIN      
+        1 tatgatatgc ttaaactcag cgggtagtcc cgcctgacct ggggtcgcaa ccagagcatc
+       61 ctaggggagc cgatgctcga gggtccggga ggtccctaag ggcgacgggg cacgcgcacg
+      121 accgctctcg agggtctctc aaccaccgct cgtcgtggcg accgccgccc gggactcgat
+      181 tttgggccaa ccgcgagcgg gagcgcacgg gaggccagca tccgcccccc acccctcgcg
+      241 agccgagggg atcggcggcg acgacgcgtg acgcccaggc agacgtgccc tcggccatga
+      301 ggcctcgggc gcaacttgcg ttcaaagact cgatggttca cgggattctg caattcacac
+      361 caagtatcgc atttcgctac gttcttcatc gatgcaagag ccgagatatc cgttgccgag
+      421 agtcgttagg gtcatcgcga agcgcagacg caccccgagc gcccgaggcg acgggggacg
+      481 cgctctccgt actctacttc cttggcgctt ctcgcgccgg ggttcgtcgg cgggccgcgt
+      541 cgggcgcgga agcgtccctc cacggccccc gcctgttctg ccacgggtcc gccggtcgtt
+      601 ctgctaggca ggtttcgaca
+//
+LOCUS       MF423712                 607 bp    DNA     linear   PLN 10-JUL-2017
+DEFINITION  Schizophyllum commune culture MUT<ITA>:5570 small subunit ribosomal
+            RNA gene, partial sequence; internal transcribed spacer 1, 5.8S
+            ribosomal RNA gene, and internal transcribed spacer 2, complete
+            sequence; and large subunit ribosomal RNA gene, partial sequence.
+ACCESSION   MF423712
+VERSION     MF423712.1
+KEYWORDS    .
+SOURCE      Schizophyllum commune
+  ORGANISM  Schizophyllum commune
+            Eukaryota; Fungi; Dikarya; Basidiomycota; Agaricomycotina;
+            Agaricomycetes; Agaricomycetidae; Agaricales; Schizophyllaceae;
+            Schizophyllum.
+REFERENCE   1  (bases 1 to 607)
+  AUTHORS   Poli,A. and Varese,G.C.
+  TITLE     Basidiomycota from marine environment
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 607)
+  AUTHORS   Poli,A. and Varese,G.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JUN-2017) Department of Life Sciences and System
+            Biology, University of Turin, Viale Mattioli 25, Torino, TO 10125,
+            Italy
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..607
+                     /organism="Schizophyllum commune"
+                     /mol_type="genomic DNA"
+                     /isolation_source="fruiting body"
+                     /host="Acer pseudoplatanus"
+                     /culture_collection="MUT<ITA>:5570"
+                     /db_xref="taxon:5334"
+                     /country="Italy: Casale Monferrato (AL)"
+                     /collected_by="Pecollo D."
+     misc_RNA        <1..>607
+                     /note="contains small subunit ribosomal RNA, internal
+                     transcribed spacer 1, 5.8S ribosomal RNA, internal
+                     transcribed spacer 2, and large subunit ribosomal RNA"
+ORIGIN      
+        1 gcggaaggat cattaacgaa tcaaacaagt tcatcttgtt ctgatcctgt gcaccttatg
+       61 tagtcccaaa gccttcacgg gcggcggttg actacgtcta cctcacacct taaagtatgt
+      121 taacgaatgt aatcatggtc ttgacagacc ctaaaaagtt aatacaactt tcgacaacgg
+      181 atctcttggc tctcgcatcg atgaagaacg cagcgaaatg cgataagtaa tgtgaattgc
+      241 agaattcagt gaatcatcga atctttgaac gcaccttgcg ccctttggta ttccgagggg
+      301 catgcctgtt tgagtgtcat taaataccat caaccctctt ttgacttcgg tctcgagagt
+      361 ggcttggaag tggaggtctg ctggagccta acggagccag ctcctcttaa atgtattagc
+      421 ggatttccct tgcgggatcg cgtctccgat gtgataattt ctacgtcgtt gaccatctcg
+      481 gggctgacct agtcagtttc aataggagtc tgcttctaac cgtctcttga ccgagactag
+      541 cgacttgtgc gctaactttt gacttgacct caaatcaggt aggactaccc gctgaactta
+      601 agcatat
+//

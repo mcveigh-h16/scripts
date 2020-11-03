@@ -27,7 +27,6 @@ outputfile = sys.argv[2]
 
 #Read in the reject list and find the accession
 reject_file_name = (r'ITS_reject_seqs3.txt') 
-#reject_file_name = (r'/panfs/pan1.be-md.ncbi.nlm.nih.gov/dnaorg/ITS/ITS_reject_seqs')
 rejectlist_df = pd.read_csv(reject_file_name, sep='\t', index_col=None, low_memory=False, header=None, names=["accession", "type", "reason"])
 rejectlist = rejectlist_df['accession']
 reject_list = set(rejectlist_df['accession'].tolist())
@@ -171,23 +170,20 @@ LSU_RNA_df = CMscan_df2[(CMscan_df2['gene'] == "LSU_rRNA_eukarya") & (CMscan_df2
 LSUextra=LSU_RNA_df.loc[(LSU_RNA_df['seq_to'] != LSU_RNA_df['Length']) & (LSU_RNA_df['mdl_to'] == 3401) & (LSU_RNA_df['mdl_from'] == 1)]
 print("sequences with extra data on the 3' end \n", LSUextra)
 
-#SSU_LSUexact=LSU_RNA_df.loc[(LSU_RNA_df['seq_to'] == LSU_RNA_df['Length']) & (LSU_RNA_df['mdl_to'] == 3401) & (SSU_RNA_df['mdl_from'] == 1) & (SSU_RNA_df['seq_from'] == 1)]
-#SSU_LSUpartial=LSU_RNA_df.loc[(LSU_RNA_df['seq_to'] == LSU_RNA_df['Length']) & (LSU_RNA_df['mdl_to'] < 3401) & (SSU_RNA_df['mdl_from'] > 1)]
-#OutofOrderSSUplus=SSUplus.loc[(SSUplus['seq_to'] >= FiveCompleteStrongHit['seq_from'])]
-#OutofOrderLSUplus=LSUplus.loc[(LSUplus['seq_from'] <= FiveCompleteStrongHit['seq_to'])]
-#OutofOrderSSUminus=SSUminus.loc[(SSUminus['seq_from'] <= five_minus_strand['seq_to'])]
-#OutofOrderLSUminus=LSUminus.loc[(LSUminus['seq_to'] <= five_minus_strand['seq_from'])]
-#OutofOrderFrame = [OutofOrderSSUplus, OutofOrderLSUplus, OutofOrderSSUminus, OutofOrderLSUminus]
-#OutofOrder = pd.concat(OutofOrderFrame)
-
 
 #Trim the sequences with extra sequence flanking the SSU and LSU then rewrite the editted fasta to a new file
 from Bio import SeqIO
 sequences = []  
+misassembled = []
+removeacc = []
 for seq_record in SeqIO.parse("ribo-out/ribo-out.ribodbmaker.final.fa", "fasta"): 
     s = seq_record
     start = []
     to = []
+    SSUend = []
+    fivestart = []
+    LSUstart = []
+    fiveend = []
     if seq_record.id not in Five_RNA_df['accession'].tolist(): 
         #sequences.remove(seq_record)
         print("No 5.8S rRNA was found in ", seq_record.id)
@@ -234,15 +230,19 @@ for seq_record in SeqIO.parse("ribo-out/ribo-out.ribodbmaker.final.fa", "fasta")
                 if seq_record.id in SSUpartial['accession'].tolist():
                     if seq_record.id not in SSUminus['accession'].tolist():
                         print("I found a mixed strand sequence", seq_record.id)
+                        misassembled.append(s)
                 elif seq_record.id in SSUcomplete['accession'].tolist():  
                     if seq_record.id not in SSUminus['accession'].tolist():
                         print("I found a mixed strand sequence", seq_record.id)
+                        misassembled.append(s)
                 if seq_record.id in LSUpartial['accession'].tolist():
                     if seq_record.id not in LSUminus['accession'].tolist():
                         print("I found a mixed strand sequence", seq_record.id)
+                        misassembled.append(s)
                 elif seq_record.id in LSUcomplete['accession'].tolist():  
                     if seq_record.id not in LSUminus['accession'].tolist():
                         print("I found a mixed strand sequence", seq_record.id)
+                        misassembled.append(s)
                 if seq_record.id in SSUminus['accession'].tolist():        
                     SSU_from = CMscan_df2[(CMscan_df2['accession'] == seq_record.id) & (CMscan_df2['gene'] == 'SSU_rRNA_eukarya')]
                     SSUend = int(SSU_from['seq_from'].iloc[0])
@@ -250,25 +250,32 @@ for seq_record in SeqIO.parse("ribo-out/ribo-out.ribodbmaker.final.fa", "fasta")
                     fivestart = int(fiveto['seq_to'].iloc[0])
                     if SSUend <= fivestart:
                         print("Out of order sequence", seq_record.id)
+                        misassembled.append(s)
                 if seq_record.id in LSUminus['accession'].tolist():
                     LSU_to = CMscan_df2[(CMscan_df2['accession'] == seq_record.id) & (CMscan_df2['gene'] == 'LSU_rRNA_eukarya')]
                     LSUstart = int(LSU_to['seq_to'].iloc[0])
+                    fiveto = CMscan_df2[(CMscan_df2['accession'] == seq_record.id) & (CMscan_df2['gene'] == '5_8S_rRNA')]
                     fiveend = int(fiveto['seq_from'].iloc[0])
                     if fiveend <= LSUstart:
                         print("Out of order sequence", seq_record.id)
+                        misassembled.append(s)
             else:  #Sequence Must be Plus Strand
                 if seq_record.id in SSUpartial['accession'].tolist():
                     if seq_record.id in SSUminus['accession'].tolist():
                         print("I found a mixed strand sequence", seq_record.id)
+                        misassembled.append(s)
                 elif seq_record.id in SSUcomplete['accession'].tolist():  
                     if seq_record.id in SSUminus['accession'].tolist():
                         print("I found a mixed strand sequence", seq_record.id)
+                        misassembled.append(s)
                 if seq_record.id in LSUpartial['accession'].tolist():
                     if seq_record.id in LSUminus['accession'].tolist():
                         print("I found a mixed strand sequence", seq_record.id)
+                        misassembled.append(s)
                 elif seq_record.id in LSUcomplete['accession'].tolist():  
                     if seq_record.id in LSUminus['accession'].tolist():
                         print("I found a mixed strand sequence", seq_record.id)
+                        misassembled.append(s)
                 if seq_record.id in SSUplus['accession'].tolist():
                     SSU_to = CMscan_df2[(CMscan_df2['accession'] == seq_record.id) & (CMscan_df2['gene'] == 'SSU_rRNA_eukarya')]
                     SSUend = int(SSU_to['seq_to'].iloc[0])
@@ -276,37 +283,43 @@ for seq_record in SeqIO.parse("ribo-out/ribo-out.ribodbmaker.final.fa", "fasta")
                     fivestart = int(fivefrom['seq_from'].iloc[0])
                     if SSUend >= fivestart:
                         print("Out of order sequence", seq_record.id)
+                        misassembled.append(s)
+                        removeacc.append(seq_record.id)
                 if seq_record.id in LSUplus['accession'].tolist(): 
                     LSU_from = CMscan_df2[(CMscan_df2['accession'] == seq_record.id) & (CMscan_df2['gene'] == 'LSU_rRNA_eukarya')]
                     LSUstart = int(LSU_from['seq_from'].iloc[0])
+                    fivefrom = CMscan_df2[(CMscan_df2['accession'] == seq_record.id) & (CMscan_df2['gene'] == '5_8S_rRNA')]
                     fiveend = int(fivefrom['seq_to'].iloc[0])
                     if fiveend >= LSUstart:
                         print("Out of order sequence", seq_record.id)
-               
-#Definition Line Generator
-        if seq_record.id in FiveCompleteStrongHit['accession'].tolist():
-            if seq_record.id in five_minus_strand['accession'].tolist():
-                print("I reverse complemented ", seq_record.id)
-                s.seq = s.seq.reverse_complement()
-            if seq_record.id in SSUcomplete['accession'].tolist():  
-                seq_record.description = seq_record.description + " SSU"
-            elif seq_record.id in SSUendfound['accession'].tolist():   
-                seq_record.description = seq_record.description + " SSU"
-            elif seq_record.id in SSUpartial['accession'].tolist(): 
-                if seq_record.id not in SSUendfound['accession'].tolist():
+                        misassembled.append(s)
+                        removeacc.append(seq_record.id)
+        SeqIO.write(misassembled, "misassembled_seqs", "fasta")  
+#Definition Line Generator               
+        if seq_record.id not in removeacc:
+            if seq_record.id in FiveCompleteStrongHit['accession'].tolist():
+                if seq_record.id in five_minus_strand['accession'].tolist():
+                    print("I reverse complemented ", seq_record.id)
+                    s.seq = s.seq.reverse_complement()
+                if seq_record.id in SSUcomplete['accession'].tolist():  
+                    seq_record.description = seq_record.description + " SSU"
+                elif seq_record.id in SSUendfound['accession'].tolist():   
                     seq_record.description = seq_record.description + " <SSU"
+                elif seq_record.id in SSUpartial['accession'].tolist(): 
+                    if seq_record.id not in SSUendfound['accession'].tolist():
+                        seq_record.description = seq_record.description + " <SSU"
             #if seq_record.id in FiveComplete['accession'].tolist(): 
-            if seq_record.id in SSU_RNA_df['accession'].tolist(): 
-                seq_record.description = seq_record.description + " ITS1 5.8S ITS2"
-            else: 
-                seq_record.description = seq_record.description + " <ITS1 5.8S ITS2"       
-            if seq_record.id in LSUcomplete['accession'].tolist():  
-                seq_record.description = seq_record.description + " LSU"
-            elif seq_record.id in LSUpartial['accession'].tolist():  
-                seq_record.description = seq_record.description + " LSU>"
-            else:
-                seq_record.description = seq_record.description + ">"
-            sequences.append(s)
+                if seq_record.id in SSU_RNA_df['accession'].tolist(): 
+                    seq_record.description = seq_record.description + " ITS1 5.8S ITS2"
+                else: 
+                    seq_record.description = seq_record.description + " <ITS1 5.8S ITS2"       
+                if seq_record.id in LSUcomplete['accession'].tolist():  
+                    seq_record.description = seq_record.description + " LSU"
+                elif seq_record.id in LSUpartial['accession'].tolist():  
+                    seq_record.description = seq_record.description + " LSU>"
+                else:
+                    seq_record.description = seq_record.description + ">"
+                sequences.append(s)
 SeqIO.write(sequences, outputfile, "fasta")  
 #SeqIO.write(missingRNA, "missing5_8.fsa", "fasta")
 
@@ -323,9 +336,6 @@ for record in SeqIO.parse(outputfile, "fasta"):
         length = len(record)
         print("Sequences that were trimmed are: ", record.id, length)
         
-#Add the new definition lines to the outputfile by appending text to seq_record.description
-        
-
 #Count the number of sequences in the final output file
 fh = open(outputfile)
 n = 0

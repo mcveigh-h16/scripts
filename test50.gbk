@@ -2501,52 +2501,1169 @@ ORIGIN
     12961 gagctaatac atgcaacgca ccgtggtccc cgtagtcttc tagtctcggg gaaacggcat
     13021 ttattctctg gaccagatcg
 //
-LOCUS       MF429777                 704 bp    DNA     linear   PLN 14-MAR-2018
-DEFINITION  Aspergillus niger strain EA10 small subunit ribosomal RNA gene,
-            partial sequence; internal transcribed spacer 1 and 5.8S ribosomal
-            RNA gene, complete sequence; and internal transcribed spacer 2,
-            partial sequence.
-ACCESSION   MF429777
-VERSION     MF429777.1
+LOCUS       KP133640                 728 bp    DNA     linear   PLN 26-MAR-2015
+DEFINITION  Doronicum stiriacum voucher WU:Kolarcik CP199 clone 2 18S ribosomal
+            RNA gene, partial sequence; internal transcribed spacer 1, 5.8S
+            ribosomal RNA gene, and internal transcribed spacer 2, complete
+            sequence; and 26S ribosomal RNA gene, partial sequence.
+ACCESSION   KP133640
+VERSION     KP133640.1  GI:767810532
 KEYWORDS    .
-SOURCE      Aspergillus niger
-  ORGANISM  Aspergillus niger
-            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
-            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
-            Aspergillus; Aspergillus subgen. Circumdati.
-REFERENCE   1  (bases 1 to 704)
-  AUTHORS   El-Moslamy,S.H.
+SOURCE      Doronicum stiriacum (Doronicum clusii subsp. villosum)
+  ORGANISM  Doronicum stiriacum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+            Pentapetalae; asterids; campanulids; Asterales; Asteraceae;
+            Asteroideae; Doroniceae; Doronicum.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Pachschwoll,C., Escobar Garcia,P., Winkler,M., Schneeweiss,G.M. and
+            Schonswetter,P.
+  TITLE     Polyploidisation and Geographic Differentiation Drive
+            Diversification in a European High Mountain Plant Group (Doronicum
+            clusii Aggregate, Asteraceae)
+  JOURNAL   PLoS ONE 10 (3), E0118197 (2015)
+   PUBMED   25749621
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Pachschwoell,C., Escobar Garcia,P., Winkler,M., Schneeweiss,G.M.
+            and Schoenswetter,P.
   TITLE     Direct Submission
-  JOURNAL   Submitted (03-JUL-2017) Bioprocess Development Department, Genetic
-            Engineering and Biotechnology Research Institute (GEBRI), City of
-            Scientific Research and Technology Application, (SRTA-City), New
-            Borg El-Arab city, Alexandria 21934, Egypt
+  JOURNAL   Submitted (12-NOV-2014) Department of Botany and Biodiversity
+            Research, University of Vienna, Rennweg 14, Vienna A-1030, Austria
 COMMENT     ##Assembly-Data-START##
-            Assembly Method       :: BioEdit biological sequence alignment
-                                     editor and analysis program v. 2007
+            Assembly Method       :: SeqMan v. 7.0
             Sequencing Technology :: Sanger dideoxy sequencing
             ##Assembly-Data-END##
 FEATURES             Location/Qualifiers
-     source          1..704
-                     /organism="Aspergillus niger"
+     source          1..728
+                     /organism="Doronicum stiriacum"
                      /mol_type="genomic DNA"
-                     /strain="EA10"
-                     /db_xref="taxon:5061"
-     misc_RNA        <1..>704
-                     /note="contains small subunit ribosomal RNA, internal
-                     transcribed spacer 1, 5.8S ribosomal RNA, and internal
-                     transcribed spacer 2"
+                     /isolate="1"
+                     /specimen_voucher="WU:Kolarcik CP199"
+                     /db_xref="taxon:1628825"
+                     /clone="2"
+                     /pop_variant="38"
+                     /country="Slovakia"
+                     /lat_lon="48.94027 N 19.63500 E"
+                     /note="authority: Doronicum stiriacum (Vill.) Dalla Torre;
+                     synonym: Doronicum clusii subsp. villosum"
+     rRNA            <1..66
+                     /product="18S ribosomal RNA"
+     misc_RNA        67..328
+                     /product="internal transcribed spacer 1"
+     rRNA            329..487
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        488..724
+                     /product="internal transcribed spacer 2"
+     rRNA            725..>728
+                     /product="26S ribosomal RNA"
 ORIGIN      
-        1 ggaagtaaaa gtcgtaacaa ggtttccgta ggtgaacctg cggaaggatc attaccgagt
-       61 gcgggtcctt tgggcccaac ctcccatccg tgtctaatgc tttgggtgcg gcccccgtct
-      121 aagtgccctg gaacgggccg tcagagaggg tgagaatccc gtcttgggcg gggtgtccgt
-      181 gcccgtgtaa agctccaaca cgaacactgt ctgaaagcgt gcagtctgag ttgattgaat
-      241 gcaatcagtt aaaactttca acaatggatc tcttggttcc ggcatcgatg aagaacgcag
-      301 cgaaatgcga taactaatgt gaattgcaga attcagtgaa tcatcgagtc tttgaacgca
-      361 cattgcgccc cctggtattc cggggggcat gcctgtccga gcgtcattgc tgccctcaag
-      421 cccggcttgt gtgttgggtc gccgtccccc tctccggggg gacgggcccg aaaggcagcg
-      481 gcggcaccgc gtccggtcct cgagcgtatg gggctttgtc acccgctcga ctagggccgg
-      541 ccgggcgcca gccgacgtct ccaaccattt tttcttcagg ttgacctcgg attagaagga
-      601 tggggcctgg accacggtca taacttttgg gccgttggcg gggtctctct ttttctcggc
-      661 aacagtaagg tgggggtgac ataactcccc ccacacacaa ttga
+        1 ttatcattta gaggaaggag aagtcgtaac aaggttttcg taggtgaacc cgcggaagga
+       61 tcattgtcga agcctgcaaa gcagaacgac ccgtgaactt gtactaacaa ccacccgttg
+      121 tgaggatcgg acacttgttt gagactcatg gcgtttcgtc gatgtatgct caatgtcacc
+      181 cgttaagagc atcatggact tcacatcagc acaacaacaa accccggcac ggaatgtgcc
+      241 aaggaaaaca aaacttgaaa agggcttgtg ccatgcatgc cccgtttgcg gtgcgctcat
+      301 ggcacgtagc ttctttgtaa ttacaaacta ctctcggcaa cggatatctc ggctcacgca
+      361 tcgatgaaga acgtagcaaa atgagatact tggtgtgaat tgcagaatcc cgtgaaccat
+      421 cgagtttttg aacgcaagtt gcgcccgaaa ccatttggtc gagggcacgt cttcctgggc
+      481 gtcacgtgtc atgttcaccc ccatcacgaa tcacccgtga aaagggggcg gagatggtct
+      541 cccgttccca cggttcggct ggccaaaatt agagtcccct tcggcggacg cacgagtagt
+      601 ggtggttgac aaaaccctcg tatcgagccg tgcgttgtga gtcgtaaggg aagacctctg
+      661 catagaccct aacgtgttgt cttataatga cgcttcgatt gcgacccttg gtcaggcggg
+      721 actacccg
 //
+LOCUS       KP133647                 728 bp    DNA     linear   PLN 26-MAR-2015
+DEFINITION  Doronicum stiriacum voucher WU:Kolarcik CP199 clone 14 18S
+            ribosomal RNA gene, partial sequence; internal transcribed spacer
+            1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2,
+            complete sequence; and 26S ribosomal RNA gene, partial sequence.
+ACCESSION   KP133647
+VERSION     KP133647.1  GI:767810539
+KEYWORDS    .
+SOURCE      Doronicum stiriacum (Doronicum clusii subsp. villosum)
+  ORGANISM  Doronicum stiriacum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+            Pentapetalae; asterids; campanulids; Asterales; Asteraceae;
+            Asteroideae; Doroniceae; Doronicum.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Pachschwoll,C., Escobar Garcia,P., Winkler,M., Schneeweiss,G.M. and
+            Schonswetter,P.
+  TITLE     Polyploidisation and Geographic Differentiation Drive
+            Diversification in a European High Mountain Plant Group (Doronicum
+            clusii Aggregate, Asteraceae)
+  JOURNAL   PLoS ONE 10 (3), E0118197 (2015)
+   PUBMED   25749621
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Pachschwoell,C., Escobar Garcia,P., Winkler,M., Schneeweiss,G.M.
+            and Schoenswetter,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-NOV-2014) Department of Botany and Biodiversity
+            Research, University of Vienna, Rennweg 14, Vienna A-1030, Austria
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SeqMan v. 7.0
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Doronicum stiriacum"
+                     /mol_type="genomic DNA"
+                     /isolate="1"
+                     /specimen_voucher="WU:Kolarcik CP199"
+                     /db_xref="taxon:1628825"
+                     /clone="14"
+                     /pop_variant="38"
+                     /country="Slovakia"
+                     /lat_lon="48.94027 N 19.63500 E"
+                     /note="authority: Doronicum stiriacum (Vill.) Dalla Torre;
+                     synonym: Doronicum clusii subsp. villosum"
+     rRNA            <1..66
+                     /product="18S ribosomal RNA"
+     misc_RNA        67..328
+                     /product="internal transcribed spacer 1"
+     rRNA            329..487
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        488..724
+                     /product="internal transcribed spacer 2"
+     rRNA            725..>728
+                     /product="26S ribosomal RNA"
+ORIGIN      
+        1 ttatcattta gaggaaggag aagtcgtaac aaggttttcg taggtgaacc tgcggaagga
+       61 tcattgtcga agcctgcaaa gcagaacgac ccgtgaactt gtactaacaa ccacccgttg
+      121 tgaggatcgg acacttgttt gagactcatg gcgtttcgtc gatgtatgct caatgtcacc
+      181 cgttaagagc atcatggact tcacatcagc acaacaacaa accccggcac ggaatgtgcc
+      241 aaggaaaaca aaacttgaaa agggcttgtg ccatgcatgc cccgtttgcg gtgcgctcat
+      301 ggcacgtagc ttctttgtaa ttacaaacta ctctcggcaa cggatatctc ggctcacgca
+      361 tcgatgaaga acgtagcaaa atgagatact tggtgtgaat tgcagaatcc cgtgaaccat
+      421 cgagtttttg aacgcaagtt gcgcccgaaa ccatttggtc gagggcacgt cttcctgggc
+      481 gtcacgtgtc atgttcaccc ccatcacgaa tcacccgtga aaagggggcg gagatggtct
+      541 cccgttccca cggttcggct ggccaaaatt agagtcccct tcggcggacg cacgagtagt
+      601 ggtggttgac aaaaccctcg tatcgagccg tgcgttgtga gtcgtaaggg aagacctctg
+      661 catttaccct aacgtgttgt cttatgatga tgcttcgatt gcgacccttg gtcaggcggg
+      721 actacccg
+//
+LOCUS       KP737520                 728 bp    DNA     linear   PLN 04-MAY-2015
+DEFINITION  Erica arborea 18S ribosomal RNA gene, partial sequence; internal
+            transcribed spacer 1, 5.8S ribosomal RNA gene, and internal
+            transcribed spacer 2, complete sequence; and 28S ribosomal RNA
+            gene, partial sequence.
+ACCESSION   KP737520
+VERSION     KP737520.1  GI:815933275
+KEYWORDS    .
+SOURCE      Erica arborea
+  ORGANISM  Erica arborea
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; asterids; Ericales; Ericaceae; Ericoideae; Ericeae;
+            Erica.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Mugrabi de Kuppler,A.L., Fagundez,J., Bellstedt,D.U., Oliver,E.G.,
+            Leon,J. and Pirie,M.D.
+  TITLE     Testing reticulate versus coalescent origins of Erica lusitanica
+            using a species phylogeny of the northern heathers (Ericeae,
+            Ericaceae)
+  JOURNAL   Mol. Phylogenet. Evol. 88, 121-131 (2015)
+   PUBMED   25888972
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Mugrabi de Kuppler,A.L., Fagundez,J., Bellstedt,D.U.,
+            Oliver,E.G.H., Leon,J. and Pirie,M.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JAN-2015) Institut fuer Spezielle Botanik und
+            Botanischer Garten, Johannes Gutenberg-Universitaet,
+            Anselm-Franz-von-Bentzelweg 9a, Mainz, Rheinland-Pfalz 55099,
+            Germany
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Erica arborea"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="Ojeda, F. (Oliver 12619) (NBG)"
+                     /db_xref="taxon:270431"
+                     /country="Spain"
+                     /note="authority: Erica arborea L."
+     rRNA            <1..82
+                     /product="18S ribosomal RNA"
+     misc_RNA        83..328
+                     /product="internal transcribed spacer 1"
+     rRNA            329..495
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        496..712
+                     /product="internal transcribed spacer 2"
+     rRNA            713..>728
+                     /product="28S ribosomal RNA"
+ORIGIN      
+        1 agtccactga acctatcatt tagaggaagg agaagtcgta acaaggtttc cgtaggtgaa
+       61 cctgcggaag gatcattgtc aaaacctgac atctagaaaa ctcgtgaact tgttcataaa
+      121 gaatggggaa tgcatcggtt tggcccagtg cctctccttt tgctttcccc tcgcaagcag
+      181 acatgcctgg agctttcgag cgacgtgttt gtctgcttgt cgaacaayga accccggcgc
+      241 aaatcgtgcc aaggataatg gaatgagttt gtgcatgcat gtccctgccc gtctatgggt
+      301 ggcgttggct tgcacatctt ttgtataact aaacgactct cggcaacgga tatctcggct
+      361 cttgcatcga tgaagaacgt agcgaaatgc gatacttggt gtgaattgca gaatcccgtg
+      421 aaccatcgag tctttgaacg caagttgcgc ctgaagccat caggttgaag gcacgtctgc
+      481 ctgggcgtca cgcattgcgt cgctcactca ccccgtgcct cacagggcgg gtaagtgcgt
+      541 gggcggatat tggccccccg ttcacatttg tgctcggttg gcctaaaaag aaggtccctg
+      601 atgacggaca tcacaacaag tggtggttgc caaactgtcg cgacacgttg tgcatgctac
+      661 gcagtcgtcg gtgggctcat tgacccttaa gtgccattga acttggtacc tcaactgcga
+      721 ccccaggt
+//
+LOCUS       KJ959236                 728 bp    DNA     linear   PLN 22-JUN-2015
+DEFINITION  Heuchera villosa cf. var. macrorhiza RAF-2014 voucher Folk 78 18S
+            ribosomal RNA gene, partial sequence; internal transcribed spacer
+            1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2,
+            complete sequence; and 28S ribosomal RNA gene, partial sequence.
+ACCESSION   KJ959236
+VERSION     KJ959236.1  GI:835736776
+KEYWORDS    .
+SOURCE      Heuchera villosa cf. var. macrorhiza RAF-2014
+  ORGANISM  Heuchera villosa cf. var. macrorhiza RAF-2014
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+            Pentapetalae; Saxifragales; Saxifragaceae; Heuchera.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Folk,R.A. and Freudenstein,J.V.
+  TITLE     Phylogenetic relationships and character evolution in Heuchera
+            (Saxifragaceae) on the basis of multiple nuclear loci
+  JOURNAL   Am. J. Bot. 101 (9), 1532-1550 (2014)
+   PUBMED   25253713
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Folk,R.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-MAY-2014) EEOB, The Ohio State University, 1315
+            Kinnear Road, Columbus, OH 43212, USA
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Heuchera villosa cf. var. macrorhiza RAF-2014"
+                     /mol_type="genomic DNA"
+                     /variety="macrorhiza"
+                     /specimen_voucher="Folk 78"
+                     /db_xref="taxon:1573499"
+     rRNA            <1..19
+                     /product="18S ribosomal RNA"
+     misc_RNA        20..275
+                     /product="internal transcribed spacer 1"
+     rRNA            276..440
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        441..>728
+                     /note="contains internal transcribed spacer 2 and 28S
+                     ribosomal RNA"
+ORIGIN      
+        1 gaccgcggaa ggatcattgt cgaaacctgc atggcagaac aacttgtgaa catgtagtta
+       61 aacttggggg gggagggagt gcacgctcgc tctccccctg tcaatgtgtg cccagtaacc
+      121 tcccgcctga aagcgcttgg cgcttgaagg aggcgttatt ggatgctctt gacttaacaa
+      181 cgaaccccgg cgtgaattgc gccaaggaat acaaaagaat gatcagtcct ccgtttgcag
+      241 aaatgcgagt ggggtattgt catcttcttg atgtctttaa tgactctcgg caacggatat
+      301 ctcggctctc gcatcgatga agaacgtagc gaaatgcgat acttggtgtg aattgcagaa
+      361 tcccgtgaac catcgagttt ttgaacgcaa gttgcgcccg aagccatctg gttgagggca
+      421 cgtctgcctg ggcgtcacgt acacacgcct cccacaaaac ctttctccat ttcgggacag
+      481 ggattttgtg gcgagcagag agtggcctcc cgtgcaattt ttgtgcggtt gacccaaaaa
+      541 agagtaccga gtgacgaagt gtcacgatga gtggtggttt gtaagccctt agtggctttg
+      601 ccagatcgag tcgtgtgcat ttgttgctcg ggatgatcct caagcaaacc cctacacgtc
+      661 ttaaatcgac gctattgtcg cgaccccagg tcaggcggga ttacccgctg agtttaagca
+      721 tatcataa
+//
+LOCUS       KJ959265                 728 bp    DNA     linear   PLN 22-JUN-2015
+DEFINITION  Heuchera glabra voucher Folk 137 18S ribosomal RNA gene, partial
+            sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene,
+            and internal transcribed spacer 2, complete sequence; and 28S
+            ribosomal RNA gene, partial sequence.
+ACCESSION   KJ959265
+VERSION     KJ959265.1  GI:835736805
+KEYWORDS    .
+SOURCE      Heuchera glabra
+  ORGANISM  Heuchera glabra
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+            Pentapetalae; Saxifragales; Saxifragaceae; Heuchera.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Folk,R.A. and Freudenstein,J.V.
+  TITLE     Phylogenetic relationships and character evolution in Heuchera
+            (Saxifragaceae) on the basis of multiple nuclear loci
+  JOURNAL   Am. J. Bot. 101 (9), 1532-1550 (2014)
+   PUBMED   25253713
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Folk,R.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-MAY-2014) EEOB, The Ohio State University, 1315
+            Kinnear Road, Columbus, OH 43212, USA
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Heuchera glabra"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="Folk 137"
+                     /db_xref="taxon:370362"
+     rRNA            <1..16
+                     /product="18S ribosomal RNA"
+     misc_RNA        17..281
+                     /product="internal transcribed spacer 1"
+     rRNA            282..446
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        447..>728
+                     /note="contains internal transcribed spacer 2 and 28S
+                     ribosomal RNA"
+ORIGIN      
+        1 tgcggaagga tcattgtcga aacctgcatg gcagaacaac ttgtgaacat gtagttaaac
+       61 ttggggggga gggagtgcac gctcgctctc ccccgttgtc aatgtgtgct cagtaacctc
+      121 ctgcccgaaa gcgcttgcgc tcgacggagg tgttattgga ygctcttgac ttaacaatga
+      181 accccggcgt gaattgcgcc aaggaataca aaagaatgat cagtcctcca tttgctgtgt
+      241 tcttgcacaa acgattgggg tattgtcatc ttcttgatgt ctttaatgac tctcggcaac
+      301 ggatatctcg gctctcgcat cgatgaagaa cgtagcgaaa tgcgatactt ggtgtgaatt
+      361 gcagaatccc gtgaaccatc gagtttttga acgcaagttg cgcccgaagc catctggttg
+      421 agggcacgtc tgcctgggcg tcacgtacac acgcctccca caaaaccttt ctccattttg
+      481 ggacaaggat ttgtggcgag cagagagtgg cctcccgtgc aatttttgtg cggttgaccc
+      541 aaaagagagt accgagtgac gaagtgtcac gataagtggt ggtttgtaag cccttagtgg
+      601 ctttgccaaa tcgagtcgtg tgcatttgtt gctcggatga tcctcaagcg aacccctaca
+      661 cgtctaaatc gacgctattg tcgcgacccc aggtcaggcg ggattacccg ctgagtttaa
+      721 gcatatca
+//
+LOCUS       KJ959277                 728 bp    DNA     linear   PLN 22-JUN-2015
+DEFINITION  Heuchera cylindrica var. alpina voucher Folk 151 18S ribosomal RNA
+            gene, partial sequence; internal transcribed spacer 1, 5.8S
+            ribosomal RNA gene, and internal transcribed spacer 2, complete
+            sequence; and 28S ribosomal RNA gene, partial sequence.
+ACCESSION   KJ959277
+VERSION     KJ959277.1  GI:835736817
+KEYWORDS    .
+SOURCE      Heuchera cylindrica var. alpina
+  ORGANISM  Heuchera cylindrica var. alpina
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+            Pentapetalae; Saxifragales; Saxifragaceae; Heuchera.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Folk,R.A. and Freudenstein,J.V.
+  TITLE     Phylogenetic relationships and character evolution in Heuchera
+            (Saxifragaceae) on the basis of multiple nuclear loci
+  JOURNAL   Am. J. Bot. 101 (9), 1532-1550 (2014)
+   PUBMED   25253713
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Folk,R.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-MAY-2014) EEOB, The Ohio State University, 1315
+            Kinnear Road, Columbus, OH 43212, USA
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Heuchera cylindrica var. alpina"
+                     /mol_type="genomic DNA"
+                     /variety="alpina"
+                     /specimen_voucher="Folk 151"
+                     /db_xref="taxon:1573206"
+     rRNA            <1..35
+                     /product="18S ribosomal RNA"
+     misc_RNA        36..299
+                     /product="internal transcribed spacer 1"
+     rRNA            300..464
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        465..>728
+                     /note="contains internal transcribed spacer 2 and 28S
+                     ribosomal RNA"
+ORIGIN      
+        1 atccttccgt aggtgaacct gcggaaggat cattgtcgaa acctgcatgg cagaacaact
+       61 tgtgaacatg tagttaaact tgggggggag ggagtgcacg ctctctctcc ccctgtcaat
+      121 gtgtgctcag taacctcccg cctgaaagyg cctggcgctt gaaggaggtg ttattggatg
+      181 ctcttgactt aacaacgaac cccggcgtga attgcgccaa ggaatacaaa agaatgatca
+      241 gtcctccagt tgctgtgttc ttgcacaagc gattggggta ttgtcatctt cttgatgtct
+      301 ttaatgactc tcggcaacgg atatctcggc tctcgcatcg atgaagaacg tagcgaaatg
+      361 cgatacttgg tgtgaattgc agaatcccgt gaaccatcga gtttttgaac gcaagttgcg
+      421 cccgaagcca tctggttgag ggcacgtctg cctgggcgtc acgtacacac gcctcccaca
+      481 aaacctttct ccatttcggg acatggattt tgtggcgagc agagagtggc ctcccgtgca
+      541 atttttgtgc ggttgaccca aaaaagagta ccgagtgacg aagtgtcacg ataagtggtg
+      601 gtttgtaagc ccttagtggc ttttgccaaa tcgagtcgtg tgcatttgtt gctcgggatg
+      661 atcctcaagc aaaccccttc acgtcttaaa ttgacgctat tgtcgcgacc ccaggtcagg
+      721 cggggatt
+//
+LOCUS       KR186982                 728 bp    DNA     linear   PLN 28-JUN-2015
+DEFINITION  Begonia gutierrezii voucher Blanc s.n. E internal transcribed
+            spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete
+            sequence; and internal transcribed spacer 2, partial sequence.
+ACCESSION   KR186982
+VERSION     KR186982.1  GI:844238752
+KEYWORDS    .
+SOURCE      Begonia gutierrezii
+  ORGANISM  Begonia gutierrezii
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Cucurbitales; Begoniaceae; Begonia;
+            Begonia sect. Baryandra.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Hughes,M., Rubite,R.R., Blanc,P., Chung,K.F. and Peng,C.I.
+  TITLE     The Miocene to Pleistocene colonization of the Philippine
+            archipelago by Begonia sect. Baryandra (Begoniaceae)
+  JOURNAL   Am. J. Bot. 102 (5), 695-706 (2015)
+   PUBMED   26022484
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Hughes,M., Rubite,R.R., Blanc,P., Chung,K.-F. and Peng,C.-I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-APR-2015) Royal Botanic Garden Edinburgh, 20A
+            Inverleith Row EH3 5LR, UK
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. 7
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Begonia gutierrezii"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="Blanc s.n. E"
+                     /db_xref="taxon:1671955"
+     misc_RNA        <1..>728
+                     /note="contains internal transcribed spacer 1, 5.8S
+                     ribosomal RNA, and internal transcribed spacer 2"
+ORIGIN      
+        1 tgtcgattcc tgcaaaatgc agaacaaccc gcgaattagt ttcctgccaa catcccgcag
+       61 cacgcgggaa gggcaagagg cgcgtcgaag ctgtgtcgtg cactcgtgca aggcctgtct
+      121 cgcgcgcctt gcgcccccta acaaacaccc cggcgcgagt cgcgtcaagg aatttgaaac
+      181 tgagaacgcg gatcccctgc cccgatctcg ggatgcaagg gtgcagcgaa ctttgatcgt
+      241 accaaacgac tctcgacaac ggatatctcg gctctcgcat cgatgaagaa cgtagtgaaa
+      301 tgcgatactt ggtgtgaatt gcagaatccc gtgaaccatc gagtttttga acgcaagttg
+      361 cgcccgaagc cttctggccg agggcacgtc tgcctgggcg tcacacatcg cagccccccg
+      421 cacccaaaca aaaaaaaaaa agaacgggca atcgatcccc gggtcgagca gactcattct
+      481 gctacgtcgg gggcgttgtg ctagcccttc tggtgggtcg gggaggcgac gttggcctcc
+      541 cgtgcgggca acctcgcggt tggtctaaat ttgagtcctc ggcgtctggc ggcgcaatcg
+      601 gcggtggttg caatgccctc gacgaattgc gttgcgcccg cgagatgcac gctagggaac
+      661 tccccgttga ccctaatgcg tcgacttgtc ggatgacacc ggcgagaagg caccatcgaa
+      721 gcgacccc
+//
+LOCUS       KP895528                 728 bp    DNA     linear   PLN 08-SEP-2015
+DEFINITION  Psophocarpus tetragonolobus isolate EC38821B internal transcribed
+            spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal
+            transcribed spacer 2, complete sequence; and 28S ribosomal RNA
+            gene, partial sequence.
+ACCESSION   KP895528
+VERSION     KP895528.1  GI:923095321
+KEYWORDS    .
+SOURCE      Psophocarpus tetragonolobus (winged bean)
+  ORGANISM  Psophocarpus tetragonolobus
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fabales; Fabaceae; Papilionoideae;
+            Phaseoleae; Psophocarpus.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Ray,S.
+  TITLE     Molecular charctrization of a underutilized legume
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Ray,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAR-2015) Botany, Vivekananda College for women,
+            Diamond Harbour Road, Kolkata, West Bengal 700008, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Psophocarpus tetragonolobus"
+                     /mol_type="genomic DNA"
+                     /isolate="EC38821B"
+                     /db_xref="taxon:3891"
+                     /collection_date="06-Apr-2011"
+     misc_RNA        <1..>728
+                     /note="contains internal transcribed spacer 1, 5.8S
+                     ribosomal RNA, internal transcribed spacer 2, and 28S
+                     ribosomal RNA"
+ORIGIN      
+        1 aaaaggatca tgtcgatgcc ttataatcag tttgaccggc gaatctgtct acctacgaag
+       61 ggacgacacg tgcgtcgtgc tccccttctg tcgggagggg gttggtcatg gtttgcacag
+      121 cccagcctct ctctctcgat gaaacacaaa ccccggcgct ttgtgtgcca aggaaattga
+      181 aactgtaaag ggcgattctt ggggacccgg agacggtgtc ctgcgggtgt tgtcacgaca
+      241 catgatgcaa aatgactctc ggcaacggat atctcggctc ttgcatcgat gaagaacgta
+      301 gcgaaatgcg atacttggtg tgaattgcag aatcccgtga accatcgagt ctttgaacgc
+      361 aagttgcgcc cgaagccatt aggttgaggg cacgcctgcc tgggtgtcac acatcgttac
+      421 cctcccttat atacatatac atgcaaatgt ctcatgaagg acaactgctg tgttgtgctg
+      481 ggaaggtgta tgctggcctc ccgtgatcgt tgtgtcacgg ttggttgaaa aattgagttc
+      541 gtggcagagt gtgtgccgtg ataatatggt ggatgagtgc tgctcgagac caattgcgtg
+      601 cgtgcatctg ccagttttgt actccatgac ccattttgta tacgtcccgg gagacgttca
+      661 tagcgagacc tcaggtcagg cgggggtcta ccccgctgag ttttaagcat atcataaacc
+      721 gcgaagag
+//
+LOCUS       KT958326                 728 bp    DNA     linear   PLN 23-NOV-2015
+DEFINITION  Codonanthopsis macradenia 18S ribosomal RNA gene, partial sequence;
+            internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete
+            sequence; and internal transcribed spacer 2, partial sequence.
+ACCESSION   KT958326
+VERSION     KT958326.1  GI:953273999
+KEYWORDS    .
+SOURCE      Codonanthopsis macradenia
+  ORGANISM  Codonanthopsis macradenia
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+            Pentapetalae; asterids; lamiids; Lamiales; Gesneriaceae;
+            Gesnerioideae; Gesnerieae; Columneinae; Codonanthopsis.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Serrano-Serrano,M.L., Perret,M., Guignard,M., Chautems,A.,
+            Silvestro,D. and Salamin,N.
+  TITLE     Decoupled evolution of floral traits and climatic preferences in a
+            clade of Neotropical Gesneriaceae
+  JOURNAL   BMC Evol. Biol. 15, 247 (2015)
+   PUBMED   26555183
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Serrano-Serrano,M., Perret,M., Guignard,M., Chautems,A.,
+            Silvestro,D. and Salamin,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-OCT-2015) Department of Ecology and Evolution,
+            University of Lausanne, Biophore Building, Lausanne 1015,
+            Switzerland
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. 6.1.8
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Codonanthopsis macradenia"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="A. Chautems & M. Perret 10-107 (G)"
+                     /db_xref="taxon:352282"
+                     /country="Colombia"
+     rRNA            <1..109
+                     /product="18S ribosomal RNA"
+     misc_RNA        110..445
+                     /product="internal transcribed spacer 1"
+     rRNA            446..604
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        605..>728
+                     /product="internal transcribed spacer 2"
+ORIGIN      
+        1 cccgcgacgt cgcgagaagt ccactgaacc ttatcattta gaggaaggag aagtcgtaac
+       61 aaggtttccg taggtgaacc tgcggaagga tcattgtcga aacctgcaaa gcaaacccgc
+      121 gaacacgttc tcaacatgtt tgggttcgca ccgttggatg ccttgttgca tcccccgttg
+      181 cgttcccttt ctcgacgatg cacgcttgcg tgggtcgttc gggttcaact aactccccgg
+      241 cgcggaatgc gccaaggaaa actatcacga gaatgcatgc ttctgtaagg catcgtttgc
+      301 ggtgctatca cgggtggaat gtgcctcttg aattattaaa tgactctcgg caacggatat
+      361 cttggctctc gcatcgatga agaacgtagc gaaatgcgat acttggtgtg aattgcagaa
+      421 tcccgtgaac catcgagtct ttgaacgcaa gttgcgccca aagccattag gttgagggca
+      481 cgcctgcctg ggcgtcacgc atcgcgtcgc cccctcccac tttctccttt gtgagtgtgg
+      541 gtggatttga ggggacggat attggcctcc cgtgctcctt ttgtgcggct ggcttaaact
+      601 tgattcctcg tcgatggatg tcacgattgg tggtggttga ataaatcgca tgctgtcgtg
+      661 caagactctg tctgacggtg tacatcatta cagacctaac agcgcaatgc gctttcgact
+      721 gcgacccc
+//
+LOCUS       KU257706                 728 bp    DNA     linear   PLN 17-JAN-2016
+DEFINITION  Galeandra leptoceras voucher BGM 12/2403 (M) internal transcribed
+            spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete
+            sequence; and internal transcribed spacer 2, partial sequence.
+ACCESSION   KU257706
+VERSION     KU257706.1  GI:973601530
+KEYWORDS    .
+SOURCE      Galeandra leptoceras
+  ORGANISM  Galeandra leptoceras
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Asparagales; Orchidaceae;
+            Epidendroideae; Cymbidieae; Catasetinae; Galeandra.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Perez-Escobar,O.A., Gottschling,M., Whitten,W.M., Salazar,G. and
+            Gerlach,G.
+  TITLE     Sex and the Catasetinae (Darwin's favourite orchids)
+  JOURNAL   Mol. Phylogenet. Evol. (2015) In press
+   PUBMED   26708054
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Perez-Escobar,O.A., Gottschling,M., Whitten,M.W., Salazar,G. and
+            Gerlach,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-DEC-2015) Department of Biology, Systematic Botany
+            and Mycology, Ludwig-Maximilians University, Menzinger Strasse 67,
+            Munich, Bavaria 80638, Germany
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. R8
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Galeandra leptoceras"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="BGM 12/2403 (M)"
+                     /db_xref="taxon:1778005"
+     misc_RNA        <1..>728
+                     /note="contains internal transcribed spacer 1, 5.8S
+                     ribosomal RNA and internal transcribed spacer 2"
+ORIGIN      
+        1 gtaggtgaac ctgcggaagg atcattgtcg agaccgaaat atagatcgag cgactcagag
+       61 aacacgtgta tcgagcgacg acagctgtcg tcgtgggatg gccgtcccgg tcgtcgccct
+      121 catctcctga tgggtagtgc ggggcacggc ctgggacgga tgaaagcaaa aaccggcgca
+      181 gcatcgcgtc aaggaataat tcaaaggcac gagccccgcg tggggctcgg tggcgtgggg
+      241 tgcttcggca cgttgcgcgg ttggacatga ctctcggcaa tggatatctc ggctctcgca
+      301 tcgatgaaga gcgcagcgaa atgcgatacg tggtgcgaat tgcagaatcc cgcgaaccat
+      361 cgagtctttg aacgcaagtt gcgcccgagg ccgtcaggcc aagggcacgt ccgcctgggc
+      421 gtcaagcgtt gcgtcgctcc gtgccacagc tctgaccgca tcgtagtgtg gagtttgagg
+      481 ctcggatgtg cagagtggct cgtcgtgccc atcagtgcga cgggttgaag aaagggcaac
+      541 gtctcgcagg ccgcgaacaa caaggggtgg gtgaatgctg cgagcacaac ctgcgttgtc
+      601 tcgtgttggc ccgagagatg gatcgcgcct tcaaggtgat cccgacccat gcaccgatcc
+      661 gcatgcgggc ggtgtcttgg aatgcgaccc cnggatgggc gaggccaccc gctgagttta
+      721 agcatatc
+//
+LOCUS       KT438757                 728 bp    DNA     linear   PLN 06-FEB-2016
+DEFINITION  Rumex nepalensis 18S ribosomal RNA gene, partial sequence; internal
+            transcribed spacer 1, 5.8S ribosomal RNA gene, and internal
+            transcribed spacer 2, complete sequence; and 28S ribosomal RNA
+            gene, partial sequence.
+ACCESSION   KT438757
+VERSION     KT438757.1  GI:984686974
+KEYWORDS    .
+SOURCE      Rumex nepalensis
+  ORGANISM  Rumex nepalensis
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+            Pentapetalae; Caryophyllales; Polygonaceae; Polygonoideae;
+            Rumiceae; Rumex.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Shahla,S., Maassoumi,A.A., Hamdi,S.M.M., Mehregan,I. and
+            Nejadsattari,T.
+  TITLE     Phylogenetic study of the genus Rumex L. (Polygonaceae) in Iran
+            based on nrDNA ITS sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Shahla,S., Maassoumi,A.A., Hamdi,S.M.M., Mehregan,I. and
+            Nejadsattari,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-AUG-2015) Department of Biology, Science and Research
+            Branch, Islamic Azad University, Tehran, Iran
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: DNAsis Max v. 3
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Rumex nepalensis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:174652"
+     misc_RNA        <1..>728
+                     /note="contains 18S ribosomal RNA, internal transcribed
+                     spacer 1, 5.8S ribosomal RNA, internal transcribed spacer
+                     2, and 28S ribosomal RNA"
+ORIGIN      
+        1 ctgccggcga cgtcgcgaga agtccactga accttatcat ttagaggaag gagaagtcgt
+       61 aacaaggttt ccgtaggtga acctgcggaa ggatcattgt cgaaacctgc cccgagcaga
+      121 cagacccgcg aacccgttcc taacacaaac ggcgcccccg ggcgccgcca acccaccccc
+      181 ggcgcggatt gcgccaagga ccacgaacaa aatcgccccc cgagcggccc ggtcctccgg
+      241 agcccgcgcg gcggcggcgt gtcgtttcta cttaacaaaa acgactctcg gcaacggata
+      301 tctcggctct cgcatcgatg aagaacgtag cgaaatgcga tacttggtgt gaattgcaga
+      361 atcccgtgaa ccatcgagtc tttgaacgca agttgcgccc gaggccttct ggccgagggc
+      421 acgtctgtct gggcgtcacg caccgcgtcg cccccgcccc cctccggggg gaccgggggc
+      481 ggagactggc cccccgtgcg ccccggcgcg cggccggcct aaacgcagac cccgcggccg
+      541 cgagaacggc gcgacgaccg gtggcgtact tcatggcatc gcgtcgcgcc cccctgcggc
+      601 cccccgggag atcatcggcc gacaccgcgg accccggtcc accgttgcga ccccagatca
+      661 ggcgggacta cccgctgagt ttaagcatat caataagcgg aggaaaagaa acttacaagg
+      721 attcccct
+//
+LOCUS       KT580734                 728 bp    DNA     linear   PLN 09-FEB-2016
+DEFINITION  Dicranum dispersum voucher 09.VIII.2012, O.M.Afonina, #8912 (LE)
+            internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA
+            gene, complete sequence; and internal transcribed spacer 2, partial
+            sequence.
+ACCESSION   KT580734
+VERSION     KT580734.1  GI:985651301
+KEYWORDS    .
+SOURCE      Dicranum dispersum
+  ORGANISM  Dicranum dispersum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Bryophyta;
+            Bryophytina; Bryopsida; Dicranidae; Dicranales; Dicranaceae;
+            Dicranum.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Ignatova,E.A., Tubanova,D.Y., Tumurova,O.D., Goryunov,D.V. and
+            Kuznetsova,O.I.
+  TITLE     When the plant size matters: a new semi-cryptic species of Dicranum
+            from Russia
+  JOURNAL   Arctoa 24 (2), 471-488 (2015)
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Ignatova,E.A., Tubanova,D.Y., Kuznetsova,O.I. and Goryunov,D.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2015) Herbarium, Main Botanical Garden of Russian
+            Academy of Sciences, Botanicheskaya str., 4, Moscow 127276, Russia
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Dicranum dispersum"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="09.VIII.2012, O.M.Afonina, #8912 (LE)"
+                     /db_xref="taxon:1510173"
+                     /country="Russia: Zabaikalskiy Territory"
+     misc_RNA        <1..257
+                     /product="internal transcribed spacer 1"
+     rRNA            258..415
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        416..>728
+                     /product="internal transcribed spacer 2"
+ORIGIN      
+        1 cacacacaaa gttgcagcaa acctccagcg aacgtcgtga tcgtcccctt ggctggtttc
+       61 gttggcggag cgggcgttgc tcgctgcgtc gcggagccgg ccaacccagg gagtggaact
+      121 ctgctccctg gggcaaaacc caaaccgatt gcgcaatgca tcgacacctc cgatatgact
+      181 gagttatgag aagcgagtgg tgggggcgct ccgggcgacc ggagcgctca tcacgacgag
+      241 ttgtgatttg aaacaaaaac aactctcagc aacggatatc ttggctcttg caacgatgaa
+      301 gaacgcagcg aaatgcgata cgtagtgtga attgcagaat tccgcgaatc atcgagtctt
+      361 tgaacgcaag ttgcgcccga ggcttgacca agggcatccc tgccagagcg tcaccgcgac
+      421 acccaccaat ccactcccag ctcgactggg aggtgcgact gagtgaaact ggccatccgg
+      481 atgggggcca cgccccggga cttcgtgtgc ccttgggggg tggcacagat tgggttggtt
+      541 gaaatggagg gaatttggcc gccgtggtga cacagcccgc gatcaggtga tccgggtctc
+      601 atcttgggaa aactctaagt gtggtgctgt gtcccccagt tggtaacgag gattccaaag
+      661 caggtcccgg tgactccccc gcgccccgac tccttgcctt gcgctcggag ggagggagag
+      721 ggagtccc
+//
+LOCUS       KT580735                 728 bp    DNA     linear   PLN 09-FEB-2016
+DEFINITION  Dicranum dispersum voucher 19.VII.2005, Bersanova, s.n. (MHA)
+            internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA
+            gene, complete sequence; and internal transcribed spacer 2, partial
+            sequence.
+ACCESSION   KT580735
+VERSION     KT580735.1  GI:985651302
+KEYWORDS    .
+SOURCE      Dicranum dispersum
+  ORGANISM  Dicranum dispersum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Bryophyta;
+            Bryophytina; Bryopsida; Dicranidae; Dicranales; Dicranaceae;
+            Dicranum.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Ignatova,E.A., Tubanova,D.Y., Tumurova,O.D., Goryunov,D.V. and
+            Kuznetsova,O.I.
+  TITLE     When the plant size matters: a new semi-cryptic species of Dicranum
+            from Russia
+  JOURNAL   Arctoa 24 (2), 471-488 (2015)
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Ignatova,E.A., Tubanova,D.Y., Kuznetsova,O.I. and Goryunov,D.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2015) Herbarium, Main Botanical Garden of Russian
+            Academy of Sciences, Botanicheskaya str., 4, Moscow 127276, Russia
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Dicranum dispersum"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="19.VII.2005, Bersanova, s.n. (MHA)"
+                     /db_xref="taxon:1510173"
+                     /country="Russia: Ingushetia"
+     misc_RNA        <1..257
+                     /product="internal transcribed spacer 1"
+     rRNA            258..415
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        416..>728
+                     /product="internal transcribed spacer 2"
+ORIGIN      
+        1 cacacacaaa gttgcagcaa acctccagcg aacgtcgtga tcgtcccctt ggctggtttc
+       61 gttggcggag cgggcgttgc tcgctgcgtc gcggagccgg ccaacccagg gagtggaact
+      121 ctgctccctg gggcaaaacc caaaccgatt gcgcaatgca tcgacacctc cgatatgact
+      181 gagttatgag aagcgagtgg tgggggcgct ccgggcgacc ggagcgctca tcacgacgag
+      241 ttgtgatttg aaacaaaaac aactctcagc aacggatatc ttggctcttg caacgatgaa
+      301 gaacgcagcg aaatgcgata cgtagtgtga attgcagaat tccgcgaatc atcgagtctt
+      361 tgaacgcaag ttgcgcccga ggcttgacca agggcatccc tgccagagcg tcaccgcgac
+      421 acccaccaat ccactcccag ctcgactggg aggtgcgact gagtgaaact ggccatccgg
+      481 atgggggcca cgccccggga cttcgtgtgc ccttgggggg tggcacagat tgggttggtt
+      541 gaaatggagg gaatttggcc gccgtggtga cacagcccgc gatcaggtga tccgggtctc
+      601 atcttgggaa aactctaagt gtggtgctgt gtcccccagt tggtaacgag gattccaaag
+      661 caggtcccgg tgactccccc gcgccccgac tccttgcctt gcgctcggag ggagggagag
+      721 ggagtccc
+//
+LOCUS       KT580736                 728 bp    DNA     linear   PLN 09-FEB-2016
+DEFINITION  Dicranum dispersum voucher 27.VII.1999, L.Krivobokov, #Op.113 (UUH)
+            internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA
+            gene, complete sequence; and internal transcribed spacer 2, partial
+            sequence.
+ACCESSION   KT580736
+VERSION     KT580736.1  GI:985651303
+KEYWORDS    .
+SOURCE      Dicranum dispersum
+  ORGANISM  Dicranum dispersum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Bryophyta;
+            Bryophytina; Bryopsida; Dicranidae; Dicranales; Dicranaceae;
+            Dicranum.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Ignatova,E.A., Tubanova,D.Y., Tumurova,O.D., Goryunov,D.V. and
+            Kuznetsova,O.I.
+  TITLE     When the plant size matters: a new semi-cryptic species of Dicranum
+            from Russia
+  JOURNAL   Arctoa 24 (2), 471-488 (2015)
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Ignatova,E.A., Tubanova,D.Y., Kuznetsova,O.I. and Goryunov,D.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2015) Herbarium, Main Botanical Garden of Russian
+            Academy of Sciences, Botanicheskaya str., 4, Moscow 127276, Russia
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Dicranum dispersum"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="27.VII.1999, L.Krivobokov, #Op.113
+                     (UUH)"
+                     /db_xref="taxon:1510173"
+                     /country="Russia: Buryatia"
+     misc_RNA        <1..257
+                     /product="internal transcribed spacer 1"
+     rRNA            258..415
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        416..>728
+                     /product="internal transcribed spacer 2"
+ORIGIN      
+        1 cacacacaaa gttgcagcaa acctccagcg aacgtcgtga tcgtcccctt ggctggtttc
+       61 gttggcggag cgggcgttgc tcgctgcgtc gcggagccgg ccaacccagg gagtggaact
+      121 ctgctccctg gggcaaaacc caaaccgatt gcgcaatgca tcgacacctc cgatatgact
+      181 gagttatgag aagcgagtgg tgggggcgct ccgggcgacc ggagcgctca tcacgacgag
+      241 ttgtgatttg aaacaaaaac aactctcagc aacggatatc ttggctcttg caacgatgaa
+      301 gaacgcagcg aaatgcgata cgtagtgtga attgcagaat tccgcgaatc atcgagtctt
+      361 tgaacgcaag ttgcgcccga ggcttgacca agggcatccc tgccagagcg tcaccgcgac
+      421 acccaccaat ccactcccag ctcgactggg aggtgcgact gagtgaaact ggccatccgg
+      481 atgggggcca cgccccggga cttcgtgtgc ccttgggggg tggcacagat tgggttggtt
+      541 gaaatggagg gaatttggcc gccgtggtga cacagcccgc gatcaggtga tccgggtctc
+      601 atcttgggaa aactctaagt gtggtgctgt gtcccccagt tggtaacgag gattccaaag
+      661 caggtcccgg tgactccccc gcgccccgac tccttgcctt gcgctcggag ggagggagag
+      721 ggagtccc
+//
+LOCUS       KT580737                 728 bp    DNA     linear   PLN 09-FEB-2016
+DEFINITION  Dicranum dispersum voucher 10.VIII.2004, N.Dudareva, #04-35 (IRK)
+            internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA
+            gene, complete sequence; and internal transcribed spacer 2, partial
+            sequence.
+ACCESSION   KT580737
+VERSION     KT580737.1  GI:985651304
+KEYWORDS    .
+SOURCE      Dicranum dispersum
+  ORGANISM  Dicranum dispersum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Bryophyta;
+            Bryophytina; Bryopsida; Dicranidae; Dicranales; Dicranaceae;
+            Dicranum.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Ignatova,E.A., Tubanova,D.Y., Tumurova,O.D., Goryunov,D.V. and
+            Kuznetsova,O.I.
+  TITLE     When the plant size matters: a new semi-cryptic species of Dicranum
+            from Russia
+  JOURNAL   Arctoa 24 (2), 471-488 (2015)
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Ignatova,E.A., Tubanova,D.Y., Kuznetsova,O.I. and Goryunov,D.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2015) Herbarium, Main Botanical Garden of Russian
+            Academy of Sciences, Botanicheskaya str., 4, Moscow 127276, Russia
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Dicranum dispersum"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="10.VIII.2004, N.Dudareva, #04-35 (IRK)"
+                     /db_xref="taxon:1510173"
+                     /country="Russia: Irkutsk Province"
+     misc_RNA        <1..257
+                     /product="internal transcribed spacer 1"
+     rRNA            258..415
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        416..>728
+                     /product="internal transcribed spacer 2"
+ORIGIN      
+        1 cacacacaaa gttgcagcaa acctccagcg aacgtcgtga tcgtcccctt ggctggtttc
+       61 gttggcggag cgggcgttgc tcgctgcgtc gcggagccgg ccaacccagg gagtggaact
+      121 ctgctccctg gggcaaaacc caaaccgatt gcgcaatgca tcgacacctc cgatatgact
+      181 gagttatgag aagcgagtgg tgggggcgct ccgggcgacc ggagcgctca tcacgacgag
+      241 ttgtgatttg aaacaaaaac aactctcagc aacggatatc ttggctcttg caacgatgaa
+      301 gaacgcagcg aaatgcgata cgtagtgtga attgcagaat tccgcgaatc atcgagtctt
+      361 tgaacgcaag ttgcgcccga ggcttgacca agggcatccc tgccagagcg tcaccgcgac
+      421 acccaccaat ccactcccag ctcgactggg aggtgcgact gagtgaaact ggccatccgg
+      481 atgggggcca cgccccggga cttcgtgtgc ccttgggggg tggcacagat tgggttggtt
+      541 gaaatggagg gaatttggcc gccgtggtga cacagcccgc gatcaggtga tccgggtctc
+      601 atcttgggaa aactctaagt gtggtgctgt gtcccccagt tggtaacgag gattccaaag
+      661 caggtcccgg tgactccccc gcgccccgac tccttgcctt gcgctcggag ggagggagag
+      721 ggagtccc
+//
+LOCUS       KT580738                 728 bp    DNA     linear   PLN 09-FEB-2016
+DEFINITION  Dicranum dispersum voucher 18.VII.2010, D.Tubanova, #Kyakh-6/10
+            (UUH) internal transcribed spacer 1, partial sequence; 5.8S
+            ribosomal RNA gene, complete sequence; and internal transcribed
+            spacer 2, partial sequence.
+ACCESSION   KT580738
+VERSION     KT580738.1  GI:985651305
+KEYWORDS    .
+SOURCE      Dicranum dispersum
+  ORGANISM  Dicranum dispersum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Bryophyta;
+            Bryophytina; Bryopsida; Dicranidae; Dicranales; Dicranaceae;
+            Dicranum.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Ignatova,E.A., Tubanova,D.Y., Tumurova,O.D., Goryunov,D.V. and
+            Kuznetsova,O.I.
+  TITLE     When the plant size matters: a new semi-cryptic species of Dicranum
+            from Russia
+  JOURNAL   Arctoa 24 (2), 471-488 (2015)
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Ignatova,E.A., Tubanova,D.Y., Kuznetsova,O.I. and Goryunov,D.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2015) Herbarium, Main Botanical Garden of Russian
+            Academy of Sciences, Botanicheskaya str., 4, Moscow 127276, Russia
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Dicranum dispersum"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="18.VII.2010, D.Tubanova, #Kyakh-6/10
+                     (UUH)"
+                     /db_xref="taxon:1510173"
+                     /country="Russia: Buryatia"
+     misc_RNA        <1..257
+                     /product="internal transcribed spacer 1"
+     rRNA            258..415
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        416..>728
+                     /product="internal transcribed spacer 2"
+ORIGIN      
+        1 cacacacaaa gttgcagcaa acctccagcg aacgtcgtga tcgtcccctt ggctggtttc
+       61 gttggcggag cgggcgttgc tcgctgcgtc gcggagccgg ccaacccagg gagtggaact
+      121 ctgctccctg gggcaaaacc caaaccgatt gcgcaatgca tcgacacctc cgatatgact
+      181 gagttatgag aagcgagtgg tgggggcgct ccgggcgacc ggagcgctca tcacgacgag
+      241 ttgtgatttg aaacaaaaac aactctcagc aacggatatc ttggctcttg caacgatgaa
+      301 gaacgcagcg aaatgcgata cgtagtgtga attgcagaat tccgcgaatc atcgagtctt
+      361 tgaacgcaag ttgcgcccga ggcttgacca agggcatccc tgccagagcg tcaccgcgac
+      421 acccaccaat ccactcccag ctcgactggg aggtgcgact gagtgaaact ggccatccgg
+      481 atgggggcca cgccccggga cttcgtgtgc ccttgggggg tggcacagat tgggttggtt
+      541 gaaatggagg gaatttggcc gccgtggtga cacagcccgc gatcaggtga tccgggtctc
+      601 atcttgggaa aactctaagt gtggtgctgt gtcccccagt tggtaacgag gattccaaag
+      661 caggtcccgg tgactccccc gcgccccgac tccttgcctt gcgctcggag ggagggagag
+      721 ggagtccc
+//
+LOCUS       KT580739                 728 bp    DNA     linear   PLN 09-FEB-2016
+DEFINITION  Dicranum dispersum voucher 10.VII.2004, Breen, #T001-3B (LE)
+            internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA
+            gene, complete sequence; and internal transcribed spacer 2, partial
+            sequence.
+ACCESSION   KT580739
+VERSION     KT580739.1  GI:985651306
+KEYWORDS    .
+SOURCE      Dicranum dispersum
+  ORGANISM  Dicranum dispersum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Bryophyta;
+            Bryophytina; Bryopsida; Dicranidae; Dicranales; Dicranaceae;
+            Dicranum.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Ignatova,E.A., Tubanova,D.Y., Tumurova,O.D., Goryunov,D.V. and
+            Kuznetsova,O.I.
+  TITLE     When the plant size matters: a new semi-cryptic species of Dicranum
+            from Russia
+  JOURNAL   Arctoa 24 (2), 471-488 (2015)
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Ignatova,E.A., Tubanova,D.Y., Kuznetsova,O.I. and Goryunov,D.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2015) Herbarium, Main Botanical Garden of Russian
+            Academy of Sciences, Botanicheskaya str., 4, Moscow 127276, Russia
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Dicranum dispersum"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="10.VII.2004, Breen, #T001-3B (LE)"
+                     /db_xref="taxon:1510173"
+                     /country="USA: Alaska"
+     misc_RNA        <1..257
+                     /product="internal transcribed spacer 1"
+     rRNA            258..415
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        416..>728
+                     /product="internal transcribed spacer 2"
+ORIGIN      
+        1 cacacacaaa gttgcagcaa acctccagcg aacgtcgtga tcgtcccctt ggctggtttc
+       61 gttggcggag cgggcgttgc tcgctgcgtc gcggagccgg ccaacccagg gagtggaact
+      121 ctgctccctg gggcaaaacc caaaccgatt gcgcaatgca tcgacacctc cgatatgact
+      181 gagttatgag aagcgagtgg tgggggcgct ccgggcgacc ggagcgctca tcacgacgag
+      241 ttgtgatttg aaacaaaaac aactctcagc aacggatatc ttggctcttg caacgatgaa
+      301 gaacgcagcg aaatgcgata cgtagtgtga attgcagaat tccgcgaatc atcgagtctt
+      361 tgaacgcaag ttgcgcccga ggcttgacca agggcatccc tgccagagcg tcaccgcgac
+      421 acccaccaat ccactcccag ctcgactggg aggtgcgact gagtgaaact ggccatccgg
+      481 atgggggcca cgccccggga cttcgtgtgc ccttgggggg tggcacagat tgggttggtt
+      541 gaaatggagg gaatttggcc gccgtggtga cacagcccgc gatcaggtga tccgggtctc
+      601 atcttgggaa aactctaagt gtggtgctgt gtcccccagt tggtaacgag gattccaaag
+      661 caggtcccgg tgactccccc gcgccccgac tccttgcctt gcgctcggag ggagggagag
+      721 ggagtccc
+//
+LOCUS       KT580740                 728 bp    DNA     linear   PLN 09-FEB-2016
+DEFINITION  Dicranum dispersum voucher 19.V.2009, M.Ignatov, E.Ignatova,
+            #09-189 (MHA) internal transcribed spacer 1, partial sequence; 5.8S
+            ribosomal RNA gene, complete sequence; and internal transcribed
+            spacer 2, partial sequence.
+ACCESSION   KT580740
+VERSION     KT580740.1  GI:985651307
+KEYWORDS    .
+SOURCE      Dicranum dispersum
+  ORGANISM  Dicranum dispersum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Bryophyta;
+            Bryophytina; Bryopsida; Dicranidae; Dicranales; Dicranaceae;
+            Dicranum.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Ignatova,E.A., Tubanova,D.Y., Tumurova,O.D., Goryunov,D.V. and
+            Kuznetsova,O.I.
+  TITLE     When the plant size matters: a new semi-cryptic species of Dicranum
+            from Russia
+  JOURNAL   Arctoa 24 (2), 471-488 (2015)
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Ignatova,E.A., Tubanova,D.Y., Kuznetsova,O.I. and Goryunov,D.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2015) Herbarium, Main Botanical Garden of Russian
+            Academy of Sciences, Botanicheskaya str., 4, Moscow 127276, Russia
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Dicranum dispersum"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="19.V.2009, M.Ignatov, E.Ignatova,
+                     #09-189 (MHA)"
+                     /db_xref="taxon:1510173"
+                     /country="Russia: Dagestan"
+     misc_RNA        <1..257
+                     /product="internal transcribed spacer 1"
+     rRNA            258..415
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        416..>728
+                     /product="internal transcribed spacer 2"
+ORIGIN      
+        1 cacacacaaa gttgcagcaa acctccagcg aacgtcgtga tcgtcccctt ggctggtttc
+       61 gttggcggag cgggcgttgc tcgctgcgtc gcggagccgg ccaacccagg gagtggaact
+      121 ntgctccctg gggcaaaacc caaaccgatt gcgcaatgca tcgacacctc cgatatgact
+      181 gagttatgag aagcgagtgg tgggggcgct ccgggcgacc ggagcgctca tcacgacgag
+      241 ttgtgatttg aaacaaaaac aactctcagc aacggatatc ttggctcttg caacgatgaa
+      301 gaacgcagcg aaatgcgata cgtagtgtga attgcagaat tccgcgaatc atcgagtctt
+      361 tgaacgcaag ttgcgcccga ggcttgacca agggcatccc tgccagagcg tcaccgcgac
+      421 acccaccaat ccactcccag ctcgactggg aggtgcgact gagtgaaact ggccatccgg
+      481 atgggggcca cgccccggga cttcgtgtgc ccttgggggg tggcacagat tgggttggtt
+      541 gaaatggagg gaatttggcc gccgtggtga cacagcccgc gatcaggtga tccgggtctc
+      601 atcttgggaa aactctaagt gtggtgctgt gtcccccagt tggtaacgag gattccaaag
+      661 caggtcccgg tgactccccc gcgccccgac tccttgcctt gcgctcggag ggagggagag
+      721 ggagtccc
+//
+LOCUS       KT580753                 728 bp    DNA     linear   PLN 09-FEB-2016
+DEFINITION  Dicranum orientale voucher 01.VIII.1995, T.Otnyukova, s.n. (MHA)
+            internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA
+            gene, complete sequence; and internal transcribed spacer 2, partial
+            sequence.
+ACCESSION   KT580753
+VERSION     KT580753.1  GI:985651320
+KEYWORDS    .
+SOURCE      Dicranum orientale
+  ORGANISM  Dicranum orientale
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Bryophyta;
+            Bryophytina; Bryopsida; Dicranidae; Dicranales; Dicranaceae;
+            Dicranum.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Ignatova,E.A., Tubanova,D.Y., Tumurova,O.D., Goryunov,D.V. and
+            Kuznetsova,O.I.
+  TITLE     When the plant size matters: a new semi-cryptic species of Dicranum
+            from Russia
+  JOURNAL   Arctoa 24 (2), 471-488 (2015)
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Ignatova,E.A., Tubanova,D.Y., Kuznetsova,O.I. and Goryunov,D.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2015) Herbarium, Main Botanical Garden of Russian
+            Academy of Sciences, Botanicheskaya str., 4, Moscow 127276, Russia
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Dicranum orientale"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="01.VIII.1995, T.Otnyukova, s.n. (MHA)"
+                     /type_material="isotype of Dicranum orientale"
+                     /db_xref="taxon:1792295"
+                     /country="Russia: Tyva"
+                     /note="isotype"
+     misc_RNA        <1..257
+                     /product="internal transcribed spacer 1"
+     rRNA            258..415
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        416..>728
+                     /product="internal transcribed spacer 2"
+ORIGIN      
+        1 cacacacaaa gttgcagcaa acctccagcg aacgtcgtga tcgtcccctt ggctggtttc
+       61 gttggcggag cgggcgttgc tcgctgcgtc gcggagccgg ccaacccagg gagtggaact
+      121 ctgctccctg gggcaaaacc caaaccgatt gcgcaatgca tcgacacctc cgatatgact
+      181 gagttatgag aagcgagtgg tgggggcgct ccgggcgacc ggagcgctca tcacgacgag
+      241 ttgtgattnn aaacaaaaac annnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      301 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn ntcgagtctt
+      361 tgnacgcaag ttgcgcccga ggcttgacca agggcatccc tgccagagcg tcaccgcgac
+      421 acccaccaat ccactcccag ctcgactggg aggtgcgact gagtgaaact ggccatccgg
+      481 atgggggcca cgccccggga cttcgtgtgc ccttgggggg tggcacagat tgggttggtt
+      541 gaaatggagg gaatttggcc gccgtggtga cacagcccgc gatcaggtga tccgggtctc
+      601 atcttgggaa aactctaagt gtggtgctgt gtcccccagt tggtaacgag gattccaaag
+      661 caggtcccgg tgactccccc gcgccccgac tccttgcctt gcgctcggan ggagggagag
+      721 ggagtccc
+//
+LOCUS       KT778759                 728 bp    DNA     linear   PLN 01-MAR-2016
+DEFINITION  Dendrobium densiflorum voucher NRCO/Gen/Den-51/1 internal
+            transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene,
+            complete sequence; and internal transcribed spacer 2, partial
+            sequence.
+ACCESSION   KT778759
+VERSION     KT778759.1  GI:1000907428
+KEYWORDS    .
+SOURCE      Dendrobium densiflorum
+  ORGANISM  Dendrobium densiflorum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Asparagales; Orchidaceae;
+            Epidendroideae; Malaxideae; Dendrobiinae; Dendrobium.
+REFERENCE   1  (bases 1 to 728)
+  AUTHORS   Chakrabarti,S., Mahadani,P., Jain,S.K. and Sevanthi,A.M.
+  TITLE     Authentication of medicinal Dendrobium (Orchidaceae) species
+            through DNA barcoding from Northeast India
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 728)
+  AUTHORS   Chakrabarti,S., Mahadani,P., Jain,S.K. and Sevanthi,A.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-SEP-2015) Genetics, ICAR-National Research Centre for
+            Orchids, Dickling Road, Pakyong, Gangtok, Sikkim 737106, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..728
+                     /organism="Dendrobium densiflorum"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NRCO/Gen/Den-51/1"
+                     /db_xref="taxon:161866"
+                     /country="India"
+                     /lat_lon="27.14 N 88.34 E"
+                     /collection_date="12-May-2013"
+                     /collected_by="S K Jain"
+     misc_RNA        <1..>728
+                     /note="contains internal transcribed spacer 1, 5.8S
+                     ribosomal RNA, internal transcribed spacer 2"
+ORIGIN      
+        1 ggtgaacctg cggaaggatc attgtcgaga ccaaaataca tcgagcgatt tggagaaccg
+       61 gtcaaaataa gcggtgacta ttatttccgc gaaaaaagcc atcctggtcg ttacctcata
+      121 tccccttggg ggcgaggatg cgattaggga tggatgaaca ctcaatccgg cgcagcatcg
+      181 cgccaaggga aatatcgaaa cactagccct taaacgggtt tggtggaatg gggtgctgtt
+      241 gcacgccata tggattgaca cgactctcgg caatggatat ctcggctcac gcatcgatga
+      301 agagcgcagc gaaatgcgat acgtggtgcg aattgcagaa tcccgcgaac catcgagtct
+      361 ttgaacgcaa gttgcgcccg aggccaaccg gccaagggca cgtctgcctg ggcgtcaagc
+      421 gttatgtcgc tccgtgttaa ctccatccca tcgatgtatg ggctggcgaa ggctcggatg
+      481 tgcagtgtgg ctcgtcgtgc cccttggtgc ggcgagctga aaagcgggta atcatctcgt
+      541 tggctgcgaa cgataagggg tggattaaag cgagacctat gttattgtgt cgtgtatgcc
+      601 cgagagaaga ttatacatac tcaggtgatc ctgaatcatg cgtcgatcaa aggacggcgc
+      661 ttggaatgcg accccaggat gggcgaggcc acccgccgag tttaagcata ttaataagcg
+      721 gaggagag
+//
+LOCUS       GQ902939                 331 bp    DNA     linear   PLN 27-DEC-2009
+DEFINITION  Podosphaera xanthii voucher LSUM 185359 internal transcribed spacer
+            1, partial sequence; and 5.8S ribosomal RNA gene and internal
+            transcribed spacer 2, complete sequence.
+ACCESSION   GQ902939
+VERSION     GQ902939.1
+KEYWORDS    .
+SOURCE      Podosphaera xanthii
+  ORGANISM  Podosphaera xanthii
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Leotiomycetes; Erysiphales; Erysiphaceae; Podosphaera.
+REFERENCE   1  (bases 1 to 331)
+  AUTHORS   Singh,R., Ferrin,D.M. and Aime,M.C.
+  TITLE     First report of powdery mildew caused by Podosphaera xanthii on
+            Sechium edule in the United States
+  JOURNAL   Plant Dis. 93 (12), 1348 (2009)
+REFERENCE   2  (bases 1 to 331)
+  AUTHORS   Singh,R., Ferrin,D.M. and Aime,M.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-SEP-2009) Plant Pathology and Crop Physiology,
+            Louisiana State University, 302 Life Science Building, Baton Rouge,
+            LA 70803, USA
+FEATURES             Location/Qualifiers
+     source          1..331
+                     /organism="Podosphaera xanthii"
+                     /mol_type="genomic DNA"
+                     /host="Sechium edule"
+                     /specimen_voucher="LSUM 185359"
+                     /db_xref="taxon:135283"
+     misc_RNA        <1..32
+                     /product="internal transcribed spacer 1"
+     rRNA            33..185
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        186..331
+                     /product="internal transcribed spacer 2"
+ORIGIN      
+        1 gtgagtgttg tctgaggaaa tgtggaatta gtaaaacttt caacaacgga tctcttggct
+       61 ctggcatcga tgaagaacgc agcgaaatgc gataagtaat gtgaattgca gaatttagtg
+      121 aatcatcgaa tctttgaacg cacattgcgc cccccggcat tccgaggggc atgcctgttc
+      181 gagcgtcaga acacccctca agcctagctt ggtcttgggg ctcgccggct cggcggcccc
+      241 taaacgcagt ggcggtgctg gtgtgctctc cgcgtagtca tgtatctcgc gacagagtgg
+      301 cgacggcacc cgccagaacc ccagtctttg g
+//
+
+
