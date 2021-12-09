@@ -16,6 +16,7 @@ set -euo pipefail
 # All ElasticBLAST configuration settings are specified in the config file
 CFG=${1}
 timeout_minutes=${2:-5}
+logfile=${3:-"elastic-blast.log"}
 set +e
 elb_results=`printenv ELB_RESULTS`
 set -e
@@ -25,7 +26,6 @@ fi
 
 DRY_RUN=''
 #DRY_RUN=--dry-run     # uncomment for debugging
-logfile=elastic-blast.log
 rm -f $logfile
 
 get_num_cores() {
@@ -64,7 +64,7 @@ while [ $attempts -lt $timeout_minutes ]; do
     if grep '^Pending 0' $TMP && grep '^Running 0' $TMP; then
         break
     fi
-    attempt=$((attempts+1))
+    attempts=$(($attempts+1))
     sleep 60
     #set -e
 done
@@ -79,6 +79,10 @@ else
 fi
 
 # Test results
-test $(du -a -b *.out.gz | sort -n | head -n 1 | cut -f 1) -gt 0
-find . -name "batch*.out.gz" -type f -print0 | xargs -0 -P $NTHREADS  -I{} gzip -t {}
+if compgen -G "batch*.out.gz" >/dev/null ; then
+    test $(du -a *.out.gz | sort -n | head -n 1 | cut -f 1) -gt 0
+    find . -name "batch*.out.gz" -type f -print0 | xargs -0 -P $NTHREADS  -I{} gzip -t {}
+else
+    echo "ElasticBLAST produced no results"
+fi
 elastic-blast delete --cfg $CFG --loglevel DEBUG --logfile $logfile $DRY_RUN

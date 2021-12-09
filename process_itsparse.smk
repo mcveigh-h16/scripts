@@ -1,10 +1,12 @@
 from Bio import SeqIO
 import functools
-#import pandas as pd
-
+import pandas as pd
+configfile: "config.yaml"
 gb_input = config['gb_input']
-rejects = config['rejects']
 final_tblout = config['final_tblout']
+split_size = config['split_size']
+feature_table = config['feature_table']
+rejects = config['rejects']
 
 rule all:
     input: 
@@ -59,7 +61,7 @@ checkpoint split_fasta:
     output: directory('split_fasta_files')
     shell:
         '''
-        /usr/local/seqkit/0.11.0/bin/seqkit split2 {input.stripped_fsa} -s 100 -O {output} -f
+        /usr/local/seqkit/0.11.0/bin/seqkit split2 {input.stripped_fsa} -s {split_size} -O {output} -f
         '''
 ## output files are 
 ## stripped.part_001.fsa  stripped.part_002.fsa
@@ -114,7 +116,7 @@ rule run_cmscan_df:
     output: 'cm_out/cm_tblout_{fapart}.df.txt'
     params: 
         cmdb = 'rrna.cm'
-    threads: 16
+    threads: 4
     log: 'log_files/cmscan_df_{fapart}.log'
     shell:
         '''
@@ -124,7 +126,7 @@ rule run_cmscan_df:
           --mid -T 20 --verbose \
           --tblout {output} \
           {params.cmdb} \
-          {input.rm_fa} > {log}
+          {input.rm_fa} > /dev/null 
         ''' 
 
 rule run_cmscan_at:
@@ -133,7 +135,7 @@ rule run_cmscan_at:
     output: 'cm_out/cm_tblout_{fapart}.at.txt'
     params: 
         cmdb = 'rrna.cm'
-    threads: 16
+    threads: 4
     log: 'log_files/cmscan_at_{fapart}.log'
     shell:
         '''
@@ -143,7 +145,7 @@ rule run_cmscan_at:
           --mid -T 20 --verbose --anytrunc \
           --tblout {output} \
           {params.cmdb} \
-          {input.rm_fa} > {log}
+          {input.rm_fa} > /dev/null 
         ''' 
 
 rule cm_deoverlap:
@@ -198,15 +200,15 @@ rule aggregate_ribodbmaker_files:
     shell:
         '''
         cat {input} > {output}        
-        '''   ## test line
+        '''   
 
 rule runParser:
     input:
         final_tblout,
         'final.ribomaker.fa',
     output:
-         'blast_fasta.fsa'
+         config['blast_fsa']
     shell:
         '''
-        python ParseCMscan1.65.py blast_fasta.fsa
+        /home/mcveigh/master/bin/python3 ParseCMscan1.67.py {output}
         '''

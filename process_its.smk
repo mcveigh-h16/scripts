@@ -12,7 +12,6 @@ rule all:
         'found.fsa',
         final_tblout,
         'final.ribomaker.fa',
-        'fasta_output',
 
 rule parse_input_gb:
     input:
@@ -59,7 +58,7 @@ checkpoint split_fasta:
     output: directory('split_fasta_files')
     shell:
         '''
-        /usr/local/seqkit/0.11.0/bin/seqkit split2 {input.stripped_fsa} -s 10 -O {output} -f
+        /usr/local/seqkit/0.11.0/bin/seqkit split2 {input.stripped_fsa} -s 100 -O {output} -f
         '''
 ## output files are 
 ## stripped.part_001.fsa  stripped.part_002.fsa
@@ -199,14 +198,3 @@ rule aggregate_ribodbmaker_files:
         '''
         cat {input} > {output}        
         '''   ## test line
-
-rule parse_cmscan:
-    input: 
-        'final.ribomaker.fa',
-        final_tblout
-    output: 
-        passing_fasta = 'fasta_output'
-    shell:
-        '''
-        python ParseCMscan1.65.py passing_fasta
-        '''

@@ -26,7 +26,7 @@ outputfile = sys.argv[2]
 #print(outputfile)
 
 #Read in the reject list and find the accession
-reject_file_name = (r'ITS_reject_seqs3.txt') 
+reject_file_name = (r'ITS_rejects') 
 rejectlist_df = pd.read_csv(reject_file_name, sep='\t', index_col=None, low_memory=False, header=None, names=["accession", "type", "reason"])
 rejectlist = rejectlist_df['accession']
 reject_list = set(rejectlist_df['accession'].tolist())
