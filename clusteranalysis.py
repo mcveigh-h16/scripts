@@ -5,6 +5,8 @@ Created on Fri May 22 13:08:02 2020
 @author: mcveigh
 """
 
+#script to parse cluster data from uclust, remove unneeded columns and add the organism names of the centroid
+
 import pandas as pd
 import os
 import sys

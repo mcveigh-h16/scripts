@@ -1,5 +1,6 @@
 virtualenv myenv 
-source myenv/bin/activate.csh
-pip install pandas
+source myenv/bin/activate
 pip install biopython
-python ParseCMscan1.65.py fullfungalnew.out
+pip install pandas
+
+python FindIdenticalSeqMixedOrg.py missing_bacteria_nocyanos.gbk missing_bacteria_nocyanos.unique

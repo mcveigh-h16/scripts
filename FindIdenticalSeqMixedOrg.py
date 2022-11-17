@@ -22,7 +22,9 @@ sequences = []
 sequencelength = []
 orgname = []
 uniquenames = []
+duplicatenames = []
 unique = []
+summary = []
 
 for seq_record in SeqIO.parse(inputfile, "genbank"):    
     #str_id = seq_record.id
@@ -33,8 +35,10 @@ for seq_record in SeqIO.parse(inputfile, "genbank"):
     #sequencelength.append(seqlength)
     if orgname not in uniquenames:
         uniquenames.append(orgname)
+    else:
+        duplicatenames.append(orgname)
 #print(uniquenames)       
-       
+print("duplicate names ", duplicatenames)       
 #Need to create a dictionary of all sequences with a uniquename and compare
 
 for name in uniquenames:
@@ -55,6 +59,7 @@ for name in uniquenames:
         else:
             d[record.seq] = [record]
             unique.append(record)
+            summary.append(record.id + '\t' + record.description)
 
 for record.seq, record_set in d.items():
     print (record.description + ': (' + str(len(record_set)) + ' sequence found)')
@@ -62,7 +67,11 @@ for record.seq, record_set in d.items():
         print ('identical seqs are: ' + record.id + " " + record.description)
 for record in unique:
     print ('uniques are: ' + record.id + " " + record.description)
-SeqIO.write(unique, outputfile, "fasta")              
+SeqIO.write(unique, outputfile, "fasta")  
+
+with open('summary.out', 'w') as fp:
+    for item in summary:
+        fp.write("%s\n" % item)   
 
 
 

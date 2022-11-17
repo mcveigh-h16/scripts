@@ -6,6 +6,7 @@ Created on Fri Apr  1 13:32:45 2022
 """
 #Feature Slicer to download genomes from an accession list extract 16S rRNA sequences and determine if the 16S genes in a single genome are identical. 
 #Identical sequences are disgarded from final outout. 
+#Current input file is .gbk file that must be generated in advance. Future update to have the script do this from an accession list in line 23
 
 import Bio
 import sys

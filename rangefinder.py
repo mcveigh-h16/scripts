@@ -7,8 +7,9 @@ Created on Fri May 27 09:46:50 2022
 
 ##Script takes an itemized list of accessions and compacts the list into hyphenated
 ##ranges wherever possible. Singles are listed and duplicates are dropped. 
-##Accessions with .version will generate an error. Add function to strip .version if needed
+##Versions are stripped from any accession.version
 ##RefSeq accesssion that are all zeros will also cause and error as these are not integers
+##RefSeq or WGS require editting the :2 or 2: fro the elif statement
 
 
 #all_accs = {'AF123456', 'AF123457', 'MT082704', 'MT082705', 'MT082706',
@@ -26,6 +27,7 @@ all_accs = readline
 final_list = []
 prev_acc = None 
 for acc in sorted(all_accs):
+    acc = acc.split('.')[0]
     if not prev_acc:
         new_accs = [acc]
     elif prev_acc[:2] == acc[:2] and int(prev_acc[2:]) + 1 == int(acc[2:]):
