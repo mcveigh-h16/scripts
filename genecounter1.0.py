@@ -5,6 +5,7 @@ Created on Wed Oct 26 08:14:58 2022
 @author: mcveigh
 """
 #script to count gene names and protein names from a gbk file and tally the results
+#accession prefixes in rejectacc are excluded
 #output to a tab delimited file
 
 
@@ -33,6 +34,7 @@ ghash = []
 inputfile = sys.argv[1]
 lastgfile = sys.argv[2]
 #fh = open(lastgfile)
+rejectacc = ["AP", "BS", "AL", "BX", "CR", "CT", "CU", "FP", "FQ", "FR", "AE", "CP", "CY"]
 
 startTime = datetime.now()
 print("Start time is ", startTime)
@@ -40,27 +42,33 @@ print("Start time is ", startTime)
 for seq_record in SeqIO.parse(inputfile, "genbank"): 
     seq_record.description = seq_record.annotations["organism"]
     orgname = seq_record.annotations["organism"]
-    #print(seq_record.id)
-    if orgname != "Severe acute respiratory syndrome coronavirus 2":
-        for feature in seq_record.features:
-            if feature.type == 'CDS':
-                protname = str(feature.qualifiers.get("product")) 
-                #protname = feature.qualifiers.get("product")
-                cdscount += 1
-                phash = seq_record.id, protname
-                phash = [sub.replace('[\'', '') for sub in phash]
-                phash = [sub.replace('\']', '') for sub in phash]
-                proteins.append(phash)
-            if feature.type == 'gene':
-                genename = str(feature.qualifiers.get("gene")) 
-                #genename = feature.qualifiers.get("gene")
-                genecount += 1
-                ghash = seq_record.id, genename
-                ghash = [sub.replace('[\'', '') for sub in ghash]
-                ghash = [sub.replace('\']', '') for sub in ghash]
-                genes.append(ghash)
-    #else:
-        #print(orgname)
+    str_id = str(seq_record.id)
+    #print("found acc", str_id)
+    two = str_id[:2]
+    if two not in rejectacc:   
+        #print("test2", str_id)
+        if orgname != "Severe acute respiratory syndrome coronavirus 2":
+            for feature in seq_record.features:
+                if feature.type == 'CDS':
+                    protname = str(feature.qualifiers.get("product")) 
+                    #protname = feature.qualifiers.get("product")
+                    cdscount += 1
+                    phash = seq_record.id, protname
+                    phash = [sub.replace('[\'', '') for sub in phash]
+                    phash = [sub.replace('\']', '') for sub in phash]
+                    proteins.append(phash)
+                if feature.type == 'gene':
+                    genename = str(feature.qualifiers.get("gene")) 
+                    #genename = feature.qualifiers.get("gene")
+                    genecount += 1
+                    ghash = seq_record.id, genename
+                    ghash = [sub.replace('[\'', '') for sub in ghash]
+                    ghash = [sub.replace('\']', '') for sub in ghash]
+                    genes.append(ghash)
+    elif two in rejectacc: 
+        print("reject accession found", str_id)
+        #else:
+            #print(orgname)
             
 #print(genes)
 #print(proteins)
@@ -76,10 +84,9 @@ gene_df = pd.DataFrame(genes, columns=['accession', 'gene_name'])
 
 genecount_df = gene_df.groupby('gene_name').size().sort_values(ascending=False).reset_index()
 genecount_df.rename( columns={0 :'count1'}, inplace=True )
-print("genecount df")
+print("current genecount df")
 print(genecount_df.head(20))
 
-#need to add renaming of the columns so we sum the correct numbers in pd.concat and groupby in line 86
 #lastgcount_df = pd.read_csv(lastgfile, sep='\t', index_col=None, usecols=[1,2,3], na_values=['-'], names=["gene", "count1x","count1"])
 lastgcount_df = pd.read_csv(lastgfile, sep='\t', index_col=None, usecols=[1,2,3], na_values=['-'])
 lastgcount_df.rename(columns={"count1_x": "lastcount", "count1_y": "count1"}, inplace=True)
