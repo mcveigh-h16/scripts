@@ -52,7 +52,7 @@ for seq_record in SeqIO.parse(inputfile, "genbank"):
                 else:
                     print(str(str_id)+" has no small subunit ribosomal RNA features")
 
-SeqIO.write(sequence, outputfile, "fasta")  
+SeqIOwrite(sequence, outputfile, "fasta")  .
     
 fh = open(outputfile)
 n = 0

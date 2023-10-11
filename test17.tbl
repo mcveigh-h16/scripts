@@ -1,0 +1,75 @@
+>Feature KX056429.1
+<1	>305	misc_RNA
+			note	contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature MF423712.1
+<1	>607	misc_RNA
+			note	contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature JN886794.1
+<1	>1134	misc_RNA
+			note	contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature JQ926239.1
+<1	>1627	misc_RNA
+			note	contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature KP132932.1
+<1	>358	misc_RNA
+			note	contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature Z78533.1
+<1	>740	misc_RNA
+			note	contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature KY249280.1
+<1	>554	misc_RNA
+			note	contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature KY102215.1
+<1	>504	misc_RNA
+			note	contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2
+>Feature AF444523.1
+<1	>597	misc_RNA
+			note	contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature LN713285.1
+<1	>515	misc_RNA
+			note	contains internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2
+>Feature DQ779988.1
+<1	>5703	misc_RNA
+			note	contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature MF197902.1
+<1	>247	misc_RNA
+			note	contains internal transcribed spacer 1 and 5.8S ribosomal RNA
+>Feature MF115406.1
+<1	>419	misc_RNA
+			note	contains 5.8S ribosomal RNA and internal transcribed spacer 2
+>Feature MK573924.1
+<1	>877	misc_RNA
+			note	contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature KX228276.1
+<1	>557	misc_RNA
+			note	contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature MF488993.1
+<1	>2034	misc_RNA
+			note	contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature JN222142.1
+<1	>592	misc_RNA
+			note	contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature JQ911588.1
+<1	>1233	misc_RNA
+			note	contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature GQ353373.1
+<1	>972	misc_RNA
+			note	contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature AB278187.1
+<1	>2202	misc_RNA
+			note	contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature FR716682.1
+<1	>1151	misc_RNA
+			note	contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature MF429777.1
+<1	>704	misc_RNA
+			note	contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2
+>Feature LR744067.1
+<1	>581	misc_RNA
+			note	contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA
+>Feature KM603619.1
+<1	>250	rRNA
+			product	large subunit ribosomal RNA
+>Feature KC249997.1
+<1	>3756	rRNA
+			product	large subunit ribosomal RNA

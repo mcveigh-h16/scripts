@@ -3,12 +3,12 @@
 Created on Fri Jan 24 08:39:05 2020
 
 @author: mcveigh
+
+processITS designed to validate ITS sequences. Sequences that pass all tests are saved to a outfile file in fasta format
+Selectively sort GenBank flatfiles removing selected seqeunces and saving them to a new fasta file
+User must specify the input filename and the outputfile name
 """
 
-#
-# processITS designed to validate ITS sequences. Sequences that pass all tests are saved to a outfile file in fasta format
-# Selectively sort GenBank flatfiles removing selected seqeunces and saving them to a new fasta file
-# User must specify the input filename and the outputfile name
 
 import pandas as pd
 import Bio
@@ -26,7 +26,7 @@ outputfile = sys.argv[2]
 #print(outputfile)
 
 #Read in the reject list and find the accession
-reject_file_name = (r'ITS_rejects') 
+reject_file_name = (r'ITS_reject_seqs3.txt') 
 rejectlist_df = pd.read_csv(reject_file_name, sep='\t', index_col=None, low_memory=False, header=None, names=["accession", "type", "reason"])
 rejectlist = rejectlist_df['accession']
 reject_list = set(rejectlist_df['accession'].tolist())
@@ -106,7 +106,6 @@ CMscan_df2 = CMscan_df[CMscan_df['gene'] != "5S_rRNA"]
 #Find sequences on the minus strand
 
 #Find sequences that have truncated models
-#truncatedSSU = CMscan_df2[CMscan_df2['trunc'] == "5'&3'"]
 truncated=CMscan_df2.loc[(CMscan_df2['gene'] != "5_8S_rRNA") & (CMscan_df2['trunc'] == "5'&3'")]
 print("I found truncated models suggesting the presence of an intron\n ", truncated)
 #truncatedLSU = CMscan_df2[CMscan_df2['trunc'] == "5'&3'"]
@@ -239,7 +238,7 @@ for seq_record in SeqIO.parse("ribo-out/ribo-out.ribodbmaker.full.fa", "fasta"):
 #Check for Mixed Strand, Noncontiguous and Misassembled Sequences    
     if seq_record.id in AnyPlus['accession'].tolist():
         if seq_record.id in AnyMinus['accession'].tolist():
-            print(seq_record.id, "Mixed strand sequence")
+            print(seq_record.id, "Mixed strand sequence 0")
             misassembled.append(s)
             removeacc.append(seq_record.id)
         if seq_record.id in SSU_RNA_df['accession'].tolist():
@@ -347,6 +346,7 @@ for seq_record in SeqIO.parse("ribo-out/ribo-out.ribodbmaker.full.fa", "fasta"):
                 else:
                     seq_record.description = seq_record.description + ">"
                 sequences.append(s)
+                
 SeqIO.write(sequences, outputfile, "fasta")  
 #SeqIO.write(missingRNA, "missing5_8.fsa", "fasta")
 

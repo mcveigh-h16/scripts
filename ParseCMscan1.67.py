@@ -11,7 +11,7 @@ import Bio
 import os
 import sys
 
-#inputfile = sys.argv[1]
+#"inputfile = sys.argv[1]
 outputfile = sys.argv[1]
 
 #Parse the final results of CMscan, sort and write fasta files
@@ -118,6 +118,8 @@ minus_strand_acc = []
 
 #for seq_record in SeqIO.parse("ribo-out/ribo-out.ribodbmaker.final.fa", "fasta"): 
 for seq_record in SeqIO.parse("final.ribomaker.fa", "fasta"): 
+#for seq_record in SeqIO.parse("full_lengthITS_110.fsa", "fasta"):
+#for seq_record in SeqIO.parse("stripped.fsa", "fasta"):
     s = seq_record
     start = []
     to = []
@@ -168,7 +170,7 @@ for seq_record in SeqIO.parse("final.ribomaker.fa", "fasta"):
 #Check for Mixed Strand, Noncontiguous and Misassembled Sequences    
     if seq_record.id in AnyPlus['accession'].tolist():
         if seq_record.id in AnyMinus['accession'].tolist():
-            print(seq_record.id, "Mixed strand sequence")
+            print(seq_record.id, "Mixed strand sequence 0")
             misassembled.append(s)
             removeacc.append(seq_record.id)
         if seq_record.id in SSU_RNA_df['accession'].tolist():

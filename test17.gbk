@@ -1,0 +1,2594 @@
+LOCUS       KM603619                 250 bp    DNA     linear   PLN 09-DEC-2014
+DEFINITION  Saccharomyces cerevisiae internal transcribed spacer 1, partial sequence.
+ACCESSION   KM603619
+VERSION     KM603619.1
+KEYWORDS    .
+SOURCE      Saccharomyces cerevisiae (baker's yeast)
+  ORGANISM  Saccharomyces cerevisiae
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; Saccharomycetaceae;:Q
+            Saccharomyces.
+REFERENCE   1  (bases 1 to 250)
+  AUTHORS   Sarma,H.K., Mishra,A.K., Parasar,D.P., Verma,E. and Nath,B.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-AUG-2014) Biotechnology, Gauhati University, Gopinath
+            Bordoloi Nagar, Guwahati, Assam 781014, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..250
+                     /organism="Saccharomyces cerevisiae"
+                     /mol_type="genomic DNA"
+                     /isolate="E2"
+                     /isolation_source="fermentative cake"
+                     /specimen_voucher="KR4.10Y"
+                     /db_xref="taxon:4932"
+                     /country="India"
+                     /lat_lon="26.2026 N 93.0304 E"
+                     /collection_date="27-Jun-2013"
+                     /collected_by="Parasar D. P."
+     misc_RNA        <1..>250
+                     /product="internal transcribed spacer 1"
+ORIGIN      
+        1 agcatgagag cttttactgg gcaagaaaac aaaagatgga gagtccagcc gggcctgcgc
+       61 ttaagtgccc ggacttgcta ggcttgtaag tttctttctt gctattccaa acggtgagag
+      121 atttctgtgc ttttgttata ggacaattaa aaccgtttca atacaacaca ctgtggagtt
+      181 ttcatatctt tgcaactttt tctttgggca ttcaagcaat cggggcccag aggtaacaaa
+      241 cacaaacaat
+//
+LOCUS       KX056429                 305 bp    DNA     linear   PLN 02-JAN-2017
+DEFINITION  Alternaria alternata strain AA1 18S ribosomal RNA gene, partial
+            sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene,
+            and internal transcribed spacer 2, complete sequence; and 28S
+            ribosomal RNA gene, partial sequence.
+ACCESSION   KX056429
+VERSION     KX056429.1  GI:1126133970
+KEYWORDS    .
+SOURCE      Alternaria alternata
+  ORGANISM  Alternaria alternata
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Pleosporomycetidae; Pleosporales; Pleosporineae;
+            Pleosporaceae; Alternaria; Alternaria sect. Alternaria; Alternaria
+            alternata complex.
+REFERENCE   1  (bases 1 to 305)
+  AUTHORS   Aiello,D., Cinquerrui,A., Woudenberg,J.H.C., Groenewald,J.Z.,
+            Polizzi,G. and Crous,P.W.
+  TITLE     Non-host specificity and characterisation of Alternaria alternata
+            isolates causing brown spot on citrus in Italy
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 305)
+  AUTHORS   Aiello,D., Cinquerrui,A., Woudenberg,J.H.C., Groenewald,J.Z.,
+            Polizzi,G. and Crous,P.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2016) Agricultural, Food and environment,
+            University of Catania, S. Sofia 100, Catania 95123, Italy
+FEATURES             Location/Qualifiers
+     source          1..305
+                     /organism="Alternaria alternata"
+                     /mol_type="genomic DNA"
+                     /strain="AA1"
+                     /isolation_source="leaf"
+                     /host="Citrus reticulata"
+                     /db_xref="taxon:5599"
+                     /country="Italy"
+                     /collection_date="2013"
+                     /collected_by="D._Aiello"
+     rRNA            <1..117
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        118..279
+                     /product="internal transcribed spacer 2"
+     rRNA            280..>305
+                     /product="28S ribosomal RNA"
+BASE COUNT       71 a     72 c     74 g     88 t
+ORIGIN      
+        1 aagaacgcag cgaaatgcga taagtagtgt gaattgcaga attcagtgaa tcatcgaatc
+       61 tttgaacgca cattgcgccc tttggtattc caaagggcat gcctgttcga gcgtcatttg
+      121 taccctcaag ctttgcttgg tgttgggcgt cttgtctcta gctttgctgg agactcgcct
+      181 taaagtaatt ggcagccggc ctactggttt cggagcgcag cacaagtcgc actctctatc
+      241 agcaaaggtc tagcatccat taagcctttt tttcaacttt tgacctcgga tcaggtaggg
+      301 atacc
+//
+
+LOCUS       MF423712                 607 bp    DNA     linear   PLN 10-JUL-2017
+DEFINITION  Schizophyllum commune culture MUT<ITA>:5570 small subunit ribosomal
+            RNA gene, partial sequence; internal transcribed spacer 1, 5.8S
+            ribosomal RNA gene, and internal transcribed spacer 2, complete
+            sequence; and large subunit ribosomal RNA gene, partial sequence.
+ACCESSION   MF423712
+VERSION     MF423712.1
+KEYWORDS    .
+SOURCE      Schizophyllum commune
+  ORGANISM  Schizophyllum commune
+            Eukaryota; Fungi; Dikarya; Basidiomycota; Agaricomycotina;
+            Agaricomycetes; Agaricomycetidae; Agaricales; Schizophyllaceae;
+            Schizophyllum.
+REFERENCE   1  (bases 1 to 607)
+  AUTHORS   Poli,A. and Varese,G.C.
+  TITLE     Basidiomycota from marine environment
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 607)
+  AUTHORS   Poli,A. and Varese,G.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JUN-2017) Department of Life Sciences and System
+            Biology, University of Turin, Viale Mattioli 25, Torino, TO 10125,
+            Italy
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..607
+                     /organism="Schizophyllum commune"
+                     /mol_type="genomic DNA"
+                     /isolation_source="fruiting body"
+                     /host="Acer pseudoplatanus"
+                     /culture_collection="MUT<ITA>:5570"
+                     /db_xref="taxon:5334"
+                     /country="Italy: Casale Monferrato (AL)"
+                     /collected_by="Pecollo D."
+     misc_RNA        <1..>607
+                     /note="contains small subunit ribosomal RNA, internal
+                     transcribed spacer 1, 5.8S ribosomal RNA, internal
+                     transcribed spacer 2, and large subunit ribosomal RNA"
+ORIGIN      
+        1 gcggaaggat cattaacgaa tcaaacaagt tcatcttgtt ctgatcctgt gcaccttatg
+       61 tagtcccaaa gccttcacgg gcggcggttg actacgtcta cctcacacct taaagtatgt
+      121 taacgaatgt aatcatggtc ttgacagacc ctaaaaagtt aatacaactt tcgacaacgg
+      181 atctcttggc tctcgcatcg atgaagaacg cagcgaaatg cgataagtaa tgtgaattgc
+      241 agaattcagt gaatcatcga atctttgaac gcaccttgcg ccctttggta ttccgagggg
+      301 catgcctgtt tgagtgtcat taaataccat caaccctctt ttgacttcgg tctcgagagt
+      361 ggcttggaag tggaggtctg ctggagccta acggagccag ctcctcttaa atgtattagc
+      421 ggatttccct tgcgggatcg cgtctccgat gtgataattt ctacgtcgtt gaccatctcg
+      481 gggctgacct agtcagtttc aataggagtc tgcttctaac cgtctcttga ccgagactag
+      541 cgacttgtgc gctaactttt gacttgacct caaatcaggt aggactaccc gctgaactta
+      601 agcatat
+//
+
+LOCUS       JN886794                1134 bp    DNA     linear   PLN 17-SEP-2012
+DEFINITION  Kabatiella harpospora strain F121513 18S ribosomal RNA gene,
+            partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA
+            gene, and internal transcribed spacer 2, complete sequence; and 28S
+            ribosomal RNA gene, partial sequence.
+ACCESSION   JN886794
+VERSION     JN886794.1
+KEYWORDS    .
+SOURCE      Kabatiella harpospora
+  ORGANISM  Kabatiella harpospora
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Dothideomycetidae; Dothideales; Saccotheciaceae;
+            Kabatiella.
+REFERENCE   1  (bases 1 to 1134)
+  AUTHORS   Bills,G.F., Menendez,V.G. and Platas,G.
+  TITLE     Kabatiella bupleuri sp. nov. (Dothideales), a pleomorphic epiphyte
+            and endophyte of the Mediterranean plant Bupleurum gibraltarium
+            (Apiaceae)
+  JOURNAL   Mycologia 104 (4), 962-973 (2012)
+   PUBMED   22495450
+REFERENCE   2  (bases 1 to 1134)
+  AUTHORS   Gonzalez,V., Platas,G. and Bills,G.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-OCT-2011) Microbiologia, Fundacion MEDINA, Centro de
+            Excelencia en Investigacion de Medicamentos Innovadores en
+            Andalucia, Avda. del Conocimiento 3. Edif. Centro de Desarrollo
+            Farmaceutico., Armilla, Granada 18100, Spain
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. Pro 5.5.2
+            Sequencing Technology :: 454
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1134
+                     /organism="Kabatiella harpospora"
+                     /mol_type="genomic DNA"
+                     /strain="F121513"
+                     /host="Viscum album"
+                     /db_xref="taxon:1217680"
+                     /country="Spain: Robledo de Chavela Madrid"
+     rRNA            <1..9
+                     /product="18S ribosomal RNA"
+     misc_RNA        10..211
+                     /product="internal transcribed spacer 1"
+     rRNA            212..369
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        370..538
+                     /product="internal transcribed spacer 2"
+     rRNA            539..>1134
+                     /product="28S ribosomal RNA"
+ORIGIN      
+        1 ggatcattac tgtagagcga agccgcgccg gtctcgaccg cgcggccgca cctctcaccc
+       61 tttgttgtta taaccacctc gttgctttgg cgggaccgcg gaggtcccaa cccgagcgcg
+      121 ccggtcttcg gacgggcgag cgcccgccag agtccaacca aactcttgtt tattcaaacc
+      181 agtcgtctga gtacaaaatt ttaattaaat taaaactttc aacaacggat ctcttggttc
+      241 tcgcatcgat gaagaacgca gcgaaatgcg ataagtaatg tgaattgcag aattcagtga
+      301 atcatcgaat ctttgaacgc acattgcgcc ccctggtatt ccggggggca tgcctgttcg
+      361 agcgtcatta caccactcaa gcacagcttg gtattgggcg ccgtcctcct cgcggggggc
+      421 gcgcctcgaa gacctcggcg gggtttctcc aacttcggac gtagtagagt taaatcaaaa
+      481 cgtctcaaga gcttgggggg gccccattgc cgtcaaaacc tttatatttt tttcaggttg
+      541 acctcggatc aggtagggat acccgctgaa cttaagcata tcaataagcg gaggaaaaga
+      601 aaccaacagg gattgcccta gtaacggcga gtgaagcggc aatagctcaa atttgaaagc
+      661 tggccttctg gtccgcattg taatttgtag aggatgcttt taggcagccg ccggtctaag
+      721 ttccttggaa caggacgtca tagagggtga gaatcccgta tgtgaccggc tctggcacct
+      781 tatgtaaagc tccttcgacg agtcgagttg tttgggaatg cagctctaaa tgggaggtaa
+      841 atttcttcta aagctaaata ccggcgagag accgatagcg cacaagtaga gtgatcgaaa
+      901 gatgaaaagc actttggaaa gagagttaaa aagcacgtga aattgttgaa agggaagcgc
+      961 ttgcaatcag acttggactt ggctgttcaa ccggtcttct gaccggccca ctcagtctcg
+     1021 tccaggccag catcagtttc ggcggccgga taaaggcccc gggaatgtag ctgccccccc
+     1081 gggggcagtg ttatagcccg gggtgtaata cggccagccg ggactgaggt ccgc
+//
+
+LOCUS       JQ926239                1627 bp    DNA     linear   PLN 06-NOV-2012
+DEFINITION  Melanconiella chrysodiscosporina strain MCHA 18S ribosomal RNA
+            gene, partial sequence; internal transcribed spacer 1, 5.8S
+            ribosomal RNA gene, and internal transcribed spacer 2, complete
+            sequence; and 28S ribosomal RNA gene, partial sequence.
+ACCESSION   JQ926239
+VERSION     JQ926239.1
+KEYWORDS    .
+SOURCE      Melanconiella chrysodiscosporina
+  ORGANISM  Melanconiella chrysodiscosporina
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Sordariomycetes; Sordariomycetidae; Diaporthales;
+            Melanconiellaceae; Melanconiella.
+REFERENCE   1  (bases 1 to 1627)
+  AUTHORS   Voglmayr,H., Rossman,A.Y., Castlebury,L.A. and Jaklitsch,W.M.
+  TITLE     Multigene phylogeny and taxonomy of the genus Melanconiella
+            (Diaporthales)
+  JOURNAL   Fungal Divers. 57 (1), 1-44 (2012)
+REFERENCE   2  (bases 1 to 1627)
+  AUTHORS   Voglmayr,H., Rossman,A.Y., Castlebury,L.A. and Jaklitsch,W.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-APR-2012) Dept. Systematic and Evolutionary Botany,
+            University of Vienna, Rennweg 14, Wien A-1030, Austria
+FEATURES             Location/Qualifiers
+     source          1..1627
+                     /organism="Melanconiella chrysodiscosporina"
+                     /mol_type="genomic DNA"
+                     /strain="MCHA"
+                     /host="Carpinus betulus"
+                     /specimen_voucher="WU 31868"
+                     /db_xref="taxon:1247912"
+     rRNA            <1..168
+                     /product="18S ribosomal RNA"
+     misc_RNA        169..367
+                     /product="internal transcribed spacer 1"
+     rRNA            368..525
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        526..696
+                     /product="internal transcribed spacer 2"
+     rRNA            697..>1627
+                     /product="28S ribosomal RNA"
+ORIGIN      
+        1 cacaccgccc gtcgctacta ccgattgaat ggttcagtga ggcgtccgga ctggcccagg
+       61 gaggtcggca acgaccaccc agggccggaa agttctccaa actcgatcat ttagaggaag
+      121 taaaagtcgt aacaaggtct ccgttggtga accagcggag ggatcattgc tggaaaacac
+      181 gtcccatacc cctttgtgaa catataccta tctcgttgcc tcggcgccag gcccggggtg
+      241 ccccccaggg ggtacccccc acctatggac ctcacggtcc cgggcggagc aggctcgccg
+      301 gcggcccctt ccaactcttg tttttagaac ctatctcttc tgagtcttgt tacctagaaa
+      361 tgaatcaaaa ctttcaacaa cggatctctt ggctctggca tcgatgaaga acgcagcgaa
+      421 atgcgataag taatgtgaat tgcagaattc agtgaaccat cgaatctttg aacgcacatt
+      481 gcgcccgctg ggattccggc gggcatgcct gttcgagcgt catttcaaac cctcaggcgt
+      541 ccgcgcctgg tgttggggca tagcttgtaa aaaggctagc tcttaaattc agtggcgtgc
+      601 tcgcggagac tcccgggtgt agtaatctcc ttctcgcccg ggcaggctcg gcggcgcact
+      661 tgccgtaaaa cccgctatca cgcactgctt ctgaaaattg acctcggatc aggtaggaat
+      721 acccgctgaa cttaagcata tcaataagcg gaggaaaaga aaccaacagg gattgcccta
+      781 gtaacggcga gtgaagcggc aacagctcaa atttgaaatc tggtccctca cggggcccga
+      841 gttgtaattt gcagaggatg tcttctggcg cggtgccttc cgagttccct ggaacgggac
+      901 gccacagagg gtgagagccc cgtaatggtc ggataccaag cctgtgtgaa gctccttcga
+      961 cgagtcgagt agtttgggaa tgctgctcta aatgggaggt aaatctcttc taaagctaaa
+     1021 taccggccag agaccgatag cgcacaagta gagtgatcga aagatgaaaa gcaccttgaa
+     1081 aagggggtta aacagtacgt gaaattgttg aaagggaagc gctcatgacc agacttgcgc
+     1141 cgggcggctc atcaggtggt tctgcccctg tgtactccgt cccggttcag gccagcatcg
+     1201 gttcgcgccg ggggacaaga acggtgggaa cgtggccccc cctcgggggg gtgttatagc
+     1261 ccgccgtgac gataccctgg tgcggaccga ggttcgcgca ctccgcaagg atgctggcgt
+     1321 aatggttatc agtgacccgt cttgaaacac ggaccaagga gtcgtccttt agagcgagcg
+     1381 tctgggtgtc aaaacccgca cgcgtaatga aagtgaaatc aggtgagagc ccctcgtggg
+     1441 cgcatcatcg accgatcctg atgttctcgg atggatttga gtaagagttt taacggacgg
+     1501 acccgaaaga cagtgaacta tgcttgtata gggtgaagcc agaggaaact ctggtggagg
+     1561 ctcgcagcgg ttctgacgtg caaatcgatc gtcaaatatg agcatggggg cgaaagacta
+     1621 atcgaac
+//
+
+LOCUS       MG262534               10050 bp    DNA     linear   PLN 27-JUN-2018
+DEFINITION  Usnea subfusca voucher 46309 18S ribosomal RNA gene, internal
+            transcribed spacer 1, 5.8S ribosomal RNA gene, internal transcribed
+            spacer 2, and 28S ribosomal RNA gene, complete sequence.
+ACCESSION   MG262534
+VERSION     MG262534.1
+KEYWORDS    .
+SOURCE      Usnea subfusca
+  ORGANISM  Usnea subfusca
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Lecanoromycetes; OSLEUM clade; Lecanoromycetidae; Lecanorales;
+            Lecanorineae; Parmeliaceae; Usnea.
+REFERENCE   1  (bases 1 to 10050)
+  AUTHORS   Whittington,K.T., Keepers,K.G., Pogoda,C.S., Trip,E.A.,
+            Lendemer,J.C. and Kane,N.C.
+  TITLE     The complete and annotated ribosomal DNA complex (18S, 5.8S, 28S)
+            of Usnea subfusca
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 10050)
+  AUTHORS   Whittington,K.T., Keepers,K.G., Pogoda,C.S., Trip,E.A.,
+            Lendemer,J.C. and Kane,N.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-OCT-2017) Ecology and Evolutionary Biology,
+            University of Colorado at Boulder, Ramaley N122, Boulder, CO
+            80309-0334, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..10050
+                     /organism="Usnea subfusca"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="46309"
+                     /db_xref="taxon:2233981"
+                     /collected_by="James Lendemer"
+     rRNA            join(1125..1685,2012..2839,3075..3336,3618..3870,
+                     4673..4846)
+                     /product="18S ribosomal RNA"
+     misc_RNA        4847..5032
+                     /product="internal transcribed spacer 1"
+     rRNA            5033..5187
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        5188..5338
+                     /product="internal transcribed spacer 2"
+     rRNA            join(5339..6242,6607..6876,7101..8205,8613..9164,
+                     9398..9902)
+                     /product="28S ribosomal RNA"
+ORIGIN      
+        1 tcccccccct gtggccagaa tcgatttttg aaaacggcaa aggcatgcca cggtgctcgt
+       61 tcccgccctg ggcttccaca caaattttcc actttttgca aaaaaacggt tttttgaaat
+      121 tttttttttg catgcaccga gtgcacacca aaatccaagc gaaatgaggt cggtggatat
+      181 ataagtggta gtggtagtgg agtctgaaaa aagactacag tcatatttcg gcccacttcc
+      241 gcccatggta tacaaagtgc ctccttttta gggggtcgtc ctaattcaaa ccgacccgtg
+      301 ggcggggttt tctacctgag cagggccatg gtaccccgag gtgtatacct tatggagcta
+      361 tggtccaggt cacaattacc cgagcagggg cttagactcc ggggggctga cggtatgggg
+      421 gatttcacta tcgccacggc agtcactcgg gggatgggtt ccaggtcagt ccgcattcaa
+      481 aacgacccgt gggcggggtc atcattgtct catagccgta agaccgccaa ccgtgggccg
+      541 agttatcgaa cagcgtgggc cttttcggag gctgccgttg gctccggccc gggtggtgtg
+      601 tcgccccacc cgaccgctga gcttcggggt acgactcgct tcattgcggc gtgcttccaa
+      661 ggcgaagccg gacgagggtg gcctgaagac ccctgggctt tgcccacgtg gctctgaagg
+      721 agtctgtgga tggttggccg atggctatca ttatcctaag acattcggag gtcaaccgaa
+      781 gccgatatcc tcggggagcc cgcttgatgc ttagatgcgc ggcggaggac ccatgtgtga
+      841 tcggcggcgg gtatcctcca actgaggggt gcatggtgca gtgtgggccg gcgttcagcg
+      901 tcgcgaatcc ccacgtctgc cccggaccac cccttgggaa actcagtggg ggcaattgga
+      961 tggcccacgg tgccccccgg cggcttcggc cccgggggac gctcgggctg ggtggtggct
+     1021 tcggctcccc ccgaccttgt aaatatcctg atcatccctt cgggggtggg gtgtgactag
+     1081 gctttagccc ttctggggtc ctcggccgaa ctcttaagat agatacctgg ttgattctgc
+     1141 cagtagtcat atgcttgtct caaagattaa gccatgcatg tctaagtata agcaatctat
+     1201 acggtgaaac tgcgaatggc tcattaaatc agttatcgtt tatttgatag tacctttcta
+     1261 cttggatacc tgtggtaatt ctagagctaa tacatgctaa aaacctcaac ttcggaaggg
+     1321 gtgtatttat tagataaaaa accaatgccc ttcggggctc cttggtgatt cataataact
+     1381 caacgaatcg catggccttg cgccggcgat ggttcattca aatttctgcc ctatcaactt
+     1441 tcgatggtag gatagtggcc taccatggtt tctacgggta acggggaatt agggttctat
+     1501 tccggagagg gagcctgaga aacggctacc acatccaagg aaggcagcag gcgcgcaaat
+     1561 tacccaatcc cgacacgggg aggtagtgac aataaatact gatacagggc tcttttgggt
+     1621 cttgtaattg gaatgagtac aatttaaatc ccttaacgag gaacaattgg agggcaagtc
+     1681 tggtggattt agaatcccag cgtaaggtat ccaatacctg ctgctgacgc cagttataga
+     1741 ccggtccctc gggcatatgt cttccgaggg tctgatttag tgggcgatag gttcctatcg
+     1801 ctcgcgaggt tcccggcacg gggaagggtt ctttgataag gccttatccc gtggctaaga
+     1861 gatcacctct tagtcttaac gcgcgctagg gtaccggtga tctatcctct agattacttg
+     1921 aggtacgtgc taatcccggc cctaagggct cgaaatgctc aaatcgaggc attcgtaggg
+     1981 atagaagatc ttaagagact tcttctttat ggccagcagc cgcggtaatt ccagctccaa
+     2041 tagcgtatat taaagttgtt gcagttaaaa agctcgtagt tgaaacttgg ccttggctga
+     2101 tcggtccgcc tcaccgcgtg cactggttcg gccggggctt tccttctggg gatccgcatg
+     2161 gccttcattg gtcgtgttgg ggaaccagga cttttacttt gaaaaaatta gagtgttcaa
+     2221 agcaggccta tgctcgaata cattagcatg gaataataga ataggacgtg tggttctatt
+     2281 ttgttggttt ctaggaccgc cgtaatgatt aatagggata gtcgggggca tcagtattca
+     2341 attgtcagag gtgaaattct tggatttatt gaagactaac tactgcgaaa gcatttgcca
+     2401 aggatgtttt cattaatcag tgaacgaaag ttaggggatc gaagacgatc agacaaaatc
+     2461 ggtggaccga ggtcagagtg tatttggtcg ttaacagtaa actagttcgg gatcgttacc
+     2521 gagccacacc atcaaactgt tggggctccc aaatgggtga cccacagcca agctttaccg
+     2581 cgcagtctac agactgaacg ttggtgggcg ggtctttagg gactcgtttt taatatagtc
+     2641 gaatctcttg ggagaatctc aggaatattc atgcagatac cgtcgtagtc ttaaccataa
+     2701 actatgccga ctggggatcg gacggtgtta ttattttgac ccgttcggca ccctacgaga
+     2761 aatcaaagtc tttgggttct ggggggagta tggtcgcaag gctgaaactt aaagacattg
+     2821 acggaagggc accaccagga gactccggaa catgcttcca cgcctggtta caactttgtt
+     2881 aaccccccat tcgtggggcg gtgaggcctt tgaattgcga ggactgtgcg ggcatctcag
+     2941 cccgcgacgt acccgcagcc aagccccggc ttccggggct tcggtccaca gatcaagtgg
+     3001 cggccggtgg tccctttggg caccactaat gatatgatcg gccccttggc tttcggcctc
+     3061 gggattcagt gcgtggagcc tgcggcttaa tttgactcaa cacggggaaa ctcaccaggt
+     3121 ccagacacat taaggattga cagattgaga gctctttctt gattatgtgg gtggtggtgc
+     3181 atggccgttc ttagttggtg gagtgatttg tctgcttaat tgcgataacg aacgagacct
+     3241 taacctgcta aatagccagg tcagctttgg ctggccgccg gcttcttaga gggactatcg
+     3301 gctcaagccg atggaagttt gaggcaataa caggtcgata taaatcgtcc acacaggcct
+     3361 gttgattctg tccgggaatt atatcccggc cgactggact ctcgagtctg gtcgacaccg
+     3421 ctggtacaga aaacatcttt agatggtcaa ttctgtggcg agcctgtgaa aggccgccta
+     3481 aacgcatgcc aagcggtggg tcgcgaaggt gcgacttcag gtacatgctg tccctccaga
+     3541 gactggagtt tccgtatcaa tctgccattc tggcagctct cagattaatg aggaatttga
+     3601 tacggatggg atcaacgctg tgatgccctt agatgttctg ggccgcacgg tacgtaacga
+     3661 ctttgccccc ttcatccgaa attatatgct aacgttttat agcgcgctac actgacagag
+     3721 acaacgagta atccaccttg gccggaaggt ctgggtaatc ttgttaaact ctgtcgtgct
+     3781 ggggatagag cattgcaatt attgctcttc aacgaggaat gcctagtaag cgcaagtcat
+     3841 cagcttgcgt tgattacgtc cctgcccttt tctattcgat tagaatcata ttttggatct
+     3901 cagtggtcat ggcaatgacg aggaaaatgc gtcgattctc gctcgaaaag agcgcaaagc
+     3961 ttagatagct aaaaatgggg tatcatcgct ctctgacata agatagaggg cgggaggaga
+     4021 tcgttgccaa agagtattga gaatcgatcg caggtcgcga ttggctgcca tgattggaga
+     4081 gaaaaaaaat tgtacaaggg gctgatagta gtattatata ctagattgat atatgtaact
+     4141 gaagaaatac aagacgaaag gagatgagat ggacgccgaa cgaaaaaaaa aaatgaggtg
+     4201 actgattgcg aagagaaaat tttgggggga attggggcag aatatataga tgcgatgaag
+     4261 agcgcgaatc atcattcgct gacctgtcgc ttaaagaatt ttaatcaatc caaattctac
+     4321 gattctgcgg atgcactagc gatatgcatt ctgtagggtt gcgcggcccg gaagggacgt
+     4381 gccgacgcga cgcgataacg ctagtgttat cgctcaccta cgaccttaat tttccccgcg
+     4441 ttcggttagc gtccgcggta gggctatgcc accgcctgcc tttgagactt tatcacgtgt
+     4501 taccaaatca gttgatgcct tctaattgcg tggaaactta tttcaagcta cccgcagcca
+     4561 attcctttcg gggatgcagt tcacagacta actgaaggcg ggtgtcccct atactgtaat
+     4621 agaggcacct aaattatagt cgatccaccc tgtaaccagg gacggaaaca tgttgtacac
+     4681 accgcccgtc gctactaccg attgaatggc tcagtgaggc cttcggactg gccccaggag
+     4741 gtcggcaacg accacccagg gccggaaagt tcgtcaaact tggtcattta gaggaagtaa
+     4801 aagtcgtaac aaggtttccg taggtgaacc tgcggaagga tcattaccga gagaggggct
+     4861 tcgcgctccc gggggttccg gcctccacct cttcacccat tgcgtaccta cctttgttgc
+     4921 tttggcgggc catggggctc gccccacgcc ggcctccgcg ctggtgagcg cccgtcagag
+     4981 gccctcaaaa ttctgtttat agtgacgtcc gagttaaaca caaatagtta aaaactttca
+     5041 acaacggatc tcttggttcc agcatcgatg aagaacgcag cgaaatgcga taagtaatgt
+     5101 gaattgcaga attcagtgaa tcatcgaatc tttgaacgca cattgcgccc ctcggtattc
+     5161 cggggggcat gcctgttcga gcgtcattgc acccctcaag cgcagcttgg tattgggtct
+     5221 cgcccccggg cgtgcccgaa aagcagtggc ggtccggagc gactttaagc gtagtaaatt
+     5281 ttcatcccgc tttgaaagat cgtctcgggg ctggccagaa acccaaaatt ttccataatt
+     5341 gacctcggat caggtaggga tacccgctga acttaagcat atcaataagc ggaggaaaag
+     5401 aaaccaacag ggattgcctc agtaacggcg agtgaagcgg caacagctca aatttgaaat
+     5461 ctggccccgt cggggtccga gttgtaattt gtagagagtg tttcgggtga gaccacggtc
+     5521 taagtccatt ggaacatggc gtcatagagg gtgagaatcc cgtatgcgac cgtggctcga
+     5581 gcccatgtga agcctcttcg acgagtcgag ttgtttggga atgcagctca aaatgggtgg
+     5641 taaatttcat ctaaagctaa atactggctg gagaccgata gcgcacaagt agagtgatcg
+     5701 aaagatgaaa agcactttgg aaagagagtc aaaaagtacg tgaaattgtt gaaagggaag
+     5761 cgcttgcaac cagacctgtc cgtaggtgat cagccgctgt tctcagtggt gcactcgctc
+     5821 tgcgatcagg ccagcatcgg ttccggcggt cggataaagg ccctgggaat gtagctccct
+     5881 tcggggagtc ttatagccct cggtgcaatg cggccagccg ggaccgagga ccgcgcttcg
+     5941 gctaggatgc tggcgtaatg gttgtaagcg acccgtcttg aaacacggac caaggagtct
+     6001 aacatctatg cgagtgtttg ggtgttaaac ccatgcgcgg aatgaaagtg aacggaggtg
+     6061 agaacccttt agggcgcatc atcgaccgat ccagatgtct tcggatggat ttgagtatga
+     6121 gcatagctgt tgggacccga aagatggtga actatgcctg aatagggtga agccagagga
+     6181 aactctggtg gaggctcgca gcggttctga cgtgcaaatc gatcgtcaaa tttgggtata
+     6241 ggggcgaaag actaatcgaa ccatccccca gtattttacg ctataggtgg ttgataaaag
+     6301 tatatcattc cttgaatact ttcagtcctt tggggcgaca tcactacttg catgaacaaa
+     6361 cctatgggtt gacatgctgc agttcttctc acttatgtgg gtcctgttca cagaccaaat
+     6421 agtggtggcc gggctatctt ttttgggatg cctggtttag aaatggccga gtcctactct
+     6481 taattgagtc ggtcctgaga cggcggatat atttcagttg ataagtggaa ttgatgctcg
+     6541 ctcgtcagga gcagcagtcg acttggaatt ttgatccttc cgttgcggga ccttaaagta
+     6601 atgacgctag tagctggttc ctgccgaagt ttccctcagg atagcagtaa cgttttcagt
+     6661 tttatgaggt aaagcgaatg attagaggcc ttggggttga aacaacctta acctattctc
+     6721 aaactttaaa tatgtaagaa gtccttgtta cttagttgaa cgtggacatt tgaatgcacc
+     6781 gttactagtg ggccattttt ggtaagcaga actggcgatg cgggatgaac cgaacgcgag
+     6841 gttaaggtgc cggaatgtac gctcatcaga caccacgagg ggagtttctg tggtgtcgtc
+     6901 tcaacctaat tctagtggaa tgggttttag tctctacgcg ataggggcaa ggtcttcgat
+     6961 ctatagggac ccgctacgtt gttagcctac cctcggccgc cgattggtgg cccacagatc
+     7021 aagcagaggc cggtgacttt gtgtacgaag ggtcacttaa gatatgatcg gcttttaggc
+     7081 tcgcgcctag aaatcatgcg caaaaggtgt tgattcatct agacagccgg acggtggcca
+     7141 tggaagtcgg aaaccgctaa ggagtgtgta acaactcacc ggccgaatga atcagccctg
+     7201 aaaatggatg gcgctcaagc gtgctaccca tacctcgccg ccagggtaga aacgatgccc
+     7261 tggcgagtag gcaggcgtgg gggtcagtga cgaagccttg ggagtgatcc cgggtagaac
+     7321 ggcccctagt gcagatcttg gtggtaagtc ttacaattca ctcgctctct tgaacttgct
+     7381 tttgctttta cgacgtatgc taacttaaat tctttacagg tagtagcaaa tattcagatg
+     7441 agaactctga agactgaagt ggggaaaggt tccatgtgaa cagcagttgg acatgggtta
+     7501 gtcgatccta agagataggg aagttccgtt tcaatgtgcg cacttgtgcg ccgtctctcg
+     7561 aaagggaagc cggttaatat tccggcacct ggatgtggat tctccacggc aacgtaactg
+     7621 aacgcggaga cgtcggcggg ggccccggga agagttctct tttcttctta acggcctatc
+     7681 accctgaaat cggtttgtcc ggagctaggg tttaacggcc ggtagagccc cgcacctttg
+     7741 tggggtccgg tgcgctcccg acgacccttg aaaatccgcg ggaaggaata gttttcacgc
+     7801 caggtcgtac tcataaccgc agcaggtctc caaggtgaac agcctctagt tgatagaaca
+     7861 atgtagataa gggaagtcgg caaaatagat ccgtaacttc gggaaaagga ttggctctaa
+     7921 gggttgggta cgttgggcct tggggggacg tctccggagc agttgggcac tagtggggca
+     7981 acccgccggc gcccggcagc atcggggttc agacgccctt ggcaggcctc ggccgtccgg
+     8041 cgtacaatta acaaccaact tagaactggt acggacaagg ggaatctgac tgtctaatta
+     8101 aaacatagca ttgcgatggc cagaaagtgg tgttgacgca atgtgatttc tgcccagtgc
+     8161 tctgaatgtc aaagtgaaga aattcaaata agcgcgggta aacggcggga gtaactatga
+     8221 ctcaaaaaga taatctacat tttaagaggg tcatagtgtc aaacagtcta cagggtttag
+     8281 tactcgagac ttatagtggg atggacaaag atttattggc gaatcgtggg gtgtcttatg
+     8341 atacacaaac aagaaagcaa gctagaatct tcacgaggcc tttcgagagc tggactcccc
+     8401 gggtttcact cttgctaccc ggctttcatt ctacgaaaca ataaatctat cctctcacga
+     8461 tattgctaaa ttgcggagat acaataatcc gcagccggag agctagccga tagctctctt
+     8521 ggttcaacga ctataaagca gcggcgaggg cctttcctgg actcgctaag atatagtctg
+     8581 cctacgcggt gaaaactgcg attggctctg agctcttaag gtagccaaat gcctcgtcat
+     8641 ctaattagtg acgcgcatga atggattaac gagattccca ctgtccctat ctactatcta
+     8701 gcgaaaccac agccaaggga acgggcttgg cagaatcagc ggggaaagaa gaccctgttg
+     8761 agcttgactc tagtttgaca ttgtgaaaag acataggggg tgtagaatag gtgggagctt
+     8821 cggcgccggt gaaataccac tacccttatc gtttttttac ttattcaatg aagcggaact
+     8881 gggcttcacc gcccaacttc tggcgttaag gtccctcgcg ggccgatccg ggttgaagac
+     8941 attgtcaggt ggggagtttg gctggggcgg cacatctgtt aaaccataac gcaggtgtcc
+     9001 taagggggac tcatggagaa cagaaatctc cagtagaaca aaagggtaaa agtccccttg
+     9061 attttgattt tcagtgtgaa tacaaaccat gaaagtgtgg cctatcgatc ctttagtccc
+     9121 tcgaaatttg aggctagagg tgccagaaaa gttaccacag ggatgctatt tgtccctgta
+     9181 taataggaaa ctcagtttcc tacaagtcga tcttacgatt ggcattgcat ctggttctgg
+     9241 gaatgtcaat aggggcgtat atatctatac ctccctagag tcaatccaga ggtgactggc
+     9301 ggctaacccc ccggcactta aacgctcggt aagatgcggg tccgctacgg tggtccaagg
+     9361 tacgagctat tcccgcccga gaaggcccgg aaagaagaac tggcttgtgg cagccaagcg
+     9421 ttcatagcga cgttgctttt tgatccttcg atgtcggctc ttcctatcat accgaagcag
+     9481 aattcggtaa gcgttggatt gttcacccac taatagggaa cgtgagctgg gtttagaccg
+     9541 tcgtgagaca ggttagtttt accctactga tgaccgtcac cgcaatggta attcaactta
+     9601 gtacgagagg aaccgttgat tcggataatt ggtttttgcg gctgtccgac cgggcagtgc
+     9661 cgcgacgcta ccatccgctg gattatggct gaacgcctct aagtcagaat ccatgccaga
+     9721 acgcggcgat tctcccccgc acgtcgtagt cggatacgaa taggcttcgg ccctgaatct
+     9781 cagcaggttg gcaacagccc ttcggaagaa gttccggggg gtttcgccga cgcattgcaa
+     9841 tttcacctcg cgcggggata aatcccttgc atacgacttg gttgtacggt tgggtcgtgt
+     9901 aaacggtaga gtagccttgt tgttacgatc cgctgagcgt cagcccaata ccgtctagat
+     9961 ttttggcgcg ggagtccacc gtgactcccc cccatcggtt gccttgaccc cctttatggg
+    10021 ggcggccgga ggggggtata gggttttggg
+//
+
+
+LOCUS       KP132932                 358 bp    DNA     linear   PLN 15-APR-2015
+DEFINITION  Yarrowia lipolytica strain WM 893 isolate ISHAM-ITS_ID MITS799 18S
+            ribosomal RNA gene, partial sequence; internal transcribed spacer
+            1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2,
+            complete sequence; and 28S ribosomal RNA gene, partial sequence.
+ACCESSION   KP132932
+VERSION     KP132932.1
+KEYWORDS    .
+SOURCE      Yarrowia lipolytica
+  ORGANISM  Yarrowia lipolytica
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; Dipodascaceae; Yarrowia.
+REFERENCE   1  (bases 1 to 358)
+  AUTHORS   Irinyi,L., Serena,C., Garcia-Hermoso,D., Arabatzis,M.,
+            Desnos-Ollivier,M., Vu,D., Cardinali,G., Arthur,I., Normand,A.C.,
+            Giraldo,A., da Cunha,K.C., Sandoval-Denis,M., Hendrickx,M.,
+            Nishikaku,A.S., de Azevedo Melo,A.S., Merseguel,K.B., Khan,A.,
+            Parente Rocha,J.A., Sampaio,P., da Silva Briones,M.R., E
+            Ferreira,R.C., de Medeiros Muniz,M., Castanon-Olivares,L.R.,
+            Estrada-Barcenas,D., Cassagne,C., Mary,C., Duan,S.Y., Kong,F.,
+            Sun,A.Y., Zeng,X., Zhao,Z., Gantois,N., Botterel,F., Robbertse,B.,
+            Schoch,C., Gams,W., Ellis,D., Halliday,C., Chen,S., Sorrell,T.C.,
+            Piarroux,R., Colombo,A.L., Pais,C., de Hoog,S.,
+            Zancope-Oliveira,R.M., Taylor,M.L., Toriello,C., de Almeida
+            Soares,C.M., Delhaes,L., Stubbe,D., Dromer,F., Ranque,S.,
+            Guarro,J., Cano-Lira,J.F., Robert,V., Velegraki,A. and Meyer,W.
+  TITLE     International Society of Human and Animal Mycology (ISHAM)-ITS
+            reference DNA barcoding database-the quality controlled standard
+            tool for routine identification of human and animal pathogenic
+            fungi
+  JOURNAL   Med. Mycol. 53 (4), 313-337 (2015)
+   PUBMED   25802363
+REFERENCE   2  (bases 1 to 358)
+  AUTHORS   Irinyi,L. and Meyer,W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-NOV-2014) Molecular Mycology Research Laboratory,
+            Centre for Infectious Diseases and Microbiology, Sydney Medical
+            School-Westmead Hospital, Marie Bashir Institute for Infectious
+            Diseases and Biosecurity, University of Sydney, Westmead Millennium
+            Institute, Sydney, Australia
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..358
+                     /organism="Yarrowia lipolytica"
+                     /mol_type="genomic DNA"
+                     /strain="WM 893"
+                     /isolate="ISHAM-ITS_ID MITS799"
+                     /db_xref="ISHAM-ITS:MITS799"
+                     /db_xref="taxon:4952"
+                     /collection_date="2000"
+                     /identified_by="Wieland Meyer"
+                     /PCR_primers="fwd_name: SR6R, fwd_seq:
+                     aagtataagtcgtaacaagg, rev_name: LR1, rev_seq:
+                     ggttggtttctttcct"
+                     /note="anamorph/synonym name:Candida lipolytica; sequence
+                     provided by Wieland Meyer"
+     rRNA            <1..30
+                     /product="18S ribosomal RNA"
+     misc_RNA        31..89
+                     /product="internal transcribed spacer 1"
+     rRNA            90..242
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        243..299
+                     /product="internal transcribed spacer 2"
+     rRNA            300..>358
+                     /product="28S ribosomal RNA"
+ORIGIN      
+        1 tccgtaggtg aacctgcgga aggatcatta ttgattttat ctatttctgt ggatttctat
+       61 tctattacag cgtcatttta tctcaattat aactatcaac aacggatctc ttggctctca
+      121 catcgatgaa gaacgcagcg aaccgcgata ttttttgtga cttgcagatg tgaatcatca
+      181 atctttgaac gcacattgcg cggtatggca ttccgtaccg cacggatgga ggagcgtgtt
+      241 ccctctggga tcgcattgct ttcttgaaat ggattttttt aaactctcaa ttattacgtc
+      301 atttcacctc cttcatccga gattacccgc tgaacttaag catatcaata agcggagg
+//
+
+LOCUS       Z78533                   740 bp    DNA     linear   PLN 30-NOV-2006
+DEFINITION  C.irapeanum 5.8S rRNA gene and ITS1 and ITS2 DNA.
+ACCESSION   Z78533
+VERSION     Z78533.1
+KEYWORDS    5.8S ribosomal RNA; 5.8S rRNA gene; internal transcribed spacer;
+            ITS1; ITS2.
+SOURCE      Cypripedium irapeanum
+  ORGANISM  Cypripedium irapeanum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Asparagales; Orchidaceae;
+            Cypripedioideae; Cypripedium.
+REFERENCE   1
+  AUTHORS   Cox,A.V., Pridgeon,A.M., Albert,V.A. and Chase,M.W.
+  TITLE     Phylogenetics of the slipper orchids (Cypripedioideae:
+            Orchidaceae): nuclear rDNA ITS sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 740)
+  AUTHORS   Cox,A.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-1996) Cox A.V., Royal Botanic Gardens, Kew,
+            Richmond, Surrey TW9 3AB, UK
+FEATURES             Location/Qualifiers
+     source          1..740
+                     /organism="Cypripedium irapeanum"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:49711"
+     misc_feature    1..380
+                     /note="internal transcribed spacer 1"
+     gene            381..550
+                     /gene="5.8S rRNA"
+     rRNA            381..550
+                     /gene="5.8S rRNA"
+                     /product="5.8S ribosomal RNA"
+     misc_feature    551..740
+                     /note="internal transcribed spacer 2"
+ORIGIN      
+        1 cgtaacaagg tttccgtagg tgaacctgcg gaaggatcat tgatgagacc gtggaataaa
+       61 cgatcgagtg aatccggagg accggtgtac tcagctcacc gggggcattg ctcccgtggt
+      121 gaccctgatt tgttgttggg ccgcctcggg agcgtccatg gcgggtttga acctctagcc
+      181 cggcgcagtt tgggcgccaa gccatatgaa agcatcaccg gcgaatggca ttgtcttccc
+      241 caaaacccgg agcggcggcg tgctgtcgcg tgcccaatga attttgatga ctctcgcaaa
+      301 cgggaatctt ggctctttgc atcggatgga aggacgcagc gaaatgcgat aagtggtgtg
+      361 aattgcaaga tcccgtgaac catcgagtct tttgaacgca agttgcgccc gaggccatca
+      421 ggctaagggc acgcctgctt gggcgtcgcg cttcgtctct ctcctgccaa tgcttgcccg
+      481 gcatacagcc aggccggcgt ggtgcggatg tgaaagattg gccccttgtg cctaggtgcg
+      541 gcgggtccaa gagctggtgt tttgatggcc cggaacccgg caagaggtgg acggatgctg
+      601 gcagcagctg ccgtgcgaat cccccatgtt gtcgtgcttg tcggacaggc aggagaaccc
+      661 ttccgaaccc caatggaggg cggttgaccg ccattcggat gtgaccccag gtcaggcggg
+      721 ggcacccgct gagtttacgc
+//
+
+LOCUS       KY249280                 554 bp    DNA     linear   PLN 07-NOV-2017
+DEFINITION  Cephalotrichum domesticum strain CBS 142035 18S ribosomal RNA gene,
+            partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA
+            gene, and internal transcribed spacer 2, complete sequence; and 28S
+            ribosomal RNA gene, partial sequence.
+ACCESSION   KY249280
+VERSION     KY249280.1
+KEYWORDS    .
+SOURCE      Cephalotrichum domesticum
+  ORGANISM  Cephalotrichum domesticum
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Sordariomycetes; Hypocreomycetidae; Microascales; Microascaceae;
+            Cephalotrichum.
+REFERENCE   1  (bases 1 to 554)
+  AUTHORS   Woudenberg,J.H.C., Sandoval-Denis,M., Houbraken,J., Seifert,K.A.
+            and Samson,R.A.
+  TITLE     Cephalotrichum and related synnematous fungi with notes on species
+            from the built environment
+  JOURNAL   Stud. Mycol. 88, 137-159 (2017)
+REFERENCE   2  (bases 1 to 554)
+  AUTHORS   Woudenberg,J.H.C., Sandoval-Denis,M. and Samson,R.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-NOV-2016) Applied and Industrial Mycology, CBS-KNAW
+            Fungal Biodiversity Centre, Uppsalalaan 8, Utrecht 3584CT, The
+            Netherlands
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Bionumerics v. 4.61
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..554
+                     /organism="Cephalotrichum domesticum"
+                     /mol_type="genomic DNA"
+                     /strain="CBS 142035"
+                     /isolation_source="indoor air of house"
+                     /culture_collection="CBS:142035"
+                     /type_material="culture from holotype of Cephalotrichum
+                     domesticum"
+                     /db_xref="taxon:2041051"
+                     /country="Netherlands"
+     rRNA            <1..7
+                     /product="18S ribosomal RNA"
+     misc_RNA        8..181
+                     /product="internal transcribed spacer 1"
+     rRNA            182..337
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        338..528
+                     /product="internal transcribed spacer 2"
+     rRNA            529..>554
+                     /product="28S ribosomal RNA"
+ORIGIN      
+        1 atcattaccg aagttacctt caaaacccac tgtgaacctt acctcttgcc gcgttgtctc
+       61 ggcgggaggc ggtgggcgtc gcgcgcccta gcgggccgtg ccgctcccgt ccccgccggc
+      121 ggcgccaaac tctaaattta cagcggactg tacgttctga tttacaaaaa aaacaagtta
+      181 aaactttcaa caacggatct cttggttctg gcatcgatga agaacgcagc gaaatgcgat
+      241 aagtaatgtg aattgcagaa ttcagtgaac catcgaatct ttgaacgcac attgcgcccg
+      301 gcagtaatct gccgggcatg cctgtccgag cgtcatttct accctcgagc gagtccagca
+      361 tctaggtgct gggcctcgcc cggcgttgga gcactacggg aagccctgtg ctgtcccccc
+      421 gtaggccccg aaatgaagtg gcggtcctgc cgcggcgccc cctgcgtagt ataacagctc
+      481 gcttcgggac ccggtggagg cctgccgtca aacctataac ctctaagttt gacctcggat
+      541 caggtagggt tacc
+//
+
+LOCUS       KY102215                 504 bp    DNA     linear   PLN 10-JAN-2020
+DEFINITION  [Candida] montana culture CBS:8057 small subunit ribosomal RNA
+            gene, partial sequence; internal transcribed spacer 1 and 5.8S
+            ribosomal RNA gene, complete sequence; and internal transcribed
+            spacer 2, partial sequence.
+ACCESSION   KY102215
+VERSION     KY102215.1
+DBLINK      BioProject: PRJNA351778
+KEYWORDS    .
+SOURCE      [Candida] montana
+  ORGANISM  [Candida] montana
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; Phaffomycetaceae; Barnettozyma;
+            Barnettozyma/Candida clade.
+REFERENCE   1  (bases 1 to 504)
+  AUTHORS   Vu,D., Groenewald,M., Szoke,S., Cardinali,G., Eberhardt,U.,
+            Stielow,B., de Vries,M., Verkleij,G.J., Crous,P.W., Boekhout,T. and
+            Robert,V.
+  TITLE     DNA barcoding analysis of more than 9 000 yeast isolates
+            contributes to quantitative thresholds for yeast species and genera
+            delimitation
+  JOURNAL   Stud. Mycol. 85, 91-105 (2016)
+   PUBMED   28050055
+REFERENCE   2  (bases 1 to 504)
+  AUTHORS   Vu,D., Groenewald,M., Szoke,S., Cardinali,G., Eberhardt,U.,
+            Stielow,B., de Vries,M., Verkleij,G., Crous,P., Boekhout,T. and
+            Robert,V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-OCT-2016) Bioinformatics Group, CBS-KNAW Fungal
+            Biodiversity Centre, Upsalalaan, Utrecht 3584CT, Netherlands
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..504
+                     /organism="[Candida] montana"
+                     /mol_type="genomic DNA"
+                     /isolation_source="fruit"
+                     /culture_collection="CBS:8057"
+                     /type_material="type material of Candida montana"
+                     /db_xref="taxon:49329"
+                     /country="Japan"
+                     /note="Type of Candida montana S. Goto & Oguri; other
+                     collections: ATCC 52819, IFO 10104, JCM 2323, NRRL
+                     Y-17326, RIFY 4865"
+     misc_RNA        <1..>504
+                     /note="contains small subunit ribosomal RNA, internal
+                     transcribed spacer 1, 5.8S ribosomal RNA, and internal
+                     transcribed spacer 2"
+ORIGIN      
+        1 gaaactagtc aaacttggtc ctctagagga agtaaaagtc gtaacaaggt ttccgtaggt
+       61 gaacctgcgg aaggatcatt acagttaagt ttagcgcaag ctagctttta tacccttgaa
+      121 tattttatta aattgggctt ttcaagcctc acaaacacaa ctaaattttt atttaaatca
+      181 cacgataaca taattatcaa aactttcaac aacggatctc taggttctcg caacgatgaa
+      241 gaacgcagcg aattgcgata cgtattgtga attgcagatt ttcgtgaatc atcgaatctt
+      301 tgaacgcaca ttgcgccctg tggtattcca cagggcatgc ctgtttgagc gtcgtttcct
+      361 tctcaagccg cgaggtttgg tgttgggcat ggcggcagcc ggtctgaaat attttatgga
+      421 gcgtcagttt tctgaggcca gtgtctagca atattcactt ggaagaaagt aagcgataca
+      481 atcctaatat cacagcaatc gacc
+//
+
+LOCUS       AF444523                 597 bp    DNA     linear   PLN 29-AUG-2018
+DEFINITION  Buckleyzyma armeniaca strain CBS 8076 18S ribosomal RNA gene,
+            partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA
+            gene, and internal transcribed spacer 2, complete sequence; and 28S
+            ribosomal RNA gene, partial sequence.
+ACCESSION   AF444523
+VERSION     AF444523.1
+KEYWORDS    .
+SOURCE      Buckleyzyma armeniaca
+  ORGANISM  Buckleyzyma armeniaca
+            Eukaryota; Fungi; Dikarya; Basidiomycota; Pucciniomycotina;
+            Cystobasidiomycetes; Cystobasidiomycetes incertae sedis;
+            Buckleyzyma.
+REFERENCE   1  (bases 1 to 597)
+  AUTHORS   Scorzetti,G., Fell,J.W., Fonseca,A. and Statzell-Tallman,A.
+  TITLE     Systematics of basidiomycetous yeasts: a comparison of large
+            subunit D1/D2 and internal transcribed spacer rDNA regions
+  JOURNAL   FEMS Yeast Res. 2 (4), 495-517 (2002)
+   PUBMED   12702266
+REFERENCE   2  (bases 1 to 597)
+  AUTHORS   Scorzetti,G. and Fell,J.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-NOV-2001) Marine Biology and Fisheries, Rosenstiel
+            School of Marine and Atmoshperic Science, University of Miami, 4600
+            Rickenbacker Causeway, Key Biscayne, FL 33149, USA
+FEATURES             Location/Qualifiers
+     source          1..597
+                     /organism="Buckleyzyma armeniaca"
+                     /mol_type="genomic DNA"
+                     /strain="CBS 8076"
+                     /type_material="culture from type material of Buckleyzyma
+                     armeniaca"
+                     /db_xref="taxon:106001"
+                     /note="type strain"
+     misc_RNA        <1..>597
+                     /note="contains 18S ribosomal RNA, internal transcribed
+                     spacer 1, 5.8S ribosomal RNA, internal transcribed spacer
+                     2, and 28S ribosomal RNA"
+ORIGIN      
+        1 tccgtaggtg aacctgcgga aggatcatta atgaatttta aggatgctct ttttagagat
+       61 ccgaacaatc attacctttc tactctgtgc acacactact ttttacaccc aatttttttt
+      121 aacactatta gtaataagaa tgtatatcag tctcttaatt gagcacaaaa caaataaaac
+      181 tttcagcaac ggatctcttg gctctcgcat cgatgaagaa cgcagcgaaa tgcgatacgt
+      241 aatgtgaatt gcagaattca gtgaatcatc gaatctttga acgcaccttg cactctttgg
+      301 tattccgaag agtatgtctg tttgagtgtc atgaaactct caaccccctt attttgtaat
+      361 gaaataggtg tgggattgga ttatggttgt ctgtcggctt tacagccggc tcaactgaaa
+      421 tacacgagct acccatattt tgaaatagac ggtttgactc ggcgtaataa ctatttcgct
+      481 gaggacgtcc cattttcaat taacaagtgg tgcttctaat ttaataatca tttaagcttt
+      541 agacctcaaa tcagtcagga ctacccgctg aacttaagca tatcaataag cggagga
+//
+
+LOCUS       LN713285                 515 bp    DNA     linear   PLN 08-MAR-2017
+DEFINITION  Neocordana musicola partial 5.8S rRNA gene, strain CPC 11225.
+ACCESSION   LN713285
+VERSION     LN713285.1
+KEYWORDS    .
+SOURCE      Neocordana musicola
+  ORGANISM  Neocordana musicola
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Sordariomycetes; Sordariomycetidae; Magnaporthales;
+            Magnaporthaceae; Neocordana.
+REFERENCE   1
+  AUTHORS   Hernandez-Restrepo,M., Groenewald,J.S. and Crous,P.W.
+  TITLE     Neocordana gen. nov., the causal organism of Cordana leaf spot of
+            banana
+  JOURNAL   Phytotaxa 205 (4), 229-238 (2015)
+REFERENCE   2  (bases 1 to 515)
+  AUTHORS   Hernandez restrepo,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-DEC-2014) Universitat rovira i virgili, Microbiology,
+            Calle san lorenzo 21, Tarragona, Reus, 43201, SPAIN
+FEATURES             Location/Qualifiers
+     source          1..515
+                     /organism="Neocordana musicola"
+                     /mol_type="genomic DNA"
+                     /strain="CPC 11225"
+                     /type_material="culture from holotype of Neocordana
+                     musicola"
+                     /db_xref="taxon:1585272"
+     gene            <1..>515
+                     /gene="5.8S rRNA"
+     rRNA            <1..>515
+                     /gene="5.8S rRNA"
+                     /product="5.8S ribosomal RNA"
+ORIGIN      
+        1 agggatcatt acagagttgc aaaactccaa ccctttgtga accacaacct ccagtcgttg
+       61 cttcggcggg cccgcccgcc ggaggttcaa acaaactcac gttttccgag tacgtcttct
+      121 gagcaaacaa gaaaaaataa atcaaaactt tcaacaacgg atctcttggc tctggcatcg
+      181 atgaagaacg cagcgaaatg cgataagtaa tgtgaattgc agaattcagt gaatcatcga
+      241 atctttgaac gcacattgcg cccgccggta ttccggcggg catgcctgtc cgagcgtcat
+      301 ttcaaccctc aagcccactc cggcttggtg ttggggcgcc cggggctccc agcgggcccc
+      361 ggggccccca agttcatcgg cgggctcgtc ggaaccctga gcgcagtagc aaggccctaa
+      421 gaagccgaac cccctcgctc ggcccgtccc ggcgtgcaca ccagccgcta aagagacccc
+      481 aacgggaacg acaaaggtga cctcggatca gtaga
+//
+
+LOCUS       DQ641238                6939 bp    DNA     linear   PLN 16-JAN-2007
+DEFINITION  Metschnikowia continentalis external transcribed spacer, partial
+            sequence; small subunit ribosomal RNA gene, internal transcribed
+            spacer 1, 5.8S ribosomal RNA gene, internal transcribed spacer 2,
+            and large subunit ribosomal RNA gene, complete sequence; and
+            intergenic spacer, partial sequence.
+ACCESSION   DQ641238
+VERSION     DQ641238.1
+KEYWORDS    .
+SOURCE      Metschnikowia continentalis
+  ORGANISM  Metschnikowia continentalis
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; Metschnikowiaceae;
+            Metschnikowia.
+REFERENCE   1  (bases 1 to 6939)
+  AUTHORS   Rosa,C.A., Lachance,M.A., Teixeira,L.C., Pimenta,R.S. and
+            Morais,P.B.
+  TITLE     Metschnikowia cerradonensis sp. nov., a yeast species isolated from
+            ephemeral flowers and their nitidulid beetles in Brazil
+  JOURNAL   Int. J. Syst. Evol. Microbiol. 57 (PT 1), 161-165 (2007)
+   PUBMED   17220460
+REFERENCE   2  (bases 1 to 6939)
+  AUTHORS   Lachance,M.-A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAY-2006) Biology, University of Western Ontario,
+            London, Ontario N6A 5B7, Canada
+FEATURES             Location/Qualifiers
+     source          1..6939
+                     /organism="Metschnikowia continentalis"
+                     /mol_type="genomic DNA"
+                     /strain="UFMG 96-173"
+                     /type_material="type material of Metschnikowia
+                     continentalis"
+                     /db_xref="taxon:73517"
+     misc_RNA        <1..550
+                     /product="external transcribed spacer"
+     rRNA            551..2271
+                     /product="small subunit ribosomal RNA"
+     misc_RNA        2272..2342
+                     /product="internal transcribed spacer 1"
+     rRNA            2343..2453
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        2454..2566
+                     /product="internal transcribed spacer 2"
+     rRNA            2567..5554
+                     /product="large subunit ribosomal RNA"
+     misc_feature    5555..>6939
+                     /note="intergenic spacer"
+ORIGIN      
+        1 attttagaca acttttgtta gtgcgcaccg aaaagcatgg gccagacgac ggtgttttgc
+       61 gcgcatgcaa attttgggac ccggaggtta tatatgggag tgggatgagt cgagagcaaa
+      121 aagagacaag aagagaattt gcaagaggct tcggccgctt atgaattctt gggctgaatc
+      181 tttaggctgg aggctgttat ataggtaagt ttggcgaggg actgttgctg gtccagggcg
+      241 cctttgggta aagtcattag ggagagaaat agggcctggg ttctccagtt cccgaaagct
+      301 ctccctaaga ttttgtcact ttccctcact cccccagcgt actctagggt gcgcactgca
+      361 gtagaacctc tggtgctgct gcatggcctc gcgatttatc gcccaagtct cgggatgaca
+      421 acgtctcccc gagcaaggaa agaaacagtg gattactagg caatgccaaa gaaatcccaa
+      481 aacctcaaga tcactccgat cttttttatt actacgagtc agtggacaac cccaaaaaaa
+      541 taacttcttc atagttatct ggttgatcct gccagtagtc atatgcttgt ctcaaagatt
+      601 aagccatgca tgtctaagta tagcattata cagtgaaact gcgaatggct cattaaatca
+      661 gttatcgttt atttgatagt accttgctaa ttggtatacg cctggcaatt ctagagctaa
+      721 tacatgctta atacccgact cacgaagggt agtatttatt agataaaaat caacattttt
+      781 gatgattcat aataacttaa cgaatcgcat ggctttaagc tggcgatggt tcattcaaat
+      841 ttctgcccta tcaactttcg atggtaggat agaggcctac catggtttca acgggtaacg
+      901 gggaataagg gttcgattcc ggagagggag cctgagaaac ggctaccaca tccaaggaag
+      961 gcagcaggcg cgcaaattac ccaatcccaa tacggggagg tagtgacaat aaataacgat
+     1021 acagggcctt ttggtcttgt aattggaatg agtacaattt aaatacctta acgaggaaca
+     1081 attggagggc aagtctggtg ccagcagccg cggtaattcc agctccaaga gcgtatatta
+     1141 aagttgttgc agttaaaaag ctcgtagttg aagtttggcg gtaactatta atttagttac
+     1201 tgccacctcc cttccgggga ggtgttactt tgagtaaatg aaagtgttca aagcaggcaa
+     1261 cgcctgaatc ttatagcatg gaataacaaa ataagatgat tttttatttg ttggtttcta
+     1321 aaaatcataa tgattaatag gaacggtcgg ggacatcagt attcaatagt tagaggtgaa
+     1381 attcttagat ttattgaaga ctaactactg cgaaagcatt tgtcaaggac gttttcacta
+     1441 atcaagaacg aaagttaggg gatcgaagat gatcagatac cgtcgtagtc ttaaccataa
+     1501 actatgccga ctagggatcg gatgttgatc aaaattttga cacattcggc accttacgag
+     1561 aaatcaaagt ttttgggttc tggggggagt atggtcgcaa ggctgaaact taaaggaatt
+     1621 gacggaaggg caccaccagg agtggagcct gcggcttaat ttgactcaac acgggaaatc
+     1681 tcaccaggtc cagacacaat aaggattgac agattgagag ctctttcttg attttgtggg
+     1741 tggtggtgca tggccgttct tagttggtgg agtgatttgt ctgcttaatt gcgataacga
+     1801 acgagacctt aacctttaaa taggtccatt agctttttgc tgaaaggaac ttcttaaagg
+     1861 gactattgat taaaaatcaa ttgaagtttg aggcaataac aggtctgtga tgcccttaga
+     1921 cgttctgggc cgcacgcgcg ctacactgac ggaggcaacg agttgacctt agccgaaagg
+     1981 tttgggaaat ctataaactc cgtcgtgatg gggataaagc attgaaatta ttgcttttga
+     2041 acgaggaatt cctagtaagc gtaagtcatt aacttgcgtt gattacgtcc ctgccctttg
+     2101 tacacaccgc ccgtcgctac taccgatgaa tggcttagtg agaattttgg agagatttat
+     2161 ttaggggcga ctctttttaa atttcgaagt tattcaaact tggtgattta gaggaagtaa
+     2221 aagtcgtaac aaggtttccg taggtgaacc tgcggaagga tcattaagaa attaaattta
+     2281 tattctttta ggattgaaat taactaaaac cacattaaat ttattcaacc aagtttttct
+     2341 ttaaaacttt caacaacgga tctcttggtt ctcgtatcga tgaagaacgt agcgaattac
+     2401 gataagtatc atgagttgca gacgtgaatc attaattttt gaacgcacat tgcacttgat
+     2461 ccagcatcaa gtatggggga gtgagagagt atttcttcgg ccacctcttt tggtgccggc
+     2521 ttttacctca aataaattta caattttttc ctcactgtcc caagactacc cgctgaactt
+     2581 aagcatatca ataagcggag gaaaagaaac caacagggat tacctcagta acggcgagtg
+     2641 aagcggtaaa agctcaaatt tgaaatcttc ggaattgtaa tttgatggat aaaattgcta
+     2701 cggtcgaaag ttcactggaa agtgacgcca tagagggtga tagccccgta acgtccactg
+     2761 gcactataat tttattccaa agagtcgggt tgtttgggaa tgcagctcaa agtgggtggt
+     2821 aaattccatc taaagctaaa tattgacgag agaccgatag cgaacaagta cagtgatgga
+     2881 aagatgaaaa gaactttgaa aagagagtga aacagtacgt gaaattgttg aaagggaagg
+     2941 ggagggaaga tgttaaaggg aactccttca gcgtagggat ccccccaaag agtctttcct
+     3001 ctcgcccgtc ttgaaacacg gaccaaggag tctaacgatt atgcaagtat ttgagtcaac
+     3061 ccccaaatgc gtaatgaaag taattggtca accctaccct cctgtcctaa agggcgggag
+     3121 aggaagcata attattagga cccgaaagat ggtgaactat acctggatag ggtgaagcca
+     3181 gaggaaactc tggtggaagc tcgtagcggt tctgacgtgc aaatcgatcg tcaaatctgg
+     3241 gtataggggc gaaagactaa tcgaaccatc tagtagctgg ttcctgccga agtttccctc
+     3301 aggatagcag aagctcaaaa cagttttatg aggtaaagcg aatgattaga tgtctcgggg
+     3361 caaaattagc cttagcatat tctcaaactt taaatatgta agaagaagat gttactttat
+     3421 tgaacatttt cacgaatgta gagcttttag tgggccattt ttggtaagca gaactggcga
+     3481 tgcgggatga accgaacgta aagttaaagt gccagaattc acgctaatca gacaccacaa
+     3541 aaggtgttag ttcatctaga cagccggacg gtggccatgg aagtcggaat ccgctaagga
+     3601 gtgtgtaata actcaccggc cgaatgaact agccctgaaa atggatggcg ctaagcgtga
+     3661 tacttatact ttaccacttt tttctttaaa aagtgagtag gcaggcgtgg aggtggtgta
+     3721 gaagcttggt tgtgaaatcg agtggaaccg cctctagtgc agatcttggt ggtagtagca
+     3781 aatattcaaa tgggaatttt gaagactgaa gtggggaaag gttccatgtc aacagtaaat
+     3841 gaacatgggt aagtcgatcc taacctccaa gcatagctgt taatgaaaca attttttgtt
+     3901 ttagggaggg aaagggaaac tggttaaaat tccagtactt ggatatggaa acggtaacgt
+     3961 aaagaatgtg aagacattgg aataagttct ggaaagagtt ttcttttttt tataacattc
+     4021 aataaccttg gaaatggatt aaccagagag aaggtttggg aatggaatag tcacgactcg
+     4081 tttgtggccc agtgcacttg ttacaatcct tgaaaattca catatctatc catgccaagt
+     4141 cgtactcata tccgcagcag gtctccaagg ttaacagcct ctagttgata gaacaaagta
+     4201 gttaagggaa gtcggcaaaa ttgatccgta acttcgggat aaggattggc tctgatggtc
+     4261 ggtcgggcaa tatgtggtgg tggttgactt tcgggtttac tgccttgcct cgctcgacaa
+     4321 tcgaccgtat cagaactggt acggacttcg ggaatctgac tgtctaatta aaacatagca
+     4381 ttgcgatgct cccaaaggac gttgacgcaa tgtgatttct gcccagtgct ctgaatgtca
+     4441 aagtgaagaa attcaatcaa gcgcgggtaa acggcgggag taactatgac tctcttaagg
+     4501 tagccaaatg cctcgtcatc taattagtga cgcgcatgaa tggattaacg agattcccac
+     4561 tgtccctatc tactatctag cgaaaccaca gccaagggaa cgggcttggc aaaatcagcg
+     4621 gggaaagaag accctgttga gcttgactct agtttgacat tgtgaaaagg catgaagggt
+     4681 gtagaataag tgggagcttc ggcgccagtg aaataccact acctccatcg tcttttgact
+     4741 aatgaaagaa ttactccaag tacatttttt aaaattcaga aactgtctaa tggggagttt
+     4801 ggctggggcg gcacatctgt taaataataa cgcagatgtc ctaagggggg ctcatggaga
+     4861 acagaaatct ccagtagaat aaaagggtaa aagccccctt gattttgatt ttcagtgtga
+     4921 ttacaaacca tgaaagtgtg gcctatcgat cctttatgtt tacctcagaa tttgaggcta
+     4981 gaggtgccag aaaagttacc acagggataa ctggcttgtg gcagtcaagc gttcatagcg
+     5041 acattgcttt ttgattcttc gatgtcggct cttcctatca taccgaagca gaattcggta
+     5101 agcgttggat tgttcaccca ctaataggga acgtgagctg ggtttagacc gtcgtgagac
+     5161 aggttagttt taccctactg atggatgatt gttacaatag taattgaact tagtacgaga
+     5221 ggaaccgttc attcagataa ttggtatatg gctttgtttg ataaagcatt gagccgaagc
+     5281 taccatctgc tggattatgg ctgaacgcct ctaagtcaga atccatgcta gaagtaatga
+     5341 tattttgaga aaaggttaat ataagctttt tataagctcg agaccatata gtgaatgatt
+     5401 ctgggataga aattctcagt gatgcacttg aagtaaaata atatttttga gatcctaagt
+     5461 atacgactta gtgggaacat ggtattgtaa gtggtagagt agccttgttg ttacgatcca
+     5521 ttgagatttc caatgttcga agatttgctt tggcctgaaa gcgctagagt ctcttttgcg
+     5581 ggggagtacc gcaagctctc aagtttagtt tgagagtcct tggtgggggt ttattcttgg
+     5641 tatactttgg ttggggggtt tgggtgagtt ctgaaggggg gaaaagtctt ggtacactct
+     5701 tggggggtgt attgagaagg ccctaaaaga actctcttac cctcgccaaa gtatactgag
+     5761 gaggccctta aaaggaagag aactctaggg tgggatggca aggggatact gcgaacttcg
+     5821 ccttagggcg aagggagtgg gggagagaag agagaaggga atagggagag agttggggtg
+     5881 gctcggtgga tttttttttc gccggcgccg caggccgcaa aaattttgat gtcgttacgg
+     5941 ggaaagacaa ttactgcgaa ttgcagccac tttagttgag gaaaaggtag tgcgcgaacc
+     6001 caaaaatagc agtttgtttt agaattcagg gattttttgg gggatttttg ggtggttgga
+     6061 ggtttgggat tgagattttt gaagggtttt ggaggttttg gggtgtttgg aggtttccgg
+     6121 cgggttctgg cgggttctcg gggtctaggc cttttttttt ggtgtgtggg ttttttatga
+     6181 gggaacggaa tttcaatgga atttgaggaa ttttgattct gggcttgggg gtcgtgtcca
+     6241 aatcatttgg accaggccta gaccgggcct agactgacgt gtttaaccca actcgggctg
+     6301 tagacgttgg atggggatgg aaatgggttt ataggggagc tagagcggtg aataatgggt
+     6361 aggcacaaga tctttggggt ttacagggtt ttggaagttt tggaattttt gaaaaaatcc
+     6421 ccgaaattgc cttcggtggg taccccccac tttggtcccc cacttgggtg ctagaggtat
+     6481 cgggtagtgt ccaatgcaac ttggccaata ttgatttgtt cacactcaaa ctacggtggt
+     6541 ggatgggttc agtataggcc taaaggttgg tacaatattt attggattca attaattttc
+     6601 gatttttaag ggtgttttgt agttatttta aattgtcgca acctctgaat ttatttgcat
+     6661 ttcgcagagt ttcactatga atggctgaca agtgtgaact taatagtggt ggagcgaaaa
+     6721 aaagtgtgaa gcgcgggtat cggagccgaa gttgacacgt gagggtacac gtgcgagtac
+     6781 acgtgaaggc acacgtgagg acacacgtgc gcggaagtga ccgagattct gatctgggag
+     6841 gtcgtgtgga cctcaaaagt gaccgggagt tgactccgct ggcgcgcgca cgtgattttg
+     6901 gttttcgcac gactattttg tatgggagaa aaaaatagg
+//
+LOCUS       AF102171                4121 bp    DNA     linear   INV 17-APR-2001
+DEFINITION  Perkinsus andrewsi 5S ribosomal RNA gene, partial sequence; small
+            subunit ribosomal RNA gene, internal transcribed spacer 1, 5.8S
+            ribosomal RNA gene and internal transcribed spacer 2, complete
+            sequence; and large subunit ribosomal RNA gene, partial sequence.
+ACCESSION   AF102171
+VERSION     AF102171.1
+KEYWORDS    .
+SOURCE      Perkinsus chesapeaki
+  ORGANISM  Perkinsus chesapeaki
+            Eukaryota; Alveolata; Perkinsozoa; Perkinsea; Perkinsida;
+            Perkinsidae; Perkinsus.
+REFERENCE   1  (bases 1 to 4121)
+  AUTHORS   Coss,C.A., Robledo,J.A., Ruiz,G.M. and Vasta,G.R.
+  TITLE     Description of Perkinsus andrewsi n. sp. isolated from the Baltic
+            clam (Macoma balthica) by characterization of the ribosomal RNA
+            locus, and development of a species-specific PCR-based diagnostic
+            assay
+  JOURNAL   J. Eukaryot. Microbiol. 48 (1), 52-61 (2001)
+   PUBMED   11249193
+REFERENCE   2  (bases 1 to 4121)
+  AUTHORS   Coss,C.A., Robledo,J.A.F., Ruiz,G.M. and Vasta,G.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-OCT-1998) COMB, 701 East Pratt Street, Baltimore, MD
+            21202, USA
+FEATURES             Location/Qualifiers
+     source          1..4121
+                     /organism="Perkinsus chesapeaki"
+                     /mol_type="genomic DNA"
+                     /host="Macoma balthica"
+                     /db_xref="taxon:330153"
+     rRNA            <1..23
+                     /product="5S ribosomal RNA"
+     misc_feature    24..1574
+                     /note="nontranscribed spacer; NTS"
+     rRNA            1575..3382
+                     /product="small subunit ribosomal RNA"
+                     /note="SSU"
+     misc_RNA        3383..3567
+                     /product="internal transcribed spacer 1"
+     rRNA            3568..3726
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        3727..4094
+                     /product="internal transcribed spacer 2"
+     rRNA            4095..>4121
+                     /product="large subunit ribosomal RNA"
+                     /note="LSU"
+ORIGIN      
+        1 aagtccttag ggtgctgctg gctttttcat ttttgctttc acaaccccgc accccatgta
+       61 caatgttgcc aaccactaga gtttcaacaa cattcggatt tgacaacatg tcaacaattc
+      121 acaacagaaa ttgacaacat tgtcacaaat tctcaaattg gacaacattg gacaaaaatt
+      181 cacaacatac attggacaac agtggacaac gaacccaaac ccgacaacat tgtccagggg
+      241 gatagggggt gaaaaagcag tgccggcaaa gtcgaaagat gtcaagttgg aatgcggctc
+      301 aaattcgtca tttgtgtaaa tccgcaattt tgccaatgtg caattttgca aatgtgcaat
+      361 tttgcaaatg tgcaattttg ccaatgtgca attttgcaaa tgcgcaattt tgcaaatccg
+      421 caattttgca aatgtgcaat tttggaaaat caccaaatga aaatcgtcca agtcgaattg
+      481 gaggcgtggt gacatggtcc cgggatcccc tggttacagt ggacaatatc ccagcaatat
+      541 tcgctgtaat ttggagtttc gctgttttgg caaattttga gtctgaaaaa aaaaattgca
+      601 aatgcgcaaa gggggtgaag gaaaaaaaag cacccccgaa ggtaaaattc cctttaagtc
+      661 ccttgcgcat ttgcaaaatt ttcaaaaatt gttgcaaatg cgcttttgtt atttggccgg
+      721 ttcattggtg tcaaaagttg cctggggtgg ttacacaatg cacggaattg gttggaagtt
+      781 gtgtgattga aaattggtcg tgtcacacaa ttttgcgcat ttgcaaaaat tcgcaaattg
+      841 gacaaaaaag ggtcgcgcac agtcaaattg cgcaaatttc actttgaagt gagtgcgcat
+      901 ttgtggggca gaaatgtggt gacagcatcg ttttttataa taaatattct atatttagta
+      961 tctttattat aatttgctgt caccaatcac cattttagaa tttttatttt tttatgtttt
+     1021 agtgaccgcg ggattttttg caaagtacta ttgtgatgtt tgagttgttt gaaatgggca
+     1081 atttagaaca tcatcagaaa tcgctgaata gtgatttttg agtttgactg tttgaagtgt
+     1141 tttgggtatt cggcagctgc caaatcggtc agcgtcgaat ataatagcat ttttgtgtgt
+     1201 atatgatatt tagcgatatc attggaatca tggggttttg tattagtacc cgctcattgt
+     1261 gggaatgtcg ggtggttcaa tatcacctgc aaatttaata caggatttgc atgatgcagc
+     1321 gactgaccgg ggttggtata atagctgatt attcggctta ttatgcagac ctatcgtgtt
+     1381 agtagttgcg actcttggcg tgaaccggaa gaccggaact tgaattcgac tatttacgtc
+     1441 cgtaaacagg agatttcaag aatattgcac attttgcgtg atataaacgt gatcatctga
+     1501 gcacgcttcg actcttggat atctgctaat cagccgtcat ctgagagctc gcaagcattg
+     1561 caattgatgc aatcacctgg ttgatcctgc cagtagtcat atgcttgtct caaagattaa
+     1621 gccatgcatg tctaagtata agctttaaac ggcgaaactg cgaatggctc attaaaacag
+     1681 ttatagttta tttggtgatc gattactatt tggataaccg tagtaattct agagctaata
+     1741 catgcgtcaa ggcccgactt cggaagggct gcgtttatta gatacagaac caacctagct
+     1801 ccgcctagtc cttgttggtg attcataata acccggcgaa tcgcacggct tgtccggcga
+     1861 tggaccattc aagtttctga cctatcagct atggacggta gggtattggc ctaccgtggc
+     1921 gttgacgggt aacggggaat tagggttcga ttccggagag ggagcctgag aaacgactac
+     1981 cacatctaag gaaggcaaca ggcgcgcaaa ttacccaatc ctgatacagg gaggtagtga
+     2041 caagaaataa caatacaggg caattctgtc ttgtaattgg aatgagtaga ttttaaatct
+     2101 ctttacgagt atcaattgga gggcaagtct ggtgccagca gccgcggtaa ttccagctcc
+     2161 aatagcgtat attaaagttg ttgcggttaa aaagctcgta gttggatttc tgccttgggc
+     2221 gaccggtcca cctttcctac gggttaggtt ggtaccaggt ttgaccttgg ctttttcttg
+     2281 ggattcgtgc tcacgcactt aactgtgcgc tgaccgtgtt ccaagacttt tactttgagg
+     2341 aaattagagt gtttcaagca ggcttatgcc gtgaatacat tagcatggaa taataggata
+     2401 tgactttggt catattttgt tggtttctag gactgaagta atgattaata gggacagtcg
+     2461 ggggcattcg tatttaactg tcagaggtga aattcttgga tttgttaaag acgaactact
+     2521 gcgaaagcat ttgccaagga tgttttcatt gatcaagaac gaaagttagg ggatcgaaga
+     2581 cgatcagata ccgtcctagt cttaaccata aactatgccg actagggatt gggagtcgtt
+     2641 aattttagac gctctcagca cctcgtgaga aatcaaagtc tttgggttcc ggggggagta
+     2701 tggtcgcaag gctgaaactt aaaggaattg acggaagggc accaccagga gtggagcctg
+     2761 cggcttaatt tgattcaaca cgggaaaact caccaggtcc agacatagga aggattgaca
+     2821 gattgatagc tctttcttga ttctatgggt ggtggtgcat ggccgttctt agttggtgga
+     2881 gtgatttgtc tggttaattc cgttaacgaa cgagacctta acctgctaaa tagttgcgtg
+     2941 aaatcttgta tttcaccgct acttcttaga gggactttgt gtgtttaaca caaggaagct
+     3001 tgaggcaata acaggtctgt gatgccctta gatgttctgg gctgcacgcg cgctacactg
+     3061 acacgatcaa cgagtatttc cttgcccggt agggttaggg taatcttttg aaatcgtgtc
+     3121 gtgctaggga tagacgattg caattattcg tcttcaacga ggaattccta gtaaatgcaa
+     3181 gtcatcagct tgcgttgatt acgtccctgc cctttgtaca caccgcccgt cgctcctacc
+     3241 gattgagtga tccggtgagc tgtccggact gcgattagtt cagtttctgt tcttttcgcg
+     3301 ggaagttctg caaaccttat cacttagagg aaggagaagt cgtaacaagg tttccgtagg
+     3361 tgaacctgca gaaggatcat tcacaccgat tcattctctg agaaaccagc ggtctctgta
+     3421 aaaggagatg ggatctccgc tttgtttaga tccccacacc tgaccgcttt aacgggccgg
+     3481 gtaggtgcat aacttctatg aaccaattgt actagtctaa agtatccaat atccttttgg
+     3541 attttggtat ttcaaaacga aattccaaac tctcaacgat ggatgcctcg gctcgagaat
+     3601 cgatgaagga cgcagcgaag tgcgataagc actgcgattt gcagaattcc gtgaaccagt
+     3661 agaaatctca acgcatactg cacaaagggg atttatcctc tttgtacata catatcagtg
+     3721 tcgctcttct tcccgataca aacattttgt tgatttacaa tcaacattat gctttgtatc
+     3781 ccgcttggat tcctttattg ggatccgctg tgtgcgcttg ctgacacagg cgcattaatt
+     3841 tgcaaggcta taatactact gtactgtagc cccttcgcaa gaaggactgc gctagtgagt
+     3901 atctttggat gctcgcgaac tcgactgtgt tgtggttgat tccgtgttcc tcgatcacgc
+     3961 gattcatcgc ttcaacgcat tatgtcaaat ttgatgaatg cagagagttg tttatgaatt
+     4021 acgcgatcgc tttggtctca gaatcgttac tatagcacgc ttgtcggttt gcaacctggc
+     4081 aatatgtcat cattagaagg cctgatgtgt gtgagattac c
+//
+LOCUS       DQ779988                5703 bp    DNA     linear   PLN 01-JUL-2007
+DEFINITION  Akashiwo sanguinea strain CCMP1837 18S ribosomal RNA gene, partial
+            sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene,
+            internal transcribed spacer 2, and large subunit ribosomal RNA
+            gene, complete sequence; and external transcribed spacer, partial
+            sequence.
+ACCESSION   DQ779988
+VERSION     DQ779988.1  GI:110950572
+KEYWORDS    .
+SOURCE      Akashiwo sanguinea
+  ORGANISM  Akashiwo sanguinea
+            Eukaryota; Sar; Alveolata; Dinophyceae; Gymnodiniales;
+            Gymnodiniaceae; Akashiwo.
+REFERENCE   1  (bases 1 to 5703)
+  AUTHORS   Ki,J.S. and Han,M.S.
+  TITLE     Cryptic long internal repeat sequences in the ribosomal DNA ITS1
+            gene of the dinoflagellate Cochlodinium polykrikoides
+            (dinophyceae): a 101 nucleotide six-repeat track with a
+            palindrome-like structure
+  JOURNAL   Genes Genet. Syst. 82 (2), 161-166 (2007)
+   PUBMED   17507782
+REFERENCE   2  (bases 1 to 5703)
+  AUTHORS   Ki,J.-S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUN-2006) Life Science, Hanyang University,
+            Sungdong-gu, Seoul 133-791, Korea
+FEATURES             Location/Qualifiers
+     source          1..5703
+                     /organism="Akashiwo sanguinea"
+                     /mol_type="genomic DNA"
+                     /strain="CCMP1837"
+                     /db_xref="taxon:143672"
+                     /country="USA: Harington Sound, Bermuda"
+     rRNA            <1..1714
+                     /product="18S ribosomal RNA"
+     misc_RNA        1715..1980
+                     /product="internal transcribed spacer 1"
+     rRNA            1981..2140
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        2141..2352
+                     /product="internal transcribed spacer 2"
+     rRNA            2353..5691
+                     /product="large subunit ribosomal RNA"
+     misc_RNA        5692..>5703
+                     /product="external transcribed spacer"
+BASE COUNT     1448 a   1220 c   1580 g   1455 t
+ORIGIN      
+        1 gcgaatggct cattaaaaca gttatagttc atttgatggt ctctcactac atggataact
+       61 gtggtaattc tagagctaat acatgcgccc taacccgact tcgtagaagg gttgtgctta
+      121 ttagacacag aaccaaccca ggctctgcct ggtcttgtgg tgagtcataa taactgaacg
+      181 aatcgcatgg catcgccggc gataaatcat tcaagtttct gacctatcag cttccgacgg
+      241 tagggtattg gcctaccgtg gcaatgacgg gtaacggaga attagggttc gattccggag
+      301 agggagcctg agaaacggct accacatcta aggaaggcag caggcgcgca aattacccaa
+      361 tcccgacacg gggaggtagt gacaagaaat aacaatacag ggcatccatg tcttgtaatt
+      421 ggaatgagta gaatttaaat ccctttacga gtatcgattg gagggcaagt ctggtgccag
+      481 cagccgcggt aattccagct ccaatagcgt atattaaagt tgttgcggtt aaaaagctcg
+      541 tagttggatt tctgccgaga acgaccggtc cgccctctgg gtgagtatct ggctcggtct
+      601 gggcatcttc ttggagaacg tagctgcact tgactgtgtg gtgcggtatc caggacattt
+      661 actttgagga aattagagtg tttcaagcag gcatgtgcct tgaatacatt agcatggaat
+      721 aataatatag gaccttaatt ctattttgtt ggtttctaga gttgaggtaa tgattaatag
+      781 ggatagttgg gggcattcgt atttaactgt cagaggtgaa attcttggat ttgttaaaga
+      841 cggactactg cgaaagcatt tgccaaggat gttttcattg atcaagaacg aaagttaggg
+      901 gatcgaagac gatcagatac cgtcctagtc ttaaccataa accatgccga ctagagattg
+      961 gaggtcgtta tcattacgac tccttcagca ccttatgaga aatcaaagtc tttgggttcc
+     1021 ggggggagta tggtcgcaag gctgaaactt aaaggaattg acggaagggc accaccaggc
+     1081 gtggagcctg cggcttaatt tgactcaaca cggggaaact taccaggtcc agacatagta
+     1141 aggattgaca gattgatagc tctttcttga ttctatgggt ggtggtgcat ggccgttctt
+     1201 agttggtgga gtgatttgtc tggttaattc cgttaacgaa cgagacctta acctgctaaa
+     1261 tagttacacg taactccggt tatgtgggca acttcttaga gggactttgt gtgtctaacg
+     1321 caaggaagtt tgaggcaata acaggtctgt gatgccctta gatgttctgg gctgcacgcg
+     1381 cgctacactg atgcggtcaa cgagtttctg cctggtccgg caggattggg taatcttctt
+     1441 aaatcgcatc gtgatgggga tagattattg caattattaa tcttcaacga ggaatgccta
+     1501 gtaagcgcga gtcatcagct cgtgctgatt acgtccctgc cctttgtaca caccgcccgt
+     1561 cgctcctacc gattgagtga tccggtgaat aattcggacc aacccagggc gcagttactg
+     1621 tgtgctgggg tggaaagttt agtgaacctt atcacttaga ggaaggagaa gtcgtaacaa
+     1681 ggtttccgta ggtgaacctg cggaaggatc attcgcacat agtgtccact taccgcaaca
+     1741 ctacacccca cgtgaaagac cttgaaacag ctcccggacg gtggggcact taggtgtatc
+     1801 tccactagca cctttgcccg ctccacggtt tgggggttat gctgacagtc gctgtgtggg
+     1861 attactgcct caattcacat ggcccccgca tggaggttgt cagccttcaa tcgacctatc
+     1921 tctgtaaact ccgtttgtgc tcacttgtgt gaagcttgtg ctgctatcag ttagccaggc
+     1981 acaactttca gcaatggata cctcggctcg gacaccgatg aagggcgcag cgaactgtga
+     2041 taagcattgt gaattgcaga attccgtgaa ccaacagaat cttgaacgta tactgtgctc
+     2101 tcgggatatg cctgagagca tgcctgcttc agtgtctctt gccttgtcgc tgcgggcctc
+     2161 gggtctccga ccctgggtcg cggtgttgct tgtgtgtcag gcactccttc ccctcggggg
+     2221 ggcgggtcgc ttgacacatg gagttcgctg gcggtagcgg tcttccacca cagctgtttg
+     2281 tgatgcgagc atcattggga gctggcggtg agccgctcga gcccatctcc tccagccaga
+     2341 gccggctttg aacacgacct gaagtcaggt cagcaaaccc gctgaattta agcatataag
+     2401 taagcggagg aaaagaaact aaataggatt ctcttagtaa tggcgaatga actgggatga
+     2461 gctcaccatg ggaatcgggg tcctcgacct tgaattgtag tcttgagacg cactgccaac
+     2521 aaaggcgcag gtgtaagcct cttggaagag agcatcgcag agggtgagag tcccgtctgt
+     2581 cacctgcagc cccttgtgta cggcatgtgt tctgagagtc acgttcctcg ggattggagc
+     2641 gcaaattggg tggtaagttt cacctcaagc taaatattgg tccgagaccg atagcaaaca
+     2701 agtaccatga gggaaaggtg aaaaggactt tgaaaagaga gttaaaagtg cttgaaattg
+     2761 ctgaaaggga agcgaatgga accagttctg ctgggcgaga ttgtcgcatg ccaaggcctc
+     2821 gtgccggccg catgcggtgc ttcttgcctt gtgtgtcagc tgcggtccga agtcggggaa
+     2881 aactctgggg acatggatgc caacctccgg gggggtgaat gtgcctggca agacccgtcc
+     2941 tcggaccgtg agcagtgctt cggcatgttt gcggtgctga cgaaatgctt ctattcgacc
+     3001 cgtcttgaaa cacggaccga ggagtctaac atgtgtgcga gttcacgggt gtcaaacctg
+     3061 cttgcgcaat gaaagtgact gctgggatac ttgcaccagc aaccgatctg tcaaccgaga
+     3121 gagatttgag tttgagcata cctgttagga cccgaaagat ggtgaactat gcttgtgtag
+     3181 ggcaaagcca ggggaaactc tggtggaggc tcgtagcgat actgacgtgc aaatcgttcg
+     3241 tcaaacatga gtataggggc gaaagactaa tcgaaccatc tagtagctgg ttccctccga
+     3301 agtttccctc aggatagctg gagttgaaca gttttatcag gtaaagcgaa tgattagagg
+     3361 aatcggggac gtgttgtcct cgacctattc tcaaacttta aatgggtaag atccaacagt
+     3421 tgcttaattg aactgttggg gcaaatgtga actctaagtg ggccattttt ggtaagcaga
+     3481 actggcgatg agggatgaac ctaacgttgg gttaaggtgc ttaactgctc gctcatcaga
+     3541 taccataaag ggtgttggtt cattttaaca gcaggacggt ggtcatggaa gtcgaaatcc
+     3601 gctaaggagt gtgtaacaac tcacctgccg aatggactag ccccgaaaat ggatggcgct
+     3661 caagcgggtg actgataccc aaccattgtt gcaattgtgc ggcatcaatg agtaggaggg
+     3721 catgggggcc tgtgatgatg cttttggcgt aagcctgggt gaaacagctc ctagtgcaga
+     3781 tcttggtggt agtagcaaat attcaaatga gaactttgaa gactgaagtg gagaagggtt
+     3841 ccatgtgaac agcagttgga catgggttag tcgatcctaa gagacaggga tgttccgcac
+     3901 acgtaggctt tgcctcgact ctcgaaaggg aatggggtta atattcccca accaggacgt
+     3961 ggatactgta tggcaacgta agagaattcg gtgacgcagg tgggagcctt gggaagcgtt
+     4021 gtcttttctt ttttaccgcc tcttaccctg aaatcagatt gcctggagat agggttacat
+     4081 ggcgggtaaa gcaccttgtc ttccgaggtg tccggtgcgc tctcaactgt ccttgaaaac
+     4141 ccgaaggaaa gacttattca cacccctggt cgtacccata accgcatcag gtctccaagg
+     4201 ttagcagcct ctggtcgata ggtgaaagta ggtaagggaa gtcggcaaaa tagatccgta
+     4261 acttcgggaa aaggattggc tctgagggtt gggtacaggg gtccttgttc tgatgcttga
+     4321 gctgagctga agctacttga cgcctctggt ggatagtgga tttgcgcacg gcgagagttg
+     4381 ccggacaagg aacgctctcg ggctttccct gtgcaatgaa caaccgactc agaactggag
+     4441 cggacaaggg gaatccgact gtttaattaa aacaaagcat tgcgatggcc tcaacaggtg
+     4501 ttgacgcaat gtgatttctg cccagtgctc tgaatgtcaa agtgatgaaa ttcaaacaag
+     4561 cgcgggtaaa cggcgggagt aactatgact ctcttaaggt agccaaatgc ctcgtcatct
+     4621 aattagtgac gcgcatgaat ggattaacga gattcccact gtccctatct actatctagc
+     4681 gaaaccacag ccaagggaac gggcttggga taatcagcgg ggaaagaaga ccctgttgag
+     4741 cttgactcta gtccgacttt gtgaaatgac ttaggaggtg tagcataagt gggagcctcg
+     4801 cgatcttgaa ataccactac tcttaatgtc attttactta ttccgttaga ctaaggctcg
+     4861 catcacagcg agttttggat tcaaggttac cacttgtggc agttgatttg tgcggaagac
+     4921 atagtcaggt ggggagtttg gctggggcgg cacatctgtt aaatgataac gcaggtgtcc
+     4981 taaggtgagc tcaatgagaa cagaaatctc atgtggacca aaaggggaaa agctcgcttg
+     5041 attttgatgt tcagtacgca tacaaactgt gaaagcatgg cctatcgatc ctttaggtct
+     5101 gagaaatgtt cagctagagg tgtcagaaaa gttaccacag ggataactgg cttgtggcag
+     5161 ccaagcgttc atagcgacgt tgctttttga tccttcgatg tcggctcttc ctatcattga
+     5221 gacgcagaag tcccaaagtg tcggattgtt cacccgccaa tagggaacgt gagctgggtt
+     5281 tagaccgtcg tgagacaggt tagttttacc ctactgatga acttgatcct gcgacagtaa
+     5341 tcgaagtcag tacgagagga acacttcgtt cagatacttg gtaaatgcgg ctagctgaaa
+     5401 agctaatact gcgaagctat catctgttgg attacgactg aacgcctcta agtcagaatc
+     5461 ttggctgact aagcagtgtt gtccacctct ttgaacttga catgacatag attagactga
+     5521 ggtccgtgtg cagcgggggc tggctctgcc aaaagaaatt gaacccaata gcttgcatca
+     5581 cgagtttgaa gcgataaacc ttttgtagac gacttagctg agtctgggta ttgtgagagt
+     5641 gagagtaacc tttgtgttac gatcttttga ggttcatccc aggccttttg tcgtgttaca
+     5701 acg
+//
+
+LOCUS       JN547815                4589 bp    DNA     linear   INV 30-NOV-2011
+DEFINITION  Tetrahymena thermophila strain ATCC 30382 18S ribosomal RNA gene,
+            partial sequence; and internal transcribed spacer 1, 5.8S ribosomal
+            RNA gene, internal transcribed spacer 2, and 26S ribosomal RNA
+            gene, complete sequence.
+ACCESSION   JN547815
+VERSION     JN547815.1
+KEYWORDS    .
+SOURCE      Tetrahymena thermophila
+  ORGANISM  Tetrahymena thermophila
+            Eukaryota; Alveolata; Ciliophora; Intramacronucleata;
+            Oligohymenophorea; Hymenostomatida; Tetrahymenina; Tetrahymenidae;
+            Tetrahymena.
+REFERENCE   1  (bases 1 to 4589)
+  AUTHORS   Klinge,S., Voigts-Hoffmann,F., Leibundgut,M., Arpagaus,S. and
+            Ban,N.
+  TITLE     Crystal structure of the eukaryotic 60S ribosomal subunit in
+            complex with initiation factor 6
+  JOURNAL   Science 334 (6058), 941-948 (2011)
+   PUBMED   22052974
+REFERENCE   2  (bases 1 to 4589)
+  AUTHORS   Klinge,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-AUG-2011) Institut fuer Molekularbiologie und
+            Biophysik, ETH Zurich, Schafmattstrasse 20, Zurich, ZH 8093,
+            Switzerland
+FEATURES             Location/Qualifiers
+     source          1..4589
+                     /organism="Tetrahymena thermophila"
+                     /mol_type="genomic DNA"
+                     /strain="ATCC 30382"
+                     /culture_collection="ATCC:30382"
+                     /db_xref="taxon:5911"
+                     /PCR_primers="fwd_name: outer_f, fwd_seq:
+                     ccgcccgtcgcttgtagtaacgaatggtctgg, rev_name: outer_r,
+                     rev_seq: gcctcatagctgctttgcatcttattagc"
+     rRNA            <1..133
+                     /product="18S ribosomal RNA"
+     misc_RNA        134..263
+                     /product="internal transcribed spacer 1"
+     rRNA            264..417
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        418..594
+                     /product="internal transcribed spacer 2"
+     rRNA            join(595..2857,3271..4361)
+                     /product="26S ribosomal RNA"
+     intron          2858..3270
+                     /note="group I intron"
+ORIGIN      
+        1 gtagtaacga atggtctggt gaaccttctg gactgcgaca gcaatgttgc ggaaaaataa
+       61 gtaaacccta ccatttggaa caacaagaag tcgtaacaag gtatctgtag gtgaacctgc
+      121 agatggatca ttaacacaat taacaaacct taacttatgt actttcgaag agaacttcgg
+      181 ttttcttcga ggttttattg tcacacctag tgtgaataaa aatttttcat atgtctaaga
+      241 tctggataac atccaaaacg aaaagaaaat tttcaacggt ggatatctag gttcccgtga
+      301 cgatgaagaa cgcagcgaaa tgcgatacgc aatgcgaatt gcagaaccgc gagtcatcag
+      361 atctttgaac gcaagtggtg gaggtgtaaa aaccttcatg tttgtttcag tgtggaaagg
+      421 aatcacgcat cttaatgcga ttgaagccgt caaaagcttc tctcgttaaa cgtgatgggt
+      481 ggtcgagcaa tcgccgccag aacgaagtag tcacattcca gtaatgtgaa cattcgttca
+      541 ggcatcaagg cgaatgctca ctatgctact catagaaaaa ttacattttt ctcactacac
+      601 ctgaaacaag caagattacc cgctgaactt aagcatatca gtaagcggag gaaaagaaac
+      661 taactaggat agccccagta atggcgaatg aacaggctaa agctcaaagt gaaaatctga
+      721 agtggtcaac acaacagaat tgtaatctaa agggtcaacc tgaaactaag ctcctctcat
+      781 aagttccttg gaacaggacg tcaaagaggg tgacaacccc gtagtcggag aggaaggctg
+      841 gtgtaaggga gatttcaaag agtcgggttg tttgggattg cagccctaag tgggagataa
+      901 acttcttcta aagctaaata tacacgggag accgatagcg aacaagtact gcgaaggaaa
+      961 gatgaaaaga actttgaaaa gagggctaaa agacttgaaa ccgttgagaa ggaagctgta
+     1021 gaagagcaat aaactggacg gcgcataagg gggaagtact aatcactgca gagtcgatac
+     1081 gtaaaaggtc gatgagtaag gaaatggtac agaacttgct acgccggtca gaagacaaaa
+     1141 tgggttcaga ttgaaggagt cacctgagat cgggcagcaa tgcagatcaa aaggaaaact
+     1201 tcaaactgga ctgaggggcc taagggcgat tttgtcaaaa tggcttctac tgacccgtct
+     1261 tgaaacacgg accaaggagt ctatcaatta agcgagtgat agggtggaaa aacccgtccg
+     1321 cgaaacgaaa gtgagtacaa ggtgccaagc cgcaaggtag cagcatcacc cgaccttgag
+     1381 tctccgacga agggttcgag gaagagctta attgttagga cccgaaagat ggtgaactac
+     1441 gcttgaatag ggtgaagcca ggggaaactc tggtggaagc tcgtagcgat actgacgtgc
+     1501 aaatcgttcg tcaaatttga gtgtaggggc gaaagactaa tcgaaccatc tagtagctgg
+     1561 ttccctccga agtttctctc aggatagcaa gagcaagtac gcagttttat taggtaaagc
+     1621 gaatgattag aggactcggg gttccaagaa tctcgaccta ttctcaaact ttaaattggt
+     1681 aagagccgcg gagtttactt aaatgaactc tcgggaagaa tgcagtgctc ttagtgggcc
+     1741 atttttggta agcagaactg gcgatgaggg atgaacctaa cgttgagata aggcgcccaa
+     1801 atgcacgctc atcagatacc acaaaaggtg ttggttcata cggacagcag gacggtggct
+     1861 atggaagtta gaatccgcta aggagtgtgt aacaactcac ctgccgaatg aactagccct
+     1921 gaaaatggat ggcgctgaag cgtgttgccg atactcaacc atcagagcaa atgcgaggct
+     1981 ttgatgagta ggagggcgtg atcgttgcct agaagtattg ggcgtgagcc tatatggagc
+     2041 agcgattagt gcagatcttg gtggtagtag caaatattca aatgagaact ttgaagaccg
+     2101 aagtggagaa gggttccatg agaacagcaa ttgttcatgg gttactcgat cctaagacat
+     2161 aggttaactc cttgcaatac aagaagacat tcgttttcgt tgtcaaaagg gaatgaggtt
+     2221 aatattcctc aagctggacg tggtatagag cggtaacgca aagaaacccg gagacgtcag
+     2281 caggtgtcac tggaagagtt atcttttctt tttaacatac tatggccatg aaattggatt
+     2341 atccagagat atcggctgta tgtatggcag agcagctcac cctaagagct gtcagttgcg
+     2401 cacctgatga cccttgaaaa tctgggggag acataatttc acgccagttc gtacccataa
+     2461 ccgcatcagg tctccaaggt tagcagcctc tggtccatag aacaatgtag ataagggaag
+     2521 tcggcaaatt ggatccgtaa cttcgggata aggattggct ctgaggatcg ggtataaagg
+     2581 ctttgtaatg atatccaagc ttgtttgtta gtgtggcaac atgctgatag acttgcgaac
+     2641 gatgaatttg caaggtaggt ttcggccgtc tttatacaat taacgatcaa ctcagaactg
+     2701 aagcggacaa aggtaatccg actgtttaat aaaaacaaag cattgtgacg gcctcaacag
+     2761 gtgatgacac aatgtgattt ctgcccagtg ctctgaatgt caaagtgacg caattcaacc
+     2821 aagcgcgggt aaacggcggg agtaactatg actctctaaa tagcaatatt tacctttgga
+     2881 gggaaaagtt atcaggcatg cacctggtag ctagtcttta aaccaataga ttgcatcggt
+     2941 ttaaaaggca agaccgtcaa attgcgggaa aggggtcaac agccgttcag taccaagtct
+     3001 caggggaaac tttgagatgg ccttgcaaag ggtatggtaa taagctgacg gacatggtcc
+     3061 taaccacgca gccaagtcct aagtcaacag atcttctgtt gatatggatg cagttcacag
+     3121 actaaatgtc ggtcggggaa gatgtattct tctcataaga tatagtcgga cctctcctta
+     3181 atgggagcta gcggatgaag tgatgcaaca ctggagccgc tgggaactaa tttgtatgcg
+     3241 aaagtatatt gattagtttt ggagtactcg taaggtagcc aaatgcctcg tcatctaatt
+     3301 agtgacgcgc atgaatggat taatgagatt accactgtcc ctatctacta tctagcgaac
+     3361 ccacagctaa gggaacgggc ttagaataat cagcggggaa agaagaccct gttgagcttg
+     3421 actctagtct aactttgtga aatggcacgt ggggtatagc ctaggtggga gagcaatcga
+     3481 tcctgtaaaa ccactaccca cgtagtcatt ttgcttattt cgtgaagaaa agactggtgc
+     3541 aaaccagttc taaagttaag gtcatttatt gactgatttt tgcgaaagac atggttaggg
+     3601 ggggagtttg tctggggcgg aatgcctgtt aaaccataac gcaggcgtcc taagtgtagc
+     3661 tcagtgagaa cggaaatctc acgtagaaca aaagggtaaa agctacattg attttgattt
+     3721 tcagtaggaa tacaaaccgc gaaagcgtgg cctatcgatc ctttaacttt acaagtttta
+     3781 agctagaggt gtcagaaaag ttaccacagg gataactggc ttgtggcagc caagagttca
+     3841 tatcgacgtt gctttttgat ccttcgatgt cggctcttcc tatcattgtg aagcagaatt
+     3901 cacaacgtgt cggattgttc acccgctaat agggaacgtg agctgggttt agaccgtcgt
+     3961 gagacaggtt agttttaccc tactgatgaa acgatgttgc gacagtaatt taagttagta
+     4021 cgagaggaac acttaaatca gataattggt aaatacggtt gtctgaaaag acaatgccgt
+     4081 gaagctacca tctgttggat tatgactgaa ggcctctaag tcagaatcca tgctggaaag
+     4141 caatgtctaa gtgtgatgat aaacgaaaaa aaataaaaat taagttcgaa aggtagagcg
+     4201 gggaagagcg aaaaagcttg accttaactg ctaatcgtaa ttccaaatta tcatctacgt
+     4261 aaatcttttg tagacgactt aacatggaac gggtattgta agcatgagag tagaatttcc
+     4321 tacgatctgc tgagattcag cccgtctcct tagatttatc tcatctccct ttatttttta
+     4381 cttctgctgg ggttgttaac ctctttaaga aatttttttt atgtttgatt tatttaattt
+     4441 aattttgttt aactttagta aatttttttc cttttttcac tccactgggg ttattaaata
+     4501 cttagagatt ttttattttt atcaaataat ttatgaactc attaaaacaa aacaaaacaa
+     4561 agttaaaaaa aactcaatag atttgctaa
+//
+LOCUS       KC249997                3756 bp    DNA     linear   INV 10-MAR-2013
+DEFINITION  Hexamita inflata 5.8S ribosomal RNA gene, internal transcribed
+            spacer 2, and large subunit ribosomal RNA gene, complete sequence.
+ACCESSION   KC249997
+VERSION     KC249997.1  GI:459348792
+KEYWORDS    .
+SOURCE      Hexamita inflata
+  ORGANISM  Hexamita inflata
+            Eukaryota; Metamonada; Diplomonadida; Hexamitidae; Hexamitinae;
+            Hexamita.
+REFERENCE   1  (bases 1 to 3756)
+  AUTHORS   van Keulen,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-NOV-2012) Department of Biological, Geological, and
+            Environmental Sciences, Cleveland State University, 1983 Euclid
+            Avenue, Cleveland, OH 44115, USA
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3756
+                     /organism="Hexamita inflata"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:28002"
+     rRNA            1..124
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        125..174
+                     /product="internal transcribed spacer 2"
+     rRNA            175..3077
+                     /product="large subunit ribosomal RNA"
+BASE COUNT      880 a    885 c   1116 g    875 t
+ORIGIN      
+        1 tcactaggct tggacatcga cgaagagcgt agaacagagc gaaatttgtg gcgacgagcc
+       61 tcagccctat gcgagttgtc aattctcgaa tacctcaggc cgcgaggccg cgcaccgtac
+      121 agagttggtc cagctgggag ggcggcgtgc cctttttctg cagagaacaa cacgcgacct
+      181 gtgcggtacg agactacggg ccgaacttaa gcatatcagt aagcccagga aaagaaatca
+      241 aagcgagatt cccccagtag cggcgagcga acagggacgt gccaggcctg aattccagtt
+      301 gtgggcgtgc attgcagcgg gggcaaagtg ccgttgaacc ggccggacca aacagtgcaa
+      361 ctctggttgg cccccttgca ctagctggcg tagtagtact gcttgagagt gtagtatgaa
+      421 tacgggtggt attcctcatc caaggccaaa tacaggtcca agtccgatag cgtatcgagt
+      481 aacgtgagtg aaaggtgaaa agtagactca aaggggttgc ttaaaagacg tgaaactatt
+      541 attttgaagg gtaagcgggg gcagcgcatc tgccgaacct ctcctagagg gccgccgctt
+      601 tccgcccgtc tcgaaacacg gattaaggag ttacgttaga ctgcgagcca atgcgtgcaa
+      661 acgcaagggc gcagcgaaag cggaaatact cagccatgtt agggtgcacc ggttcaccgg
+      721 ggctcctgta cagagttgtc tgatgtaaac ccgaaaggta gtgatcttta cacggcgagg
+      781 atgaagccag tcgaaaggct ggtggaggtc cgcagcaata ctgacgtgca aatcgtttgt
+      841 cagagctgtg taaaggggcg aaagactcat cgaacttcca agtagctggt tacgttcgaa
+      901 atttctctca ggatagcagc agtgatttag ctccgacagg tagagataat gattggtgga
+      961 aagtggcctc cgggtatgcc ccaactctca aacttcgaat agtcgggatc gcgggtcttc
+     1021 cgcaaggagc cgccgcggtg gagtatgcac tgctagtggg cccctctggg taagccggat
+     1081 gggcaaggag gattcagcct taagtggagt tacggtgcgc aacaggggcg catgagaaaa
+     1141 aacgacgtgt gctgatacag acagcaggaa ggtggccata aaagtcggaa gcctctaagg
+     1201 agtgtgttac aactcacctg ccgaatcagt acgctcggaa aatggatcgc gctgcagcct
+     1261 ctgacctaca ctccactgca cgccgtgcca ggtagaacgt ggtggtgcgg gcgtcgaagc
+     1321 tttctcgtga gagggggcgg agcgcgcact agtccagatc ttaattggag tagccaataa
+     1381 tctgcatgca gaccactgaa gaggagaagg attccgcagc cactgaaaca gtctgcgggt
+     1441 gactcggacc taagcgctcg gccacggcca tttaagcgtc gaaagggaag caggctaaga
+     1501 tccctgcagg cccgcccaca ttcggcaacg gacggcgcag ttcacggtct ctcggtcggc
+     1561 gcggtcggac catcgcaccg gcttaatgct ccagggcgtg gggaagagct aagctctaga
+     1621 gccacgtttc gcagctagaa tacgtccgcg tacacggacg cgtgcggggc cgagagacgc
+     1681 ctcaaaatgg actgcgcgac tcgggcgggc accgtactga taaccgcatc aggtctccta
+     1741 ggcaagaaac ctctagtgag aagataacac gaccaaggga agtcggcaaa tcggctctgt
+     1801 aaccttggga taaagagtgg ctctgaatgc tcgtgccggc ggcgctgcat tgagacctcg
+     1861 gggaagcgtc gaagtggggc aacctgccag atgtgagctg ggtgatcttt gcagcctcta
+     1921 acgcaccatg ggcaattcag aactgctact gactagaaga acccgactgt ataattaaaa
+     1981 catagcatct cgatagccgc agccggtttt gacgagatgt gaatcctgcc cagtgctatg
+     2041 actgtcaacg tgacgagagt cattcaagct ctggtaaacg gcgggagtaa ctatgactct
+     2101 tttaaggtag ccaaatgcct cgtccagtaa ttttggacgt gcatgaatgg attaatgagg
+     2161 ttcttactgt ccctggtcgt atcttcgcga aaccacagac tcgggaacgg gcgagtgtaa
+     2221 ccctcagcgg ggcaagaaga ccctgttgag cttgactcca gcttgggaat tgtagaacgg
+     2281 tgatggtggt agagcgtaca ggggagggcg accgcagcat gtaacaccct gacactactc
+     2341 attgttctgc taacccggta accggcccgg ctttggcctg gggcttgtcg gggacatttc
+     2401 taggtgggga gtttggctgg ggcggcgcgc ctgctaaagc gcaacgcagg cgtcctaaaa
+     2461 caagctcaga caggacggaa acctgtcgca gagcaaaaga gcaaaagctt gtctgattgc
+     2521 gtgcgtcagt ggcgtatgca accgtgaaag cgtggtctat cgatccttta cgattcttgg
+     2581 aatgaatctg gaggtgacag aaaagttacc acagggataa ctggcttgtg gccgccaagc
+     2641 gaccaaagcg acgtggcttt ttgattcttc gatgtcggct cttcctatca ttctgaagca
+     2701 gcattcagaa agtgttggat tgttcaccca tgcaagggaa cgtgagctgg gtttagaccg
+     2761 tcgcgagaca ggttagtttt atcctactga ggaccgcgca ccgctagtaa tctagattag
+     2821 tacgagagga acatttttat caaagcactg gtttacagcc ttgtttgaca aagcagttgg
+     2881 ctgaagccac cctttggcat gttatggctg acagcctcta agtgagaatc tcccctacag
+     2941 gtgtgtatgg tttcacctgc ttatgaatta gaagcgaaac cgccgctctc catagaccat
+     3001 ggagctcgag tgcactgtga gctataagta aattcaagta gttgaggtgc cactctgtgt
+     3061 tattattcat tttgctggct tgtttttgct agctgtggcg ctgccgttta ttttattttt
+     3121 agttctccag cgtgcggcca atattactct atctggtctg aaggtagctt tactttattg
+     3181 ttagtactga accagattct ggctgccttg ctgtgtaata ctgaactggt gtctttgctt
+     3241 aggtcttttg catgggggat gacacggtga ggacccggta gcaggtttgg gtgtacgtat
+     3301 tctggtgggg gaatgaggtg ggctagctct gagactacga ctgctggacg ggagcgggct
+     3361 gcggtgcggc gctgacttgg agtagtgggg cagtgtgggg ggtttcgctg ccctgggggc
+     3421 tctcttgggc gggcgtctgt cgcttggttt tgctcgctgg tttgcttgct gttcgcctgc
+     3481 ttagttctct ttcggctgcc tggtttctgt tttagtgcag caaaattctc actattttac
+     3541 tttcccttgg gaaaatggag gctgactctc gaattaaggg tgcctagttc aaatcctggt
+     3601 agggaatcgc acgctggccc ctctgggagc accttcgcct ataataatcc aataaagcaa
+     3661 gggagttctg ccttggacaa gtcgctttga gcaagggagt ttcgttgcct tgggttcact
+     3721 tgaacaagct ttgagctcac tttgctcact gaattc
+//
+LOCUS       MF197902                 247 bp    DNA     linear   INV 02-MAY-2018
+DEFINITION  Leishmania tropica haplotype 3 internal transcribed spacer 1 and
+            5.8S ribosomal RNA gene, partial sequence.
+ACCESSION   MF197902
+VERSION     MF197902.1
+KEYWORDS    .
+SOURCE      Leishmania tropica
+  ORGANISM  Leishmania tropica
+            Eukaryota; Euglenozoa; Kinetoplastida; Trypanosomatidae;
+            Leishmaniinae; Leishmania.
+REFERENCE   1  (bases 1 to 247)
+  AUTHORS   Alkulaibi,M.M., Suleiman,A.M., Khalil,E.-T.A.G. and Al-Garadi,M.A.
+  TITLE     Characterization of Leishmania species associated with cutaneous
+            Leishmaniasis, Utmah district Republic of Yemen
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 247)
+  AUTHORS   Alkulaibi,M.M., Suleiman,A.M., Khalil,E.-T.A.G. and Al-Garadi,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JUN-2017) Oral and Maxillofacial Surgery, Sana'a
+            University, Dhamar, Sana'a YE, Yemen
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..247
+                     /organism="Leishmania tropica"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:5666"
+                     /haplotype="3"
+     misc_RNA        <1..>247
+                     /note="contains internal transcribed spacer 1 and 5.8S
+                     ribosomal RNA"
+ORIGIN      
+        1 tatattatac attatatata ggcctttccc acacatacac agcaaacttt tatactcgaa
+       61 gtttgcagta aacaaaaggc cgatcgacct tataacgcac cgcctataca caaaagcaaa
+      121 aatgtccgtt tatacaaata tacggcgttt cggttttgtt ggcggggggt gcgtgtgtgt
+      181 ggataacggc tcacataacg tgtcgcgatg gatgacttgg cttcctattt cgttgaaaaa
+      241 cgcagta
+//
+
+LOCUS       MF115406                 419 bp    DNA     linear   PLN 22-MAY-2017
+DEFINITION  Phytophthora nicotianae voucher ABD:211 5.8S ribosomal RNA gene and
+            internal transcribed spacer 2, partial sequence.
+ACCESSION   MF115406
+VERSION     MF115406.1
+KEYWORDS    .
+SOURCE      Phytophthora nicotianae
+  ORGANISM  Phytophthora nicotianae
+            Eukaryota; Stramenopiles; Oomycetes; Peronosporales;
+            Peronosporaceae; Phytophthora.
+REFERENCE   1  (bases 1 to 419)
+  AUTHORS   Puertolas,A., Bonants,P., Boa,E. and Woodward,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2017) Soil and Plant Science, University of
+            Aberdeen, St Machar Drive, Aberdeen AB24 3UU, United Kingdom
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..419
+                     /organism="Phytophthora nicotianae"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="ABD:211"
+                     /db_xref="taxon:4790"
+     misc_RNA        <1..>419
+                     /note="contains 5.8S ribosomal RNA and internal
+                     transcribed spacer 2"
+ORIGIN      
+        1 aacgctgcga actgcgatac gtaatgcgaa ttgcaggatt cagtgagtca tcgaaatttt
+       61 gaacgcatat tgcacttccg ggttagtcct ggaagtatgc ctgtatcagt gtccgtacat
+      121 taaacttgac tttcttcctt ccgtgtagtc ggtggaggag atgtcnnatg tgaagtgtct
+      181 tgcgattggt cttcggaccg gctgcgagtc cttttaaatg tactaaactg aacttctctt
+      241 tgctcgaaaa gtggtggcgt tgctggttgt gaaggctgct attgtggcaa attggcgact
+      301 ggtttgtctg ctgcggcatt aatggaagag tgttcgattc gtggtatggt tggcttcggc
+      361 tgaacaatgc acttattgga cgtttttcct gctgtggcgt gatggactgg tgaaccata
+//
+LOCUS       MK573924                 877 bp    DNA     linear   PLN 17-JUN-2019
+DEFINITION  Lecanora lendemeri voucher ET5806 small subunit ribosomal RNA gene,
+            partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA
+            gene, and internal transcribed spacer 2, complete sequence; and
+            large subunit ribosomal RNA gene, partial sequence.
+ACCESSION   MK573924
+VERSION     MK573924.1
+KEYWORDS    .
+SOURCE      Lecanora lendemeri
+  ORGANISM  Lecanora lendemeri
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Lecanoromycetes; OSLEUM clade; Lecanoromycetidae; Lecanorales;
+            Lecanorineae; Lecanoraceae; Lecanora.
+REFERENCE   1  (bases 1 to 877)
+  AUTHORS   Tripp,E.A., Morse,C.A., Keepers,K.G., Stewart,C.A., Pogoda,C.S.,
+            White,K.H., Hoffman,J.R., Kane,N.C. and McCain,C.M.
+  TITLE     Evidence of substrate endemism of lichens on Fox Hills Sandstone:
+            Discovery and description of Lecanora lendemeri as new to science
+  JOURNAL   Bryologist 122 (2), 246 (2019)
+REFERENCE   2  (bases 1 to 877)
+  AUTHORS   Keepers,K.G., Pogoda,C.S., White,K.H., Kane,N.C. and Tripp,E.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-FEB-2019) Ecology and Evolutionary Biology,
+            University of Colorado, Boulder, Ramaley N122, Boulder, CO
+            80309-0334, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..877
+                     /organism="Lecanora lendemeri"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="ET5806"
+                     /type_material="type material of Lecanora lendemeri"
+                     /db_xref="taxon:2530060"
+                     /country="USA"
+                     /collected_by="E. Tripp"
+     misc_RNA        <1..>877
+                     /note="contains small subunit ribosomal RNA, internal
+                     transcribed spacer 1, 5.8S ribosomal RNA, internal
+                     transcribed spacer 2, and large subunit ribosomal RNA"
+ORIGIN      
+        1 gtcgtaacaa ggtttccgta ggtacgcacg ttttgcctac cggagccccg cagcgactct
+       61 aaagaagtgc cccagtcggc ctccctggag ggccggcgac gccgtcaatc tgctctggga
+      121 gcgccgcccg cggccccacc agaagccccc ttgggggtcc acagatcaaa cgacagcggc
+      181 cgcccccggg cggttgagat atgaccggcc ccggccttca tcggccggcg agctcgcgga
+      241 acctgcggaa ggatcattaa tgagaggggt caaacccgcg ggggctccgg cccccaactc
+      301 tgcacccttg tatacctacc tctgttgctt tggcgggccg tggggtcgcc ccctcgccgt
+      361 ccggtcgctc cgtcgccggg ccggttcgcg cccgtcagag gcccatcaaa cccgatttta
+      421 tccgtaacgt ccgagccaaa acacaaatgg taaaaaactt tcaacaacgg atctcttggt
+      481 tctggcatcg atgaagaacg cagcgaaatg cgataagtaa tgtgaattgc agaattcagt
+      541 gaatcatcga atctttgaac gcacattgcg cccctcggta ttccgggggg catgcctgtt
+      601 cgagcgtcat tgcacccctc aagccctgct tggtattggg cctcgccccc gggcggacct
+      661 gaaagtcagt ggcggcccgg cgcgacttcg agcgtagtag attatccccc gctctggaag
+      721 tcggcgacgt ggccggccag caagcctttt attttcaatg attgacctcg gatcaggtag
+      781 ggatacccgc tgaacttaag catatcaata agcggaggaa aagaaaccaa cagggattgc
+      841 ctcagtaacg gcgagtgaag cggcaacagc tcaaatt
+//
+LOCUS       KX228276                 557 bp    DNA     linear   PLN 19-DEC-2018
+DEFINITION  Phaeotheca salicorniae strain CPC 27406 18S ribosomal RNA gene,
+            partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA
+            gene, and internal transcribed spacer 2, complete sequence; and 28S
+            ribosomal RNA gene, partial sequence.
+ACCESSION   KX228276
+VERSION     KX228276.1  GI:1042866843
+KEYWORDS    .
+SOURCE      Phaeotheca salicorniae
+  ORGANISM  Phaeotheca salicorniae
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Dothideomycetes incertae sedis; Phaeotheca.
+REFERENCE   1  (bases 1 to 557)
+  AUTHORS   Crous,P.W., Wingfield,M.J., Guarro,J., Cheewangkoon,R., van der
+            Bank,M., Swart,W.J., Stchigel,A.M., Cano-Lira,J.F., Roux,J.,
+            Madrid,H., Damm,U., Wood,A.R., Shuttleworth,L.A., Hodges,C.S.,
+            Munster,M., de Jesus Yanez-Morales,M., Zuniga-Estrada,L.,
+            Cruywagen,E.M., de Hoog,G.S., Silvera,C., Najafzadeh,J.,
+            Davison,E.M., Davison,P.J., Barrett,M.D., Barrett,R.L.,
+            Manamgoda,D.S., Minnis,A.M., Kleczewski,N.M., Flory,S.L.,
+            Castlebury,L.A., Clay,K., Hyde,K.D., Mausse-Sitoe,S.N., Chen,S.,
+            Lechat,C., Hairaud,M., Lesage-Meessen,L., Pawlowska,J., Wilk,M.,
+            Sliwinska-Wyrzychowska,A., Metrak,M., Wrzosek,M., Pavlic-Zupanc,D.,
+            Maleme,H.M., Slippers,B., Mac Cormack,W.P., Archuby,D.I.,
+            Grunwald,N.J., Telleria,M.T., Duenas,M., Martin,M.P.,
+            Marincowitz,S., de Beer,Z.W., Perez,C.A., Gene,J., Marin-Felix,Y.
+            and Groenewald,J.Z.
+  TITLE     Fungal Planet description sheets: 154-213
+  JOURNAL   Persoonia 31, 188-296 (2013)
+   PUBMED   24761043
+REFERENCE   2  (bases 1 to 557)
+  AUTHORS   Crous,P.W. and Groenewald,J.Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAY-2016) Evolutionary Phytopathology, CBS-KNAW
+            Fungal Biodiversity Centre, Uppsalalaan 8, Utrecht, UT 3584 CT, The
+            Netherlands
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..557
+                     /organism="Phaeotheca salicorniae"
+                     /mol_type="genomic DNA"
+                     /strain="CPC 27406"
+                     /isolation_source="on leaves and twigs of Salicornia sp."
+                     /culture_collection="CBS:141299"
+                     /culture_collection="CPC:27406"
+                     /type_material="culture from holotype of Phaeotheca
+                     salicorniae"
+                     /db_xref="taxon:1871383"
+                     /country="South Africa: Western Cape Province, Robben
+                     Island"
+                     /collected_by="P.W. Crous & F. Roets"
+                     /note="sequence from ex-type culture"
+     rRNA            <1..38
+                     /product="18S ribosomal RNA"
+     misc_RNA        39..202
+                     /product="internal transcribed spacer 1"
+     rRNA            203..360
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        361..510
+                     /product="internal transcribed spacer 2"
+     rRNA            511..>557
+                     /product="28S ribosomal RNA"
+ORIGIN      
+        1 aacaaggttt ccgtaggtga acctgcggaa ggatcattaa tgagaacacc ggtgtaaaag
+       61 ccgggctctt aaacccttgt gtaaacaaaa cccagttgcc ccgggggcga ccccgccgct
+      121 ccttcacggg cgcaggcgag gggcccccgg cggtccacta aacactgcat caatgcgtct
+      181 gagtaagatt attaaatcaa tcaaaacttt caacaacgga tctcttggtt ctggcatcga
+      241 tgaagaacgc agcaaaatgc gataagtaat gtgaattgca gaattcagtg aatcatcgaa
+      301 tctttgaacg cacattgcgc cccctggtat tccggggggc acgcctgttc gagcgtcatt
+      361 acaccactca agcctcgctt ggtattggga gacgcggtta gccgcgctcc tcgattctct
+      421 tcggctgggc ccaacgaacc cctagcgtag taacataacg tttcgctgcg ggagaggggg
+      481 gcatccggcc gttaaagacc accatcaaag gttgacctcg gatcaggcgg ggatacccgc
+      541 tgaacttaag catatca
+//
+LOCUS       MF488993                2034 bp    DNA     linear   PLN 05-SEP-2017
+DEFINITION  Entosordaria perfidiosa strain EPE 18S ribosomal RNA gene, partial
+            sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene,
+            and internal transcribed spacer 2, complete sequence; and 28S
+            ribosomal RNA gene, partial sequence.
+ACCESSION   MF488993
+VERSION     MF488993.1
+KEYWORDS    .
+SOURCE      Entosordaria perfidiosa
+  ORGANISM  Entosordaria perfidiosa
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Sordariomycetes; Xylariomycetidae; Xylariales; Barrmaeliaceae;
+            Entosordaria.
+REFERENCE   1  (bases 1 to 2034)
+  AUTHORS   Voglmayr,H., Friebes,G., Gardiennet,A. and Jaklitsch,W.M.
+  TITLE     Barrmaelia and Entosordaria in Barrmaeliaceae (fam. nov.,
+            Xylariales), and critical notes on Anthostomella-like genera based
+            on multi-gene phylogenies
+  JOURNAL   Mycol. Prog. (2017) In press
+REFERENCE   2  (bases 1 to 2034)
+  AUTHORS   Voglmayr,H., Friebes,G., Gardiennet,A. and Jaklitsch,W.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JUL-2017) Department of Botany and Biodiversity
+            Research, University of Vienna, Rennweg 14, Wien A-1030, Austria
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SeqMan v. 7
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2034
+                     /organism="Entosordaria perfidiosa"
+                     /mol_type="genomic DNA"
+                     /strain="EPE"
+                     /host="Acer pseudoplatanus"
+                     /specimen_voucher="WU:35981"
+                     /culture_collection="CBS:142773"
+                     /type_material="culture from epitype of Entosordaria
+                     perfidiosa"
+                     /type_material="epitype of Entosordaria perfidiosa"
+                     /db_xref="taxon:2032586"
+                     /country="Austria"
+                     /note="ex epitype"
+     misc_RNA        <1..>2034
+                     /note="contains 18S ribosomal RNA, internal transcribed
+                     spacer 1, 5.8S ribosomal RNA, internal transcribed spacer
+                     2, and 28S ribosomal RNA"
+ORIGIN      
+        1 cacaccgccc gtcgctacta ccgattgaat ggctcagtga ggctttcgga ctggcccaga
+       61 ggagtcggca acgacacctc agggccggaa agttatccaa actcggtcat ttagaggaag
+      121 taaaagtcgt aacaaggtct ccgttggtga accagcggag ggatcattat agagttacaa
+      181 aaactccaaa cccatgtgaa cataccatat tgttgcctcg gcaggttgtg cctaccctgt
+      241 agtaacctac cctgtaacga cctaccctgg agttaccctg tagggaccta cctggtggcg
+      301 cgccagaagg cctgccgaag gacccccaaa ctctagtttt ataatggaat tctgaatacg
+      361 caacttaata agttaaaact ttcaacaacg gatctcttgg ttctggcatc gatgaagaac
+      421 gcagcgaaat gcgataagta atgtgaattg cagaattcag tgaatcatcg aatctttgaa
+      481 cgcacattgc gcccattagt actctagtgg gcatgcctgt tcgagcgtca tttcgaccct
+      541 taagccctgt tgcttagtgt tgggagccta cctaccctgt agctcctcaa agttagtggc
+      601 ggagtcgggt cgtactctaa gcgtagtagt ttcttctcgc ttctgcagtc gtcctggttc
+      661 ctgccgtaaa acccctatat ttatctaggt tgacctcgga tcaggtagga atacccgctg
+      721 aacttaagca tatcaataag cggaggaaaa gaaaccaaca gggattgccc tagtaacggc
+      781 gagtgaagcg gcaacagctc aaatttgaaa tctggccctc gggtccgaat tgtaatttgt
+      841 agaggatgct tttggcgcgg tgccttccga gttccctgga acgggacgcc ttagagggtg
+      901 agagccccgt acggttggac accaagcctc tgtaaagctc cttcgacgag tcgagtagtt
+      961 tgggaatgct gctctaaatg ggaggtaaat ttcttctaaa gctaaatacc ggccagagac
+     1021 cgatagcgca caagtagagt gatcgaaaga tgaaaagcac tttgaaaaga gggttaaata
+     1081 gcacgtgaaa ttgttgaaag ggaagcgttt acgaccagac tttttccagg cggatcatcc
+     1141 ggtgttctca ccggtgcact tcgcctggtt taggccagca tcggttttcg tagggggata
+     1201 aaagcttcgg gaaagtagct ccctcgggag tgttatagcc cgttgcataa tacccttatg
+     1261 gggaccgagg atcgcgctct gcaaggatgc tggcataatg gtcgtcaacg acccgtcttg
+     1321 aaacacggac caaggagtcg aacatttgtg cgagtgtttg ggtgttaaac cctcacgcgt
+     1381 aatgaaagtg aacggaggtg agagccctta tgggtgcatc atcgaccgat cctgatgtct
+     1441 tcggatggat ttgagtaaga gcataactgt tcggacccga aagatggtga actatgcgtg
+     1501 gatagggtga agccagagga aactctggtg gaggctcgca gcggttctga cgtgcaaatc
+     1561 gatcgtcaaa tctgcgcatg ggggcgaaag actaatcgaa ccattgagaa accagcggta
+     1621 aataattctt tactaggtgg ttaagaggcc ctttgagaga gaaggcctag gtcccaccta
+     1681 ccctgtagta aactaccctg taacaagcta ccctggagca gcctaccctg taacaagcta
+     1741 ccctatagcg acttaccctg taagcggcta acctggagta tggggtgggc gaccgacacc
+     1801 gctaaattgc ggggacatcc tatccaaggc cacaggctac cgccgggcgc tgaaaagcgt
+     1861 gccggcaacc gagaatagcg ctctcgggta cggtaataac gcctgtggta gcggacgacc
+     1921 tgcagccaac cccgttttag gggagagttc actgactaga cagcggtggg tcagcccccg
+     1981 tggctggcct aagacatagt cgatccgggc cctgaaaagg aacccctaat acga
+//
+LOCUS       JN222142                 592 bp    DNA     linear   PLN 28-APR-2015
+DEFINITION  Eschweilera amazoniciformis voucher Mori27270 18S ribosomal RNA
+            gene, partial sequence; internal transcribed spacer 1, 5.8S
+            ribosomal RNA gene, and internal transcribed spacer 2, complete
+            sequence; and 26S ribosomal RNA gene, partial sequence.
+ACCESSION   JN222142
+VERSION     JN222142.1
+KEYWORDS    .
+SOURCE      Eschweilera amazoniciformis
+  ORGANISM  Eschweilera amazoniciformis
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+            Pentapetalae; asterids; Ericales; Lecythidaceae; Eschweilera.
+REFERENCE   1  (bases 1 to 592)
+  AUTHORS   Huang,Y.-Y., Mori,S.A. and Kelly,L.M.
+  TITLE     Toward a phylogenetic-based Generic Classification of Neotropical
+            Lecythidaceae - I. Status of Bertholletia, Corythophora,
+            Eschweilera and Lecythis
+  JOURNAL   Phytotaxa 203 (2), 85-121 (2015)
+REFERENCE   2  (bases 1 to 592)
+  AUTHORS   Huang,Y.-Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2011) Biodiversity Research Center, Academia
+            Sinica, 128 Academia Road Section 2, Taipei 11529, Taiwan
+FEATURES             Location/Qualifiers
+     source          1..592
+                     /organism="Eschweilera amazoniciformis"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="Mori27270"
+                     /db_xref="taxon:372705"
+     misc_RNA        <1..>592
+                     /note="contains 18S ribosomal RNA, internal transcribed
+                     spacer 1, 5.8S ribosomal RNA, internal transcribed spacer
+                     2, and 26S ribosomal RNA"
+ORIGIN      
+        1 tgcggaagga tcattgtcga tggcccggac gacccgcgaa cccgttcttc acaaagcccc
+       61 ggcaccggcg gcgcgccccg cgggcgcgcc ggcggcgccg acaacgaacc ccggcgcggg
+      121 acgcgccaag gaagaccccg acgacgagac ggcacgcccc cgttcgcggg ggcgcggcct
+      181 ctttcgcgaa tcgaaacgac tctcggcaac ggatatctcg gctctcgcat cgatgaagaa
+      241 cgtagcgaaa tgcgatactt ggtgtgaatt gcagaatccc gcgaaccatc gagtctttga
+      301 acgcaagttg cgcccgaagc cgtcaggccg agggcacgtc tgcctgggcg tctcgcaacg
+      361 cgtcgccccc ccgcccccgc gagggggcgc cgggggcgga gattggcccc ccgcgagcgg
+      421 cagctcgcgg tcggcccaaa aaccgagtcg ccggcgaggg acggcacgac gagtggtgga
+      481 gcgccgctgg catgcgccgt gccgcgcccg tcgccccggg cggtctcgcg cgaccccgaa
+      541 gcatcgaccg cgaccccagg tcaggcggga ccacccgctg agtttaagca ta
+//
+LOCUS       JQ911588                1233 bp    DNA     linear   INV 21-JUL-2012
+DEFINITION  Porites lutea isolate 7 18S ribosomal RNA gene, partial sequence;
+            internal transcribed spacer 1, 5.8S ribosomal RNA gene, and
+            internal transcribed spacer 2, complete sequence; and 28S ribosomal
+            RNA gene, partial sequence.
+ACCESSION   JQ911588
+VERSION     JQ911588.1
+KEYWORDS    .
+SOURCE      Porites lutea
+  ORGANISM  Porites lutea
+            Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia;
+            Fungiina; Poritidae; Porites.
+REFERENCE   1  (bases 1 to 1233)
+  AUTHORS   Li,W., Liu,C. and Liu,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2012) Aquatics, Labratory of Marine Technology,
+            Guangdong Ocean University, Room 303, The Second Lab.
+            Building,NO.40 Jiefang Road, Zhanjiang City, Zhanjiang, Guangdong
+            86 524025, China
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: mage v. 5.0
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1233
+                     /organism="Porites lutea"
+                     /mol_type="genomic DNA"
+                     /isolate="7"
+                     /db_xref="taxon:51062"
+                     /country="China: Xvwen, Zhanjiang"
+     misc_RNA        <1..>1233
+                     /note="contains 18S ribosomal RNA, internal transcribed
+                     spacer 1, 5.8S ribosomal RNA, internal transcribed spacer
+                     2, and 28S ribosomal RNA"
+ORIGIN      
+        1 caaattcccc attgaatggt ttagtgaggc cttctgactg gcgccgctac tctggcaaca
+       61 gagcggcgga tgccgggaag ttggtcaaac ttgatcattt agaggaagta aaagtcgtaa
+      121 caaggtttcc gtaggtgaac ctgcggaagg atcattaccg atgtgaaaaa tccaaggtta
+      181 aacatcatta accagtgtga actgtgaaac aactctttag gggtcggcac aggcgtgtgt
+      241 cgttaaatgg cggataggtt ccttccgcca gccccgccat tgtgtttatg atatcacttt
+      301 gaacgttaaa gactgagaac gtatgtatca tgcattaaat gtatgagaaa gaaggaaaga
+      361 aaaatgagag acaacttttg acggtggatc tcttggctca cgtatcgatg aagaacgcag
+      421 ccagctgcga tatgtagtgt gaattgcaga attcagtgaa tcattgaatc tttgaacgca
+      481 aatggcgctc ttgggttctc ccaggagcat gtctgtctga gtgtcggatt ttatcgaacg
+      541 cactcgtgag tgcggtattg aggtgtcacg gcgtgttagc aagcaagctt taaatcgccg
+      601 tgtcccttga aggacagcag cattggactc gcattctcta ttgaaacttg agtgcgaagg
+      661 ctaaagataa tattttcctt cgcccaaaca tgcaatagca gaaacaaagt ccaatcaaag
+      721 cggtgacaga caataaacat caaatcttga cctcagatca ggcaaggcta cccgctgaat
+      781 ttaagcatat taataagcgg aggaaaaaga aactaacaag gattccctca gtaacggcga
+      841 gtgaagcggg aatagctcaa atttgaaatc tccgacgctt gcgtcggcga attgtagttg
+      901 cgagaagcac tttctaggcg gatcgggtcg tgcctaagtt tgcttgcaac agtacgtcat
+      961 agagggtgac aaccccggtc tgtggctcgg ccggtcgctc acgatgtgct ttcgaagaag
+     1021 tctgcttgct tgggactgcc gacccaaagc cagcctgact catcgcaagc acatcggtga
+     1081 ggcggccggc cgagccacag aacgtgggtt gtcacccccc ctatacgtac tgtttgccaa
+     1141 gtctaactat gaacgatcga ttcctgccta ggaaaggtcc tcctgcaacc ttacagattg
+     1201 gccccggagg gcagggggga taggaggata att
+//
+LOCUS       GQ353373                 972 bp    DNA     linear   INV 11-AUG-2009
+DEFINITION  Steinernema sp. SGor1 18S ribosomal RNA gene, partial sequence;
+            internal transcribed spacer 1, 5.8S ribosomal RNA gene, and
+            internal transcribed spacer 2, complete sequence; and 28S ribosomal
+            RNA gene, partial sequence.
+ACCESSION   GQ353373
+VERSION     GQ353373.1
+KEYWORDS    .
+SOURCE      Steinernema sp. SGor1
+  ORGANISM  Steinernema sp. SGor1
+            Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+            Panagrolaimoidea; Steinernematidae; Steinernema.
+REFERENCE   1  (bases 1 to 972)
+  AUTHORS   Ganguly,S. and Dubey,J.
+  TITLE     Two new species of Steinernema (Rhabditida:Panagrolaimoidea) from
+            Uttaranchal and Orissa states of India
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 972)
+  AUTHORS   Ganguly,S. and Dubey,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-JUL-2009) Nematology, I.A.R.I., Pusa Campus, New
+            Delhi, Delhi 110012, India
+FEATURES             Location/Qualifiers
+     source          1..972
+                     /organism="Steinernema sp. SGor1"
+                     /mol_type="genomic DNA"
+                     /isolate="SGor1"
+                     /db_xref="taxon:664632"
+                     /PCR_primers="fwd_name: 18S, fwd_seq:
+                     ttgattacgtccctgcccttt, rev_name: 26S, rev_seq:
+                     tttcactcgccgttacatagg"
+     misc_RNA        <1..>972
+                     /note="contains 18S ribosomal RNA, internal transcribed
+                     spacer 1, 5.8S ribosomal RNA, internal transcribed spacer
+                     2, and 28S ribosomal RNA"
+ORIGIN      
+        1 cgtggtgagt tgaacaatct gttacggttt gattacgtcc ctgccctttc cgaaattgcg
+       61 atgacgaatg ttttcggatg tcattaaagc gagaaccgcg ttaatcgaat cggcttgaac
+      121 cgcgtcaaaa gtcgtaacaa ggtttccgta ggtgaacctg cggaaggatc attattgagc
+      181 taatttcttc catttaatca ggtctttgct gtttgtttct aagcattgac ttgatcttgc
+      241 tttgaatggt ttctagagac gtttggagca gtcgtttaag cgtgactgtg atgatgagcg
+      301 ttttactttg cttgcatttc gctgtttctt gaatgcttag cgatgagaat taaagaggtc
+      361 tgctgactcg ccatttttat tgataacaaa aacgttttgt tttgattttt gtgtcacttg
+      421 ttgatgcatt attcaattat caagtcttat cggtggatca ctcggttcgt aggtcgatga
+      481 aaaacggggc aaaaaccgtt atttggcgtg aattgcagac atattgagcg ctaaaatttt
+      541 gaacgcaaat ggcactaaca gggttatcgt tagtatgttc aattgagggt cttttgacta
+      601 gaatctggca atcggctgtg attgcttttt cggaaagtta tttcgctttt tctaaagtga
+      661 agtacctttt tggtatggct atttgattgt ctaatggatg tctggttagc tgtttctttg
+      721 ctagacgtct gcaatcattt ggctttgcgt agtgtttgaa taataggtta gcgcgtttct
+      781 tgctaactga cttttgcaca agcaagtgta atacgtttct taaagtcagc ttttattcaa
+      841 tttggttttc tgacttgatt tgtcggttaa ctgtgctatg ctttgtcaat cttttcgaac
+      901 tagacctcaa tttgagcaag cccccccttg caatagagcc ggtcgagtga gatgagcacg
+      961 atactatccc cg
+//
+LOCUS       AB278187                2202 bp    DNA     linear   PLN 13-JUL-2010
+DEFINITION  Phialemonium obovatum gene for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 28S
+            rRNA, partial and complete sequence, strain: CBS 279.76.
+ACCESSION   AB278187
+VERSION     AB278187.1
+KEYWORDS    .
+SOURCE      Phialemonium obovatum
+  ORGANISM  Phialemonium obovatum
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Sordariomycetes; Sordariomycetidae; Sordariales; Cephalothecaceae;
+            Phialemonium.
+REFERENCE   1
+  AUTHORS   Yaguchi,T., Sano,A., Yarita,K., Suh,M.K., Nishimura,K. and
+            Udagawa,S.
+  TITLE     A new species of Cephalotheca isolated from a Korean patient
+  JOURNAL   Mycotaxon 96, 309-322 (2006)
+REFERENCE   2
+  AUTHORS   Suh,M.K., Lim,J.W., Lee,Y.H., Ha,G.Y., Kim,H., Kim,J.R., Yaguchi,T.
+            and Nishimura,K.
+  TITLE     Subcutaneous hyalohyphomycosis due to Cephalotheca foveolata in an
+            immunocompetent host
+  JOURNAL   Br. J. Dermatol. 154 (6), 1184-1189 (2006)
+   PUBMED   16704653
+REFERENCE   3  (bases 1 to 2202)
+  AUTHORS   Yarita,K. and Yaguchi,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-OCT-2006) Contact:Kyoko Yarita Chiba University,
+            Research Center for Pathogenic Fungi and Microbial Toxicoses;
+            Chuo-Ku Inohana 1-8-1, Chiba, Chiba 260-8673, Japan
+COMMENT     http://www.pf.chiba-u.ac.jp/index.html
+            
+            English name of the institution was changed from 'Chiba University,
+            Research Center for Pathogenic Fungi and Microbial Toxicoses' to
+            'Chiba University, Medical Mycology Research Center', in 2007.
+FEATURES             Location/Qualifiers
+     source          1..2202
+                     /organism="Phialemonium obovatum"
+                     /mol_type="genomic DNA"
+                     /strain="CBS 279.76"
+                     /isolation_source="man, systemic mycotic infection in a
+                     six-month-old burned child"
+                     /type_material="culture from holotype of Phialemonium
+                     obovatum"
+                     /db_xref="taxon:291973"
+                     /country="USA: North Carolina"
+                     /collection_date="1975"
+                     /note="Holotype strain of Phialemonium obovatum"
+     rRNA            join(<1..616,1039..1670)
+                     /product="18S ribosomal RNA"
+     intron          617..1038
+                     /note="group I"
+     misc_RNA        1671..1829
+                     /product="internal transcribed spacer 1"
+     rRNA            1830..1987
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        1988..2143
+                     /product="internal transcribed spacer 2"
+     rRNA            2144..>2202
+                     /product="28S ribosomal RNA"
+ORIGIN      
+        1 gcaagtctgg tgccagcagc cgcggtaatt ccagctccaa tagcgtatat taaagttgtt
+       61 gcagttaaaa agctcgtagt tgaaccttgg gcctggctgg ccggtccgcc tcaccgcgtg
+      121 cactggtccg gccgggcctt tccctctggg gaacctcatg cccttcactg ggtgtgctgg
+      181 ggaaccagga cttttacttt gaacaaatca gatcgcttaa agaaggccta tgctcggata
+      241 cattagcatg gaataataga ataggacgcg tggttctatt ttgttggttt ctaggaccgc
+      301 cgtaatgatt aatagggaca gtcgggggca tcagtattca attgtcagag gtgaaattct
+      361 tggatttatt gaagactaac tactgcgaaa gcatttgcca aggatgtttt cattaatcag
+      421 gaacgaaagt taggggatcg aagacgatca gataccgtcg tagtcttaac cataaactat
+      481 gccgactagg gatcggacga tgttattcat tgactcgttc ggcaccttac acgaaagtaa
+      541 agtttttggg ttctgggggg agtatggtcg caaggctgaa acttaaagaa attgacggaa
+      601 gggcaccacc aggggtaaac tgcagttaac tctgccccag aaagcagccc gatgaaaagg
+      661 gttagtggtg ttcctcagca cacggatacc ggtgctggaa ctaagtgcta gtctgcccct
+      721 agggcaggcg acaccttcaa attgcgggaa gctcctaaag ctcgtgtgac taactagtgc
+      781 gtgaaagcgt gctagggccc ggttaacagc cacaggggag taacactaca cgagatgcta
+      841 caatggatga tccgcagcca agctcctaag gccccggcgg ctatggagaa ggttcagaga
+      901 cttgacggag gtggttgtga tcccgagcct tccagcttcg gttccctggc tgagcggcaa
+      961 gcggcgccag gggcgaggtg gctcggggtc acggctaaga taaagtccgg ccctatggga
+     1021 aaccatacgg gatcagcggg agcctgcggc ttaatttgac tcaacacggg gaaactcacc
+     1081 aggtccagac acaagtagga ttgacagatt gagagctctt tcttgatttt gtgggtggtg
+     1141 gtgcatggcc gttcttagtt ggtggagtga tttgtctgct taattgcgat aacgaacgag
+     1201 accttaacct gctaaatagc ccgcgttgcc tcggcagcgc gctggcttcc ttagagggac
+     1261 tatcggctca agccgatgga agtttgaggc aataacaggt ctgtgatgcc cttagatgtt
+     1321 ctgggccgca cgcgcgctac actgacagag ccagcgagta ctcccttggc cggaaggccc
+     1381 gggtaatctt gttaaactct gtcgtgctgg ggatagagca ttgcaattat tgctcttcaa
+     1441 cgaggaatcc ctagtaagcg caagtcatca gcttgcgttg attacgtccc tgccctttgt
+     1501 acacaccgcc cgtcgctact accgattgaa tggctcagtg aggctttcgg actggcccag
+     1561 ggaggtcggc aacgaccacc cagggccgga aagttatcca aactcggtca tttagaggaa
+     1621 gtaaaagtcg taacaaggtc tccgttggtg aaccagcgga gggatcatta cagagttgaa
+     1681 agactcccaa accaatgtga acttacccgt gacgttgctt cggcgggcgg ctccaggggg
+     1741 agccgtcgcc ccccgcgagg gtggtgcccg ccggaggacc ccaaaccata cttgaatcag
+     1801 tggcccatct gagacagctt caataatcaa aactttcaac aacggatctc ttggttctgg
+     1861 catcgatgaa gaacgcagcg aaatgcgata agtaatgtga attgcagact tcagtgaatc
+     1921 atcgaatctt tgaacgcaca ttgcgcccgc cagcattctg gcgggcatgc ctgtccgagc
+     1981 gtcatttcaa ccctcaagcc cagcttggtg ttggggcacc acggcccggc cgtgggcccc
+     2041 gaaatttagt ggcgggccct ctgggagtcc gggcgtagta gcgatatgtc gcccgcggcc
+     2101 ccccggaggc gctcctgccg ttaaaccccc caaatcacag aaggttgacc tcggatcagg
+     2161 taggactacc cgctgaactt aagcatatca ataagcggag ga
+//
+LOCUS       AB035721                3053 bp    DNA     linear   PLN 19-MAR-2016
+DEFINITION  Bannoa bischofiae genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 26S
+            rRNA, partial and complete sequence.
+ACCESSION   AB035721
+VERSION     AB035721.1
+KEYWORDS    .
+SOURCE      Bannoa bischofiae
+  ORGANISM  Bannoa bischofiae
+            Eukaryota; Fungi; Dikarya; Basidiomycota; Pucciniomycotina;
+            Cystobasidiomycetes; Erythrobasidiales; Erythrobasidiaceae; Bannoa.
+REFERENCE   1
+  AUTHORS   Hamamoto,M., Thanh,V.N. and Nakase,T.
+  TITLE     Bannoa hahajimensis gen. nov., sp. nov., and three related
+            anamorphs, Sporobolomyces bischofiae sp. nov., Sporobolomyces
+            ogasawarensis sp. nov. and sporobolomyces syzygii sp. nov., yeasts
+            isolated from plants in Japan
+  JOURNAL   Int. J. Syst. Evol. Microbiol. 52 (PT 3), 1023-1032 (2002)
+   PUBMED   12054219
+REFERENCE   2  (bases 1 to 3053)
+  AUTHORS   Hamamoto,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-DEC-1999) Contact:Makiko Hamamoto RIKEN, Japan
+            Collection of Microorganisms; Hirosawa 2-1, Wako 351-0198, Japan
+FEATURES             Location/Qualifiers
+     source          1..3053
+                     /organism="Bannoa bischofiae"
+                     /mol_type="genomic DNA"
+                     /strain="JCM 10338"
+                     /type_material="type material of Bannoa bischofiae"
+                     /db_xref="taxon:112013"
+                     /note="Bannoa bishofia"
+     rRNA            join(<1..1629,1927..2069,2460..2489)
+                     /product="18S ribosomal RNA"
+     intron          1630..1926
+     intron          2070..2459
+     misc_RNA        2490..2629
+                     /note="internal trancribed spacer 1"
+     rRNA            2630..2787
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        2788..2998
+                     /note="internal trancribed spacer 2"
+     rRNA            2999..>3053
+                     /product="26S ribosomal RNA"
+ORIGIN      
+        1 tggttgatcc tgccagtagt catatgcttg tctcaaagat taagccatgc atgtctaagt
+       61 ataaacaaat ctatactgtg aaactgcgaa tggctcatta aatcagttat agtttatttg
+      121 atggtacctt actacatgga taactgtggt aattctagag ctaatacatg ctgaaaagcc
+      181 ccgacttctg gaaggggtgt atttattaga taaaaaacca atggcgggca accgtcttgc
+      241 gttgattcat gataacttct cgaatcgcat ggccttgcgc cggcgatgct tcattcaaat
+      301 atctgcccta tcaactttcg atggtaggat agaggcctac catggtgatg acgggtaacg
+      361 gggaataagg gttcgattcc ggagagaggg cctgagaaac ggccctcagt cctaagggac
+      421 gcagcaggcg cgcaaattat cccatcccga cacggggaga tagtgacaat aaataacaat
+      481 atagggctct tttgggtctt ataattggaa tgagtacaat ttaaatccct taacgaggat
+      541 caattggagg gcaagtctgg tgccagcagc cgcggtaatt ccagctccaa tagcgtatat
+      601 taaagttgtt gccgttaaaa agctcgtagt cgaacttcgg cctttgctgc ccggtccgcc
+      661 tttttgggtg tgtactggag cagtggaggc ttacctcgtg gtgaacaatc atgtccttta
+      721 ctgggtgtgg ttgggaacca tgacttttac tttgaaaaaa ttagagtgtt caaagcaggc
+      781 tcacgcctga atacattagc atggaataat aaaataggac gtgcggttct attttgttgg
+      841 tttctaggat cgccgtaatg attaataggg atagttgggg gcattcgtat tcaattgcta
+      901 gaggtgaaat tcttggattt attgaagacg aactactgcg aaagcatttg ccaaggatgt
+      961 tttcattgat caagaacgaa ggttagggga tcgaaaacga tcagataccg ttgtagtctt
+     1021 aacagtaaac gatgccgact agggatcgga cgaggatttt atatgactcg ttcggcacct
+     1081 gaagagaaat ctttaagtct aggttcgggg gggagtatgg tcgcaaggct gaaacttaaa
+     1141 ggaattgacg gaagggcacc accatggtgt ggagcctgcg gcttaatttg actcaacacg
+     1201 gggaaactca ccaggtccag acacgacaag gattgacaga ttgatagctc tttcttgatt
+     1261 tcgtggttgg tggtgcatgg ccgttcttag ttggtggagt gatttgtctg gttaattccg
+     1321 ataacgaacg agaccttaac ctgctaaata gcccggccga ctttggttgg tcgctggctt
+     1381 cttagaggga ctatcagcgt ttagctgatg gaagtttgag gcaataacag gtctgtgatg
+     1441 cccttagatg ttctgggccg cacgcgcgct acactgaccg agccagcgag tttatcacct
+     1501 tagccggaag cttgggtaat cttgtgaaac tcggtcgtga tggggataga gcattgcaat
+     1561 tattgctctt caacgaggaa tacctagtaa gcgtgagtca tcagctcgcg ttgaatacgt
+     1621 ccctgccctt ttactgtgta taaggggctg aaagcatcgc tcttacgctt tgctagttgt
+     1681 caagcaattg atagctatac ctttaaattg ctggaaagtc ttgcttgaac tcgaggtacc
+     1741 gcggccgtaa tccgtaagga cggcgcagca ggctaacaag ccggatggta ataatctgag
+     1801 agttagagat aatcagcagc caagtccttt tacaaggatg cagtccacag actagatgaa
+     1861 ggtaggttac agattgtaat ctaagatata gtcgattcca gtcagtaatg agttggtatt
+     1921 tgaaagttgt acacaccgcc cgtcgctact accgattgaa tggcttagtg aggccttcgg
+     1981 attggcttcc gggagccggc aacggcacct ggtcgctgag aagttgaacg aacttggtca
+     2041 tttagaggaa gtaaaagtcg taacaaggtt ttgtaatcgg ttaccgtgtt gtaactgatt
+     2101 gggtcctttc gcaagtatcg cctaaggaag cctttgcaag gctgtattca attacagcta
+     2161 gcccagcgcg actataaaca atgatttgag cgtttgcaag tcagcagcaa tgctggcaag
+     2221 actatcaatt tgcgggaaaa cccttagagc ctagcggtac acctttgatt caggaaactg
+     2281 agcaaagtcg ttacaatctg caaggattgg gctattcgca gccaattccg tagtattcat
+     2341 ttaccggatg atgttcacag gccagatgtt agtcggtagt tggtaatcac agctgcttaa
+     2401 gatatggtcg gactttagac gaaagtcgag aggaagtata ctttgctact ttcacagcgt
+     2461 tccgtaggtg aactgcggaa ggatcattaa tgaaatgtta ggatgctctt tttagaggtc
+     2521 cgacccatta cattttcaca cactgtgcac acactacttt ttacacccat tttataactc
+     2581 tgtaaaagaa tgtacaaaag tctcttgatt gagcacaaaa tttatattaa aactttcggc
+     2641 aacggatctc ttggctctcg catcgatgaa gaacgcagcg aaatgcgata cgtaatgtga
+     2701 attgcagaat tcagtgaatc atcgaatctt tgaacgcacc ttgcactctt tggtattccg
+     2761 aagagtatgt ctgtttgagt gtcatgaaat tctcaacccc cctattttgt aatgagatgg
+     2821 gcgtgggctt ggatgtggtt gttgcaggct ctttaagtag aaccggctcg actgaaatac
+     2881 atgagcaacc cagtttgaaa acaaggcggc ttgactcgac gtaataatta ttcgttgagg
+     2941 acgtctatat ttcaagatag cggtgcttct aatgcgtact ttggtacatc ttaagcttta
+     3001 gacctcaaat cagtcaggac tacccgctga acttaagcat atcaataagc gga
+//
+LOCUS       FR716682                1151 bp    DNA     linear   PLN 21-JUN-2012
+DEFINITION  Scleroramularia pomigena 18S rRNA gene (partial), 5.8S rRNA gene,
+            28S rRNA gene (partial), ITS1 and ITS2, strain CPC 16105.
+ACCESSION   FR716682
+VERSION     FR716682.1
+KEYWORDS    .
+SOURCE      Scleroramularia pomigena
+  ORGANISM  Scleroramularia pomigena
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Dothideomycetes incertae sedis; Scleroramularia.
+REFERENCE   1
+  AUTHORS   Li,H.Y., Sun,G.Y., Batzer,J.C., Crous,P.W., Groenewald,J.Z.,
+            Karakaya,A. and Gleason,M.L.
+  TITLE     Scleroramularia gen. nov. associated with sooty blotch and flyspeck
+            of apple and pawpaw from the Northern Hemisphere
+  JOURNAL   Fungal Divers. 46, 53-66 (2011)
+REFERENCE   2  (bases 1 to 1151)
+  AUTHORS   Li,H.Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-OCT-2010) Li H.Y., Evolutionary Phytopathology,
+            CBS-KNAW Fungal Biodiversity Centre, Uppsalalaan 8, Utrecht, UT
+            3584CT, The Netherlands
+FEATURES             Location/Qualifiers
+     source          1..1151
+                     /organism="Scleroramularia pomigena"
+                     /mol_type="genomic DNA"
+                     /strain="CPC 16105"
+                     /isolate="MA53.5CS3a"
+                     /isolation_source="fruit surface"
+                     /host="Malus x domestica cv. Golden Delicious"
+                     /culture_collection="CBS:128072"
+                     /type_material="holotype of Scleroramularia pomigena"
+                     /db_xref="taxon:911290"
+                     /country="USA:Massachusetts"
+                     /collected_by="A. Tuttle"
+     gene            order(<1..95,559..580)
+                     /gene="18S rRNA"
+     rRNA            join(<1..95,559..580)
+                     /gene="18S rRNA"
+                     /product="18S ribosomal RNA"
+     intron          96..558
+                     /note="group II intron"
+     misc_RNA        581..791
+                     /note="internal transcribed spacer 1, ITS1"
+     gene            792..949
+                     /gene="5.8S rRNA"
+     rRNA            792..949
+                     /gene="5.8S rRNA"
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        950..1126
+                     /note="internal transcribed spacer 2, ITS2"
+     gene            1127..>1151
+                     /gene="28S rRNA"
+     rRNA            1127..>1151
+                     /gene="28S rRNA"
+                     /product="28S ribosomal RNA"
+ORIGIN      
+        1 actggcttga ggaggtcggc aacgaccacc acgagccgga aacttcgtca aacttggtca
+       61 tttagaggaa gtaaaagtcg taacaaggtt tccgtcgcta agtacgggac agcttgaccc
+      121 tcgccggtcg agatgatcct tctgcgtaac acttgccgaa gccttagcag cccgaaaggg
+      181 tgcagctcca acgactctaa acaggagagc tgctgaaatg ctagtctgca ccgcgcaggc
+      241 gacactatcc aattgcggga accccctaaa gacctcaaca ccaagcgttc gtgggaaacc
+      301 atggcgtggc cgagctaata gccctgggta tggtaacagc ttgaggtatg aagccccccc
+      361 atggggggtg gaaatgggct atccgcagcc aagtcctacc gcatgcagcc cccgctgcgc
+      421 gccacggatg ctgttcacag gccaaatggt agtgggtgac tctccgagtc gcttaagata
+      481 tggtcgggcc cctctagaaa tattggggag aagtttatgc cgtgtctacg acacatacga
+      541 actgtaaccg ttccgtaggt gaacctgcgg aaggatcatt accaatgatt gagttggggg
+      601 tgggcttcgg ctcacatccc tcctcccttc aaccccttgt ctacattacc tctgttgcct
+      661 cggcgggtcg tggtggttta ttcgaccccg ccggtggcga gcctcgcggc ttgctgcctg
+      721 cgtgcacccg ccgatggtat atcgaaactc tttgttaaac aagttttctg aaatcataat
+      781 ttaatacatt aaaactttca acgacggatc tcttggttct ggcatcgatg aagaacgcag
+      841 cgaaatgcga taagtaatgt gaattgcaga attcagtgaa tcatcgaatc tttgaacgca
+      901 cattgcgccc tctggtattc cggagggcat gcctgttcga gcgtcatttc cagccttcaa
+      961 gctctgcttg gtgttgaatg tcgtccggcg ctctcagccg ccggacgcgt tcgaaaatcg
+     1021 ttggcggtga aactggttgt ccacctcaag cgtaccattt tagttttcta agactagctt
+     1081 gtggagcggc ggccggaccg gcttcgaaaa cccacacatt ttctaggttg acctcggatc
+     1141 aggtagggat a
+//     
+LOCUS       DQ248942               13040 bp    DNA     linear   INV 30-JUN-2006
+DEFINITION  Lottia digitalis external transcribed spacer 1, 18S ribosomal RNA
+            gene, internal transcribed spacer 1, 5.8S ribosomal RNA gene,
+            internal transcribed spacer 2, 28S ribosomal RNA gene, and external
+            transcribed spacer 2, complete sequence.
+ACCESSION   DQ248942
+VERSION     DQ248942.1
+KEYWORDS    .
+SOURCE      Lottia digitalis (California fingered limpet)
+  ORGANISM  Lottia digitalis
+            Eukaryota; Metazoa; Lophotrochozoa; Mollusca; Gastropoda;
+            Patellogastropoda; Lottioidea; Lottiidae; Lottia.
+REFERENCE   1  (bases 1 to 13040)
+  AUTHORS   Simison,W.B., Lindberg,D.R. and Boore,J.L.
+  TITLE     Rolling circle amplification of metazoan mitochondrial genomes
+  JOURNAL   Mol. Phylogenet. Evol. 39 (2), 562-567 (2006)
+   PUBMED   16360323
+REFERENCE   2  (bases 1 to 13040)
+  AUTHORS   Simison,W.B., Lindberg,D.R. and Boore,J.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-OCT-2005) Evolutionary Genomics Group, DOE Joint
+            Genome Institute and Lawrence Berkeley National Laboratory, 2800
+            Mitchell Dr., Walnut Creek, CA 94598, USA
+FEATURES             Location/Qualifiers
+     source          1..13040
+                     /organism="Lottia digitalis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:225159"
+     misc_RNA        1..1638
+                     /product="external transcribed spacer 1"
+                     /note="ETS1"
+     rRNA            1639..3710
+                     /product="18S ribosomal RNA"
+     misc_RNA        3711..4268
+                     /product="internal transcribed spacer 1"
+                     /note="ITS1"
+     rRNA            4269..4432
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        4433..4717
+                     /product="internal transcribed spacer 2"
+                     /note="ITS2"
+     rRNA            4718..8190
+                     /product="28S ribosomal RNA"
+     misc_RNA        8191..8739
+                     /product="external transcribed spacer 2"
+                     /note="ETS2"
+     repeat_region   8740..11249
+                     /rpt_type=tandem
+     repeat_region   11170..12790
+                     /note="matches EST1 and 5' portion of 18S ribosomal RNA;
+                     indicates possible extrachromosomal circle or ribosomal
+                     repeat"
+ORIGIN      
+        1 aaaaaaaaaa aattttcact ttgccgaccg accgaggaga agtgtccctc tcggggaaag
+       61 agacacgaaa gtggtgctcg gcgaccattt tgccgtcgaa atccccgtac tcgggcaaaa
+      121 ccgacagaat gtgccaagcg acctttcaga catacctact tttcataatt gtgtgctaag
+      181 cgacgttcag acatacctac ttttaataca catcgctccg atacgggcta atgttaaatt
+      241 tagggaaatg tgcaaagcgg ctttgagaca taccaacatt ttataatttt tcccttacta
+      301 tgggagaggc agttggctgg tcctcagtca atttgaggtg aagtgtcgtt tcgatggtgt
+      361 ggtgcgagtc ggatttctgc gagtgcggta aattaccttc tacgtatccc tccgtcgtct
+      421 tcatttccct ttcggtctct tggttggtcg tcggtcgggt cggtatcctt ggtttggaga
+      481 gagagaagag agagagagag aggaggggtg tttcggcggg tgcttgtgtg gcgatagcgg
+      541 gacgtcggta ttgttccggg agaggcttac cttgtgcggt ggatcttcgc ttgggtgtgt
+      601 tgcgtgttgc cttctagggt gtctaggcca gttaccaatg cggatgggcc gttgctcagc
+      661 cgcggttcct gctgcgggct ctagttggcg gacgtggcta tcttcggctg ggattcgtct
+      721 ccgtgctttg attcgttcac tccccgactt gctggtttct cgcgctatat cgctgccgcg
+      781 gttcttcgtc gtaccttctt cactcgctcg ctccatctat tttagaaagg caacgaagcg
+      841 gtcggaaggc gggggaacgt ttgtaccgtt ttctcgtcca gtcaccgcgt accttttgca
+      901 cgatccaagg ttagatggag acggtgggac ggtggaggtt agcgtagcaa gttgcgctct
+      961 ctcgacactg tccgtggtcg ccggtggtcg aagcaagctg aggtagatta gtttcggccg
+     1021 agtttgcctc ttctgccggt ggaaacgaaa tgttccagtg tacgcctaca cagcgggaca
+     1081 gactggctgg tccgatattt taaaagcgaa tctacaactc tcggtctccc ggtatcgcct
+     1141 cggcagcgtc acagtgtacc crggttcgtg tcwctcgtgg gcacgggtcc ggcgcttgtc
+     1201 gtttatgcct tggcgttcac ccttggtgtt ggagaccgtt ttaagccgca gacgcccctt
+     1261 ggcccgtacg agagacgatc ttttctcgtg tggaagaagg gggaagtagc caatggccag
+     1321 tctgcctctt gccgatcttt cgagctttcg ccggagttta aagggagttt cggctccagt
+     1381 tgcttcgacg gaggcctcga cggaacgacg tttgtgaacg aggccgctcg gaggtgttgg
+     1441 ttcccctgtt ccgatgccac cgacggtcgc ctcttcagag ccactgtagc tgaccgtcgc
+     1501 gctttaacgt gccactagca acttttcgtc gtctccgggc ggcgaagggg aacctggggc
+     1561 cttctgcgaa cggcgccttt ggttttaaac tctgtcgagc gtttctcgtg gtttctccga
+     1621 gagaaaagaa ggctatctgg ttgatcctgc cagtgatcat atgcttgtct caaagcttaa
+     1681 gccatgcaag tctaagttca ggcttgttcc tttcggggag cgagccgaaa ctgcgaacgg
+     1741 ctcattagtc agataaggtt ccttggctaa aagcgggtcg gttttaatgg ataactgtgg
+     1801 taattctaga gctaatacat gcaacgcacc gtggtccccg tagtcttcta gtctcgggga
+     1861 aacggcattt attctctgga ccagatcgcc ctagcctgcg aagctaccgt caaaagtagc
+     1921 gacggggcga agcgacaagt gttgaaatcc gaataactgt gccgatcgcg gggtctttcc
+     1981 gggcccccga cgactttgcc atgaagtgtc tgtcccatca attggcgatg gtcggcgacc
+     2041 tgcctaccac ggtgttgacg ggtaacgggg aatcagggtt cgattccgga gagggagcct
+     2101 gcgaaacggc taccacctcc aaggagggca gcaggcgcgc aacttaccca atcccgacac
+     2161 ggggaggtag tgacgaaaaa taacgtggcg gggccctttc gtggtcgccg cgggcggaat
+     2221 gagcgcaatt taaaagagtg tgcgaggagc tattggaggg caagcctggt gccagcagcc
+     2281 gcggtaattc cagctccaat agcctatatc ggagttgctg cggttaaaaa gctcgtcgtt
+     2341 ggatctcgga ggcggcacgg tcgggcgcga tacgctgcgg gtccgaccgg cgatttctcg
+     2401 gccgtcccta accagcgcgc ggggcgaggt ggacttcgcg gtcctgcctc gtttttctcc
+     2461 ttcgcgggag agaacccgcc gcattttctg tctaccttga aaaaattaga gtgctaaagg
+     2521 caggctaaaa ccccgagcct gaatatttcg tgcatggaat aagcggggat gctcttttcc
+     2581 ggagggcggt ccgaccgact ggcgacgtcg ctttcgctgt cggtttcgcc ggagagctag
+     2641 gattcgagag gaacggtggg gggcgagcgt accgggcggg gagaggtgaa attttgtgat
+     2701 ccgctcggga cgactcgaag cgaaagcgct ggccccggac gtcttcctta atccagaacg
+     2761 aaggtgggtg gagcaaagac gatcagatac cgtcgtagta ccgacggtaa acgctgccga
+     2821 ccgggccgcg gacgaggctc gagaacagcg gttatggacc cgtccgtggc ggcttcgggc
+     2881 aacctgagag tttacgggtt ccgggggtag tatggtcgca aggctgaaac ttgaaggaat
+     2941 tgacggaagg gcaccacaag gagtggagcc tgcggcttaa tttgactcaa cacggggcaa
+     3001 cttacccggt ccggacatcg tcaggattga cagacgctcg tgcagttctt tctcgattcg
+     3061 atgggtggtg gtgcatggcc gttcgtggct ggtgaagtga aaagtctggt ttattccgct
+     3121 aacgggcgag gcctcgccct taactagtcg gctcgtggtt ctcgaatcgt agtctccctt
+     3181 cggggagcag ggagaacatc gggcgagtcg cagcgattgt cgctacttct tagggggatc
+     3241 ccgagcaagc ttaagctagg tgagagagat caataacagg tcagtgatgc ccttagatgt
+     3301 ccggggccgc acgcgcgcta cactgaagac gaaagcgcga gtgcctacgg tcttggtttg
+     3361 gtcaggccgg gaacccgccc cgagagggga ggttggggct gttccttcac gggggcagtc
+     3421 tcgcctactg cgggttaacc gtgccaatcg tcttcgtgct ggggatcggg gcttgcaact
+     3481 cagccccgtg aacgaggaat tccgagtagg cgtccgtcat cagctggcgc cgattaagtc
+     3541 cctgcctttt gtacacaccg cccgtcgcta cctccgatag aatggctaag cgaggccgtt
+     3601 ggactgggcc tgctttcgag tgggcccgga aaggcgttcg agcttaatca tttagaggaa
+     3661 gtaaaagtcg taacaaggtt tccgtaggtg aacctgcgga aggatcatta ccgttttctt
+     3721 ttcacgctgg atttagtgtt ctctccttgc gaggaagact gtcctgttgt gacttgaccg
+     3781 aaacttattc cccttcatcg gacgaataaa gtgagtgcgt gtggcagata ctaggagacc
+     3841 cgtccggggt ccttcgcttg ctctctgtcg ctcggtccac gagcggcgaa gctcattgaa
+     3901 aaagagagtg cgaggtttta ccagtctgtg gcgaggtctg tcggtcctga agagggtcgg
+     3961 cagcacctcg gaatgtccgc cttttttttt gttgtgtgtg ccggtacgta agagagagaa
+     4021 agttcgaaag ggctatctcg ctgttggacc ctttccgttc tctcggggga caagatcttg
+     4081 tcgactgaga gagacggtct gggtgcgttc aaagagctct tggcggaaac gtcaagccgc
+     4141 cggccacatt tccccctcgg tcgtctaact atttattttt ccacactatc aaggacacaa
+     4201 ttttgttgtt gcgagccgtc gtttatttcg gcggccgtct cactttaaaa tgaaacgtta
+     4261 aacgtacgac cgtaggcgtt ggatcactcg gctcgtgcgt cgatgaagag cgcggcctga
+     4321 cgcgttaagt gatgtgaatt gcagtgaaga tcatcgacgt ctcgaacgca catggcggca
+     4381 gcgggtcctc ccgcggccac gttcgtccga gggccggcag gaaaaactct ccaagactgg
+     4441 gagtcgcgac tttggtttgt caaaagcctg ggtcccgtct ccttaaatgt agaccgtttt
+     4501 gtacgttcag cttttttgga cggaagcggc tggaggattg atttttttcc ccctgagccg
+     4561 ttctcgcctg gtgctctgct aggcggtcaa agaacgacga aagggacgga aatttctctc
+     4621 cgtcaaaggc cgcttttttg tctgggaaga gagagcgctt gcaaggcaaa ctcgagaagg
+     4681 ttaacagctt cttatcaccg gcctcggatc gagcgagatt acccgctgaa cttaagcata
+     4741 tcactaagcg gaggaaaaga aaccaaccgg gattccctca gtagcggcga gcgaagcggg
+     4801 aaaagcccat cgccgaatcc cccgtcggac ctcggcggtt tgggaactgt ggcgtaaggg
+     4861 tccgactcgt cgggcgtctg accgtccgaa caagtcccgc gggacaggtg tgctcccaga
+     4921 gtgggtgtga ggcctttagt tcggtctggg tcttctgctc ggcgcagtcg gtacctgaga
+     4981 gtcgagttgt ttgggatcgc agctcaaagt gggtggtaag ctccatctaa ggctaaatac
+     5041 ttgcacgagt ccgatagcga acaagtaccg tgagggaaag ttgaaaagaa ctttgaagag
+     5101 agagttcaag agaccgtgaa agcgcctacg ggcaaacggg tggaaccgcc ggtgcgatca
+     5161 gcggaatcca gctcgccggg caggcggctc ctggtggcga cgtagacttg tccttctcgg
+     5221 aggacgggct cgtcgttgtc agagggttcg tccccgtcgg cgtatcttcc gctgtgtcgc
+     5281 gagtcgcgac cggctcgaag tgcttcgttt cgactggttg caggcgagga gcgcgctttg
+     5341 cgttgcatcc gtctccggac tgcctgcgcc ggtcggtacc acggcgaacg tagcttcggg
+     5401 ccgaggaacg gccccgtcct cgctcccgac tcagtctccc ggcgacgtcg cggctgtctt
+     5461 gactgcctct ctgaggctta acagtgcaag tgcggtcgcg tgtcggcgtc ggcgaggcgg
+     5521 cgggcattgg aggacggttt agagggtccg cggctggccg tggcggcact cttcccgacc
+     5581 cgtcttgaaa cacggaccaa ggagtctaac gtgagcgcga gtcacaggga aaaacactcc
+     5641 cttggggcgc agcgaaagcg atgtggtccg atcctctctc gggtgagggg ggcgcaggac
+     5701 cggcccgtcg ggggttgtta cggcctcggc ggagcaagag cgctcgcgtt gggacccgaa
+     5761 agatggtgaa ctaggcccga gcgggacgaa gccgggagaa atgctggtgg aggtcctaag
+     5821 tggttctgac gcgcaaatcg atcacggaac ttgggcgtag gggcgaaaga ctaatcgaac
+     5881 catctagtag ctggttccct ccgaagtttc ccccaggata gctggcgctc gccgagacag
+     5941 tttcgtccgg taaagcgaat gattagagga gtccgtgccg aaatggcgtg gagctattgt
+     6001 caaactttga acgggcgaga aggggtgcct accgctcgat ctgggaggct cggcccccgt
+     6061 cgaaatgtac gagtgccaag tgggccactt ttggtaagca gaactggcgc tgtgggatga
+     6121 accaaacgcc gggttaaggc gcccgatcgt cacgctcagc agaacccaca aaaggcgtcc
+     6181 atcggtaaag acagcaggac ggtgaccatg gaagtcggta tccgccaagg agtgtgtaac
+     6241 aactcacctg ccgaattggt gggccctgaa aatggatggc gctgtagcgt gcagcctaca
+     6301 cccggccgtc tcggcaattt tctccggcct gccggtagag actgaccgaa gccgagacga
+     6361 gtaggagggt cgccgcggtc agcgctgaag ccttagacgc gagtctgggt gtagcggccg
+     6421 cgggtgccga tcttggtggt agtagcaaat attcgagcga gaacctcgaa ggccgaagtg
+     6481 gagaagggtt ccgcgttgct ccttcgatcg gccgcgggtt agtcggtcct aaggcctggg
+     6541 agaaatccta cgggaagcgg gacgttttta actttaaaaa ttagtctcac ccaatgcacg
+     6601 ggccgaaagg gaaacgggtt aggattcccg tacccgaagg cggagcacaa gcggcgacgc
+     6661 aaagaaggtc ggatacaccg tcgggagagt cgagaagagt taacttttct ttttgaggtg
+     6721 cgctcgctga ccctggaagc ggttctgccg gagataggga gcgagagcaa tcaactttat
+     6781 ccgcaaagcc ggctccagcg ggggcctgtt cggctacgac tcgacggtcc ttgaaactcc
+     6841 gacggctaaa cttttctttt gaatatgaaa atgtgttcgc tctcgcctcg ggccgtacct
+     6901 caatccgccg caggtctcca aggttcgcag cctctggtcg atagaacaat gtaggtaagg
+     6961 gaagtcggca aaatggatcc gtaacttcgg gagaaggatt ggctctgagg gccgagcgac
+     7021 ccgctgctag cttcggaaga gggaatcata gagcgggagt ccgcgaggtg gcatattaat
+     7081 ttggacttgg gcgcaccgaa cggcgaacgt tctaccctcg gaagggcagg cggacggagc
+     7141 ggggtagggg cgactctcct cgttttcggc acgggcgcga ggaacggctc gatcagaact
+     7201 ggcacggtcc gggggaatcc gactgtttag taaaaacata gcgtttcgaa ggccggagat
+     7261 cggtgttgac ggaacgtgat ttctgcccag tgctctgaat gtcacggtga agaaatttac
+     7321 ggaagcgcgg gtaaacggcg ggagtaacta tgactctctt aaggtagcca aatgcctcgt
+     7381 catgtaatta gtgacgcgca tgaatggatt aacgagattc ccactgtccc tatctactat
+     7441 ctagcgaagc cacagccgga ggaacgggtc cggggctgtc agcggggaaa gaagaccctg
+     7501 ttgagcttga ttcgcgattg gcttggttgg gcgagagcgc aggtgtagtt taggtgggac
+     7561 tgctttacgg cgcaagtgaa agaccactac tgcgttcctc gttcaactca ctcgatgagg
+     7621 accacgagag cggccgcatt cggggcggtg tcggcgagcg caaggtgcta agcgaggggt
+     7681 cccccgcgct aagggcgctt cgaaggtttc ggctggaggg gtgttctgcg ggaccaggtc
+     7741 tctcgcgagg gcgatcgagg acagagtcag ttctgaattt aactggggcg gtgtgcccgc
+     7801 gaaactctag cgcgggcgcc ccaaggccag cttcagaagg gggagaaacc cttggtagag
+     7861 cgaaagggca aatgctggct tgaggatgct tttcagtagg agggatccgt gtgaaagcaa
+     7921 ggcctatcga tccttttgtg tcgcccttag ggcgacgatg ggagagctct atttttactg
+     7981 cttcccgcaa gaggtgtcag aaaagttacc acagggataa ctggcttgtg gcagccaagc
+     8041 gttcttagcg acgttgcttt ttgatccttc gatgtcggct cttcctatca ttgcgaagca
+     8101 gaattcgcca agcgttggat tgttcaccca ccaacaggga acgtgagctg ggtttagacc
+     8161 gtcgtgagac aggttagttt taccctactg gtagggaact ctttacgaac gagcggctac
+     8221 gagcgggtag gactgactag tacgagagga acgttggtcc gggattgaaa gcgttggtgc
+     8281 ttggtggttt attgccattg gggctttgcc tttgtcctgg ggcttacggc tgaacgcctc
+     8341 taagccggaa tcccgtccca cgacgtccgc gtctgctttt ccgagacggg cgacagaacg
+     8401 attaggcccc tcttcgctct tcccgagtga ctggggtggt gtgtgtccga cctgtatatt
+     8461 tcggcaggtg tctttcgaaa gcaggaaaat ctgcttgcag acgacttggg tttgtacgag
+     8521 tcggggtgtc gtactcggta gagcggcctg ttgtggctgc gatgcgttga gacttgtccc
+     8581 tcgactagga gatttgtccg caactagacg gacggagctc tcattctctt cgacagtttt
+     8641 ttttttattt atgtttcgtt ctttttttaa attgtgtgct aagcgagttt gaaacatacc
+     8701 tacttttcat attgtctgcg tccgatgcgc ttatatgacc agggggagaa gtgtccctct
+     8761 cggggaaaga gacgcgaaac cggtgctcgg tgatcgttcg tttcgccgtg gaaaacacct
+     8821 tctcggggag aaactgcctt ggtgtgctaa gcgatcgttc agacatacct acttttttga
+     8881 aactcgaacc tcgccgcgat caagtcgccg accgaccgag cgaccgagcg accgaactat
+     8941 cgatagagag aaaggaaggt ccgtaccctc tttcctgttc gagaaatgcg tttgcaaaga
+     9001 gaagaaaaag aaaagagtcc ctctcgggga aagagactcg aaagtgttgc tcggcgatcg
+     9061 ttttgccgtg gaaaacaccg tactcgggga gaaactgcct tggtgtgcca agcgaccgtt
+     9121 cagacatacc tacttttttg aaactcgaat ctcgtcgtga gcaagtcgcc gaccgaccga
+     9181 gctatcgata gagagaaagg tccgtactct cttccctgtt cgagaaattc gtttgcaaga
+     9241 aaaagaaaag agaggaaatt tttttgtttt ttttttgttc tattcactga ccggggagaa
+     9301 gtgtctctct cggggaaaga gacacgaaac tggtgctcga ggatcgtttt gccgtggaaa
+     9361 accccgtact cgggagaaac tgccctggtg tgccaagcga ccgttcagac atacctactt
+     9421 ttttgaaact cgaacctcgc cgcggtcaag ccgtgggacc gaccgaaaga gctcggctaa
+     9481 cctatcgaga gaaaggttcg agcttccctg ttggagatat gcgtttgcca aggggaaaaa
+     9541 aaaaaaaaga aaaaaaaatt tcactttgcc gaccgaccgg ggagaagtgt ccctctcggg
+     9601 gaaagagaca cgaaactggt actcggcgat cgttttgccg tggaaaaccc cgtactcggc
+     9661 agaaactgcc ctgatgtgcc aagcgaccgt tcagacatac caactttttt gaaactcgaa
+     9721 cctcgccgcg gtcaagccgt gggaccgacc gaaagatctc ggcaaaccta tcgagagaaa
+     9781 ggttcgagct tccctgttgg agatatccgt ttgccaagaa aaaaaaaaaa aaataaaaaa
+     9841 aaaatttcac tttgccgacc gaccgaggag aagtgtccct ctcggggaaa gagacacgaa
+     9901 actggtgctc ggcgatcgtt ttgccgtgga aaaccccgta ctcgggagag actgccctga
+     9961 tgtgccaagc gaccgttcag acatacctac ttttttgaaa ctcgaacctc gccgcggtca
+    10021 agccgtggga ccgaccgaaa gagctcggca aagctatcga gagaaaggtt cgagcttccc
+    10081 tgttggagat atccgtttgc caagaaaaaa aaaaaaaaaa aaaatttcac tttgccgacc
+    10141 gaccggggag aagcgtccct ctcggggaaa gagacacgaa actggtgctc ggcgatcgtt
+    10201 ttgccgtgga aaaccccgta ctcggcagaa actgccctga tgtgccaagc gaccgttcag
+    10261 acataccaac ttttttgaaa ctcgaacctc gccgcggtca agccgaaaga tctcggcaaa
+    10321 cctatcgaga gaaaggttcg agcttccctg ttggagatat ccgtttgcca agaaagaaaa
+    10381 aaaaaaaaaa ataaaatttc actttgccga ccgaccgggg agaagtgtcc ctctcgggga
+    10441 aagagacacg aaactggtgc tcggcgatcg ttttgccgtg gaaaaccccg tactcgggag
+    10501 aaactgccct gatgtgccaa gcgaccgttc agacatacct acttttttga aactcgaacc
+    10561 tcgccgcggt caagccgtgg gaccgaccga aagagctcgg caaagctatc gagagaaagg
+    10621 ttcgagcttc cctgttggag attcactttg ccgaccgacc gaggagaagt gtccctctcg
+    10681 gggaaagaga cacaaaactg gtgctcggcg atcgttttgc cgtggaaaac cccgtactcg
+    10741 ggagagactg ccttggtgtg ccgcggtcaa gccgtgggac cgaccgaaag agctcggcta
+    10801 acctatcgag agaaaggttc gagcttccct gttggaggta tgcgtttgcc aagaaagaaa
+    10861 aaaaaaaaaa aaaaaaaaaa aaaaaatttc actttgccga ccgaccgagg agaagtgtcc
+    10921 ctctcgggga aagagacacg aaactggtgc tcggcgatct ttttgccgtg aaaaaacccc
+    10981 gtactcggga gaaattgcct tggtgtgcca agcgaccctt tcagacatac ctactttttt
+    11041 gaaactcgta tctcgccgcg gtcaagccgc gggaccgacc gaaagagctc ggctaaccta
+    11101 tcgagagaaa ggttcgagct cccctgttgg agatatatgg gtaaaaaaaa aaaaaaaaaa
+    11161 aaaaaaaaaa aaaaaaaaaa aatttcacct tgccgaccga ccgaggagaa gtgtccctct
+    11221 cggggaaaga gacacgaaag tggtgctcgg cgaccatttt gccgtcgaaa tccccgtact
+    11281 cgggcaaaac cgacagaatg tgccaagcga cctttcagac atacctactt ttcataattg
+    11341 tgtgctaagc gactttcaga catacctact tttaatacac atcgctccga tacgggctaa
+    11401 tgttaaattt agggaaatgt gcaaagcggc tttgagacat accaacattt tataattttt
+    11461 cccttactat gggagaggca gttggctggt cctcagtcaa tttgaggtga agtgtcgttt
+    11521 cgatggtgtg gtgcgagtcg gatttctgcg agtgcggtaa attaccttct acgtatccct
+    11581 ccgtcgtctt catttccctt tcggtctctt ggttggtcgt cggtcgggtc ggtatccttg
+    11641 gtttggagag agagagaggg gggtgtttcg gcgggtgctt gtgtggcgat agcgggacgt
+    11701 cggtattgtt ccgggagagg cttaccttgt gcggtggatc ttcgcttggg tgtgttgcgt
+    11761 gttgccttct agggtgtcta ggccagttac caatgcggat gggccgttgc tcagccgcgg
+    11821 ttcctgctgc gggctctagt tggcggacgt ggctatcttc ggctgggatt cgtctccgtg
+    11881 ctttgattcg ttcactcccc gacttgctgg tttctcgcgc tatatcgctg ccgcggttcc
+    11941 tcgtcgtacc ttcttcactc gctcgctcca tctttttaaa aaggcaacga agcggtcgga
+    12001 aggcggggga acgtttgtac cgttttctcg tccagtcacc gcgtaccttt tgcacgatcc
+    12061 aaggttagat ggagacggtg ggacggtgga ggttagcgta gcaagttgcg ctctctcgac
+    12121 actgtccgtg gtcgccggtg gtcgaagcga gctgaggtag attagtttcg gccgagtttg
+    12181 cctcttctgc cggtggaaac gaaatgttcc agtgtacgcc tacacagcgg gacagactgg
+    12241 ctggtccgat atcttaaaag cgaatctaca actctcggtc tcccggtatc gcctcggcag
+    12301 cgtcacagtg tacccgggtt cgtgtctctc gtgggcacgg gtccggcgct tgtcgtctat
+    12361 gccttggcgt tcacccttgg tgttggagac cgttctaagc cgcagacgcc cctggcccgt
+    12421 acgagagacg atcttttctc gtgtggaagt agggggaagt agccatggcc agtctgcctc
+    12481 ttgccgatct ttcgagcttt cgccggagtt taaagggagt ttcggctcca gttgcttcga
+    12541 cggaggcctc gacggaacga cgtttgtgaa cgaggccgct cggaggtgtt ggttcccctg
+    12601 ttccgatgcc accgacggtc gcctcttcag agccactgta gctgaccgtc gcgctttaac
+    12661 gtgccactag caacttttcg tcgtctccgg gcggcgaagg ggaacctggg gccttctgcg
+    12721 aacggcgcct ttggttttaa actctgtcga gcgtttctcg tggtttctcc gagagaaaag
+    12781 aaggctatct ggttgatcct gccagtgatc atatgcttgt ctcaaagctt aagccatgca
+    12841 agtctaagtt caggcttgtt cctttcgggg agcgagccga aactgcgaac ggctcattag
+    12901 tcagataagg ttccttggct aaaagcgggt cggttttaat ggataactgt ggtaattcta
+    12961 gagctaatac atgcaacgca ccgtggtccc cgtagtcttc tagtctcggg gaaacggcat
+    13021 ttattctctg gaccagatcg
+//
+LOCUS       MF429777                 704 bp    DNA     linear   PLN 14-MAR-2018
+DEFINITION  Aspergillus niger strain EA10 small subunit ribosomal RNA gene,
+            partial sequence; internal transcribed spacer 1 and 5.8S ribosomal
+            RNA gene, complete sequence; and internal transcribed spacer 2,
+            partial sequence.
+ACCESSION   MF429777
+VERSION     MF429777.1
+KEYWORDS    .
+SOURCE      Aspergillus niger
+  ORGANISM  Aspergillus niger
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Aspergillus; Aspergillus subgen. Circumdati.
+REFERENCE   1  (bases 1 to 704)
+  AUTHORS   El-Moslamy,S.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-JUL-2017) Bioprocess Development Department, Genetic
+            Engineering and Biotechnology Research Institute (GEBRI), City of
+            Scientific Research and Technology Application, (SRTA-City), New
+            Borg El-Arab city, Alexandria 21934, Egypt
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: BioEdit biological sequence alignment
+                                     editor and analysis program v. 2007
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..704
+                     /organism="Aspergillus niger"
+                     /mol_type="genomic DNA"
+                     /strain="EA10"
+                     /db_xref="taxon:5061"
+     misc_RNA        <1..>704
+                     /note="contains small subunit ribosomal RNA, internal
+                     transcribed spacer 1, 5.8S ribosomal RNA, and internal
+                     transcribed spacer 2"
+ORIGIN      
+        1 ggaagtaaaa gtcgtaacaa ggtttccgta ggtgaacctg cggaaggatc attaccgagt
+       61 gcgggtcctt tgggcccaac ctcccatccg tgtctaatgc tttgggtgcg gcccccgtct
+      121 aagtgccctg gaacgggccg tcagagaggg tgagaatccc gtcttgggcg gggtgtccgt
+      181 gcccgtgtaa agctccaaca cgaacactgt ctgaaagcgt gcagtctgag ttgattgaat
+      241 gcaatcagtt aaaactttca acaatggatc tcttggttcc ggcatcgatg aagaacgcag
+      301 cgaaatgcga taactaatgt gaattgcaga attcagtgaa tcatcgagtc tttgaacgca
+      361 cattgcgccc cctggtattc cggggggcat gcctgtccga gcgtcattgc tgccctcaag
+      421 cccggcttgt gtgttgggtc gccgtccccc tctccggggg gacgggcccg aaaggcagcg
+      481 gcggcaccgc gtccggtcct cgagcgtatg gggctttgtc acccgctcga ctagggccgg
+      541 ccgggcgcca gccgacgtct ccaaccattt tttcttcagg ttgacctcgg attagaagga
+      601 tggggcctgg accacggtca taacttttgg gccgttggcg gggtctctct ttttctcggc
+      661 aacagtaagg tgggggtgac ataactcccc ccacacacaa ttga
+//
+LOCUS       LR744067                 581 bp    DNA     linear   PLN 12-AUG-2020
+DEFINITION  Penicillium citrinum genomic DNA sequence contains 18S rRNA gene,
+            ITS1, 5.8S rRNA gene, ITS2. REVERSE COMPLEMENTED
+ACCESSION   LR744067
+VERSION     LR744067.1
+DBLINK      BioProject: PRJEB35976
+KEYWORDS    .
+SOURCE      Penicillium vascosobrinhous
+  ORGANISM  Penicillium vascosobrinhous
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium.
+REFERENCE   1
+  AUTHORS   Barbosa N,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-DEC-2019) Universidade Federal de Pernambuco,
+            Universidade Federal de Pernambuco, Cidade Universitaria s/n,
+            Recife, Brazil, Brazil
+FEATURES             Location/Qualifiers
+     source          1..581
+                     /organism="Penicillium vascosobrinhous"
+                     /mol_type="genomic DNA"
+                     /isolation_source="Endophyte from Melocactus zehntneri"
+                     /culture_collection="URM:8193"
+                     /type_material="culture from holotype of Penicillium
+                     vascosobrinhous"
+                     /db_xref="taxon:2821149"
+     misc_RNA        1..581
+                     /note="sequence contains 18S rRNA gene, ITS1, 5.8S rRNA
+                     gene, ITS2"
+ORIGIN      
+        1 atgatatgct taagttcagc gggtatccct acctgatccg aggtcaacct gagaaagatt
+       61 gaggggggtc ggctggcgcc ggccgggcct gcaagagcgg gtgacgaagc cccatacgct
+      121 cgaggaccgg acgcggtgcc gccgctgcct ttcgggcccg tcccgggggg gacgggggcc
+      181 caacacacaa gccgtgcttg agggcagcaa tgacgctcgg acaggcatgc cctccggaat
+      241 accagagggc gcaatgtgcg ttcaaagact cgatgattca ctgaattctg caattcacat
+      301 tacttatcgc atttcgctgc gttcttcatc gatgccggaa ccaagagatc cgttgttgaa
+      361 agttttaact gattgagcta gtgtctcaga ctgcaacttc agacagcgtt cacaggtgtc
+      421 ttcggcgggc gcgggcccgg gggcagggtg ccccccggcg gccgtgaggc gggcccgccg
+      481 aagcaacaag gttcgttaaa cacgggtggg aggttggacc cggagggccc tcactcggta
+      541 atgatccttc cgcaggttca cctacggaaa ccttgttacg a
+//

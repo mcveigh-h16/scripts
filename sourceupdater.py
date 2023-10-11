@@ -3,11 +3,14 @@
 Created on Mon Apr 20 14:22:38 2020
 
 @author: mcveigh
+
+Takes a fasta file as input, looks up the taxname using srcchk an rewrites a new
+fasta file adding a hard coded line of text to the definition lines
+23S ribosomal RNA sequence in this example
+replacement for rna_fixer.pl
+
 """
-#Takes a fasta file as input, looks up the taxname using srcchk an rewrites a new
-#fasta file adding a hard coded line of text to the definition lines
-#23S ribosomal RNA sequence in this example
-#replacement for rna_fixer.pl
+
 
 
 import Bio
@@ -68,4 +71,4 @@ for line in fh:
         n += 1
 fh.close()
 print("The number of sequences in the final output file is: ", n)
-print ("FeatureSlicer script is done and output is saved in:", outputfile)
+print ("Sourceupdater script is done and output is saved in:", outputfile)

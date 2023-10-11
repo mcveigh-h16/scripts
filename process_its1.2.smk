@@ -1,12 +1,12 @@
 from Bio import SeqIO
 import functools
-import pandas as pd
+#import pandas as pd
 configfile: "config.yaml"
-gb_input = config['gb_input']
-final_tblout = config['final_tblout']
 split_size = config['split_size']
-feature_table = config['feature_table']
+
+gb_input = config['gb_input']
 rejects = config['rejects']
+final_tblout = config['final_tblout']
 
 rule all:
     input: 
@@ -14,7 +14,6 @@ rule all:
         'found.fsa',
         final_tblout,
         'final.ribomaker.fa',
-        'blast_fasta.fsa',
 
 rule parse_input_gb:
     input:
@@ -73,30 +72,30 @@ rule run_ribomaker:
     params:
         outprefix = 'ribomaker_out/ribomaker_{fapart}'
     shell:
-        '''           
-        #export RIBOINSTALLDIR="/net/intdev/oblast01/dnaorg/ssudetection/code/ribovore-1.0.2-install"
-        export RIBOINSTALLDIR "/net/intdev/oblast01/dnaorg/ssudetection/code/ribovore-1.0.5-install"
-        export RIBOSCRIPTSDIR="$RIBOINSTALLDIR/ribovore"
-        export RIBOINFERNALDIR="$RIBOINSTALLDIR/infernal/binaries"
-        export RIBOEASELDIR="$RIBOINSTALLDIR/infernal/binaries"
-        export RIBOSEQUIPDIR="$RIBOINSTALLDIR/sequip"
-        export RIBOBLASTDIR="$RIBOINSTALLDIR/ncbi-blast/bin"
+        '''
+        export RIBODIR="/panfs/pan1/dnaorg/ssudetection/code/ribovore-install/ribovore"
+        export RIBOINFERNALDIR="/usr/local/infernal/1.1.2/bin"
+        export RIBOEASELDIR="/usr/local/infernal/1.1.2/bin"
         export RIBOTIMEDIR="/usr/bin"
-        export RRNASENSORDIR="$RIBOINSTALLDIR/rRNA_sensor"
-        export VECPLUSDIR="$RIBOINSTALLDIR/vecscreen_plus_taxonomy"
-        export PERL5LIB="$RIBOSCRIPTSDIR":"$RIBOSEQUIPDIR":"$VECPLUSDIR":"/usr/local/perl/5.16.3/lib/perl5"
-        export PATH="$RIBOSCRIPTSDIR":"$RIBOBLASTDIR":"$RRNASENSORDIR":"$PATH"
-        export BLASTDB="$VECPLUSDIR/univec-files":"$RRNASENSORDIR"
-        #export PERL5LIB="$RIBODIR":"$EPNOPTDIR":"$EPNOFILEDIR":"$EPNTESTDIR"
-        #export PERL5LIB="$PERL5LIB":"/usr/local/perl/5.16.3/lib/perl5"
+        export SENSORDIR="/panfs/pan1/dnaorg/ssudetection/code/ribovore-install/rRNA_sensor"
+        export EPNOPTDIR="/panfs/pan1/dnaorg/ssudetection/code/ribovore-install/epn-options"
+        export EPNOFILEDIR="/panfs/pan1/dnaorg/ssudetection/code/ribovore-install/epn-ofile"
+        export EPNTESTDIR="/panfs/pan1/dnaorg/ssudetection/code/ribovore-install/epn-test"
+        export PERL5LIB="$RIBODIR":"$EPNOPTDIR":"$EPNOFILEDIR":"$EPNTESTDIR"
+        export PATH="$RIBODIR":"$SENSORDIR":"$PATH"
+        export BLASTDB="$SENSORDIR"
+        export RIBOBLASTDIR="/panfs/pan1/dnaorg/ssudetection/code/ribovore-install/ncbi-blast-2.8.1+/bin"
+        export VECPLUSDIR="/panfs/pan1/dnaorg/ssudetection/code/ribovore-install/vecscreen_plus_taxonomy"
+        export PERL5LIB="$PERL5LIB":"/usr/local/perl/5.16.3/lib/perl5"
+        export BLASTDB="/panfs/pan1/dnaorg/ssudetection/code/ribovore-install/vecscreen_plus_taxonomy/univec-files/":"$SENSORDIR"
 
 
         ## create a directory for ribomaker output
         mkdir -p 'ribomaker_out'
         mkdir -p {params.outprefix}
-        
+
         ## run ribomaker.pl script
-        /net/intdev/oblast01/dnaorg/ssudetection/code/ribovore-1.0.2-install/ribovore/ribodbmaker -f \
+        /panfs/pan1.be-md.ncbi.nlm.nih.gov/dnaorg/ssudetection/code/ribotyper-v1/ribodbmaker.pl -f \
           --skipfribo1 --skipfribo2 --skipfmspan \
           --skipingrup --skipclustr --skiplistms \
           --skipmstbl --skipfblast --skipftaxid \
@@ -126,7 +125,7 @@ rule run_cmscan_df:
           --mid -T 20 --verbose \
           --tblout {output} \
           {params.cmdb} \
-          {input.rm_fa} > /dev/null 
+          {input.rm_fa} > {log}
         ''' 
 
 rule run_cmscan_at:
@@ -145,7 +144,7 @@ rule run_cmscan_at:
           --mid -T 20 --verbose --anytrunc \
           --tblout {output} \
           {params.cmdb} \
-          {input.rm_fa} > /dev/null 
+          {input.rm_fa} > {log}
         ''' 
 
 rule cm_deoverlap:
@@ -200,15 +199,4 @@ rule aggregate_ribodbmaker_files:
     shell:
         '''
         cat {input} > {output}        
-        '''   
-
-rule runParser:
-    input:
-        final_tblout,
-        'final.ribomaker.fa',
-    output:
-         config['blast_fsa']
-    shell:
-        '''
-        /home/mcveigh/myenv/bin/python3 ParseCMscan2.0.py {output}
-        '''
+        '''   ## test line
